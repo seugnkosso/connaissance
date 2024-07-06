@@ -252,7 +252,7 @@
                 "groups": [],
                 "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
               },
-              "expires": "2024-10-03T19:01:57.668Z",
+              "expires": "2024-10-04T09:14:58.909Z",
               "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
               "authProvider": "login-web"
             },
@@ -273,7 +273,7 @@
             "userCountry": "SN",
             "userRegion": "Dakar",
             "userRegionCode": "DK",
-            "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+            "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
             "cfIpLatitude": "14.69350",
             "cfIpLongitude": "-17.44800",
             "cfIpCity": "Dakar",
@@ -1546,6 +1546,29 @@
                     "secondary_exposures": [],
                     "is_user_in_experiment": false,
                     "is_experiment_active": false
+                  },
+                  "186644516": {
+                    "name": "186644516",
+                    "value": {
+                      "is_team_enabled": true,
+                      "is_yearly_plus_subscription_enabled": false,
+                      "is_split_between_personal_and_business_enabled": false,
+                      "is_modal_fullscreen": false
+                    },
+                    "group": "prestart",
+                    "rule_id": "prestart",
+                    "is_device_based": false,
+                    "secondary_exposures": [
+                      {
+                        "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                        "gateValue": "false",
+                        "ruleID": "disabled"
+                      }
+                    ],
+                    "explicit_parameters": ["is_team_enabled"],
+                    "is_user_in_experiment": false,
+                    "is_experiment_active": false,
+                    "is_in_layer": true
                   },
                   "340466392": {
                     "name": "340466392",
@@ -3092,16 +3115,6 @@
                     "is_experiment_active": false,
                     "is_in_layer": true
                   },
-                  "3758099832": {
-                    "name": "3758099832",
-                    "value": {},
-                    "group": "prestart",
-                    "rule_id": "prestart",
-                    "is_device_based": false,
-                    "secondary_exposures": [],
-                    "is_user_in_experiment": false,
-                    "is_experiment_active": false
-                  },
                   "3917128856": {
                     "name": "3917128856",
                     "value": {
@@ -3477,7 +3490,7 @@
                   }
                 },
                 "hash_used": "djb2",
-                "user_hash": "4043779062"
+                "user_hash": "660792976"
               },
               "user": {
                 "country": "SN",
@@ -3492,7 +3505,7 @@
                   "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                   "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                 },
-                "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                 "locale": "fr-FR",
                 "privateAttributes": {
                   "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -3507,24 +3520,24 @@
             "ageVerificationDeadline": null,
             "ageVerificationType": "none",
             "logOutUser": false,
-            "sharedConversationId": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+            "sharedConversationId": "b5c70ee6-f190-4296-a006-f0388861e7a6",
             "serverResponse": {
               "type": "data",
               "data": {
-                "title": "Événements personnalisés en JS",
-                "create_time": 1720205825.775834,
-                "update_time": 1720205900,
+                "title": "Web Storage Tutorial JS",
+                "create_time": 1720257277.978411,
+                "update_time": 1720257280,
                 "mapping": {
-                  "afffd1c4-f386-418b-a75f-3515d1394f2d": {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                  "386a6a29-e6fa-439f-884c-3f30576127c3": {
+                    "id": "386a6a29-e6fa-439f-884c-3f30576127c3",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "386a6a29-e6fa-439f-884c-3f30576127c3",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720257247.516988,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "### Tutoriel approfondi : Web Storage en Stockage client-side en JavaScript\n\nDans ce tutoriel, nous allons explorer en profondeur l'utilisation avancée de Web Storage pour le stockage client-side en JavaScript, en mettant l'accent sur les meilleures pratiques, la gestion des erreurs, et les cas d'utilisation avancés.\n\n#### 1. Introduction à Web Storage\n\nWeb Storage est une API JavaScript permettant de stocker des données de manière persistante sur le navigateur du client. Contrairement aux cookies, Web Storage offre une capacité de stockage plus grande (généralement entre 5 Mo et 10 Mo par domaine) et une meilleure performance pour le stockage de données non sensibles.\n\n#### 2. Types de Web Storage\n\n- **localStorage**: Stocke les données de manière permanente jusqu'à ce qu'elles soient explicitement supprimées par le code ou l'utilisateur.\n- **sessionStorage**: Stocke les données pour la durée d'une session de navigation. Les données sont effacées lorsque l'utilisateur ferme l'onglet ou le navigateur.\n\n#### 3. Utilisation avancée de Web Storage\n\n##### 3.1. Gestion des Types de Données\n\nWeb Storage stocke les données en tant que chaînes de caractères. Pour stocker et récupérer des objets JavaScript complexes, vous devez les sérialiser et les désérialiser :\n\n```javascript\n// Stocker un objet complexe\nlet user = { name: 'John Doe', email: 'john@example.com' };\nlocalStorage.setItem('user', JSON.stringify(user));\n\n// Récupérer et décoder l'objet\nlet storedUser = JSON.parse(localStorage.getItem('user'));\nconsole.log('Utilisateur:', storedUser); // Affiche l'objet décodé\n```\n\n##### 3.2. Gestion des Erreurs et des Limitations\n\n- **Gestion des erreurs**: Assurez-vous de gérer les exceptions liées à l'accès à localStorage ou sessionStorage, notamment lorsque le quota de stockage est dépassé.\n  \n```javascript\ntry {\n    localStorage.setItem('key', 'value');\n} catch (e) {\n    if (e.name === 'QuotaExceededError') {\n        console.error('Limite de stockage dépassée');\n        // Gérer l'erreur ou informer l'utilisateur\n    }\n}\n```\n\n##### 3.3. Écoute des Changements de Stockage\n\nWeb Storage ne fournit pas d'événements natifs pour détecter les changements. Vous pouvez utiliser les événements de fenêtre (`storage`) pour détecter les changements initiés par d'autres onglets du même domaine :\n\n```javascript\nwindow.addEventListener('storage', function(e) {\n    if (e.key === 'user') {\n        console.log('Changement détecté pour la clé \"user\"', e.newValue);\n        // Mettre à jour l'interface utilisateur ou les données selon le besoin\n    }\n});\n```\n\n#### 4. Sécurité et Bonnes Pratiques\n\n- **Sécurité**: Web Storage est limité au même domaine pour des raisons de sécurité (même principe que les cookies). Ne stockez pas d'informations sensibles telles que des mots de passe ou des jetons d'authentification.\n- **Bonnes pratiques**: Utilisez Web Storage pour des données non critiques et assurez-vous de nettoyer régulièrement les données obsolètes pour éviter de remplir inutilement l'espace de stockage.\n\n#### 5. Cas d'Utilisation Avancés\n\n- **Gestion des préférences utilisateur**: Stockez les préférences utilisateur comme le thème ou les paramètres de langue.\n- **Gestion du panier d'achat**: Stockez temporairement les articles ajoutés au panier jusqu'à la finalisation de l'achat.\n- **Cache côté client**: Stockez des données fréquemment accédées pour améliorer les performances de l'application.\n\n#### 6. Conclusion\n\nWeb Storage est une API puissante pour le stockage de données côté client en JavaScript, offrant une alternative efficace et performante aux cookies pour les applications web modernes. En suivant les bonnes pratiques et en comprenant les nuances de son utilisation, vous pouvez créer des applications robustes et réactives tout en offrant une meilleure expérience utilisateur."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3533,98 +3546,34 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee7b41dd9ec7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
                     "children": []
                   },
-                  "aaa22ef0-bd30-49c3-b53a-d0352d3476d9": {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                  "e4313c51-10db-4b1c-9d24-d9e1d6db792b": {
+                    "id": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                      "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
-                      "content": {
-                        "content_type": "text",
-                        "parts": ["donnez encore plus d'approfondissment."]
-                      },
-                      "status": "finished_successfully",
-                      "weight": 1,
-                      "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
-                        "message_source": null,
-                        "timestamp_": "absolute",
-                        "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
-                  },
-                  "56de34e7-fe55-46c0-b865-b6cf3dc24a48": {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
-                      "content": {
-                        "content_type": "text",
-                        "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
-                        ]
-                      },
-                      "status": "finished_successfully",
-                      "end_turn": true,
-                      "weight": 1,
-                      "metadata": {
-                        "citations": [],
-                        "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
-                        "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
-                  },
-                  "b979367e-e0bb-46ad-86af-93cb1348942a": {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                      "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720257247.516912,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3638,47 +3587,215 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
+                        "request_id": "89ee7b41dd9ec7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
+                    "children": ["386a6a29-e6fa-439f-884c-3f30576127c3"]
                   },
-                  "aaa227f6-5254-4482-a596-63335581d790": {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                  "aaa268f1-ad48-4a03-8df4-f053f4f0b848": {
+                    "id": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720257235.53681,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["donnez encore plus d'approfondissment."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "request_id": "89ee7b41dd9ec7a4-DKR",
+                        "message_source": null,
+                        "timestamp_": "absolute",
+                        "message_type": null,
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a",
+                    "children": ["e4313c51-10db-4b1c-9d24-d9e1d6db792b"]
+                  },
+                  "fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a": {
+                    "id": "fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a",
+                    "message": {
+                      "id": "fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257205.467248,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "### Tutoriel complet : Web Storage en Stockage client-side en JavaScript\n\nLe Web Storage est une API JavaScript qui permet de stocker des données de manière persistante sur le navigateur du client. Il existe deux types de stockage : **localStorage** et **sessionStorage**. Ces deux méthodes offrent une alternative aux cookies pour le stockage de données côté client.\n\n#### 1. Introduction à Web Storage\n\nWeb Storage offre une solution simple pour stocker des données sans expiration automatique à la différence des cookies. Les données sont stockées en paires clé/valeur.\n\n#### 2. Types de Web Storage\n\n- **localStorage**: Stocke les données sans expiration à moins d'être effacé manuellement.\n- **sessionStorage**: Stocke les données pour une session unique. Les données sont effacées à la fermeture de l'onglet ou du navigateur.\n\n#### 3. Utilisation de localStorage\n\nPour stocker des données avec localStorage :\n\n```javascript\n// Stocker une valeur\nlocalStorage.setItem('nom', 'valeur');\n\n// Récupérer une valeur\nlet valeur = localStorage.getItem('nom');\n\n// Supprimer une valeur\nlocalStorage.removeItem('nom');\n\n// Effacer toutes les valeurs\nlocalStorage.clear();\n```\n\n#### 4. Utilisation de sessionStorage\n\nPour utiliser sessionStorage, les méthodes sont similaires à celles de localStorage :\n\n```javascript\n// Stocker une valeur\nsessionStorage.setItem('nom', 'valeur');\n\n// Récupérer une valeur\nlet valeur = sessionStorage.getItem('nom');\n\n// Supprimer une valeur\nsessionStorage.removeItem('nom');\n\n// Effacer toutes les valeurs\nsessionStorage.clear();\n```\n\n#### 5. Limitations et Sécurité\n\n- **Limitations**: Les données sont limitées en taille par navigateur (généralement 5-10 Mo).\n- **Sécurité**: Les données sont accessibles uniquement par le même domaine qui les a stockées, pour des raisons de sécurité (même principe que les cookies).\n\n#### 6. Exemple Pratique\n\n```javascript\n// Exemple d'utilisation de localStorage\nlocalStorage.setItem('nom', 'John Doe');\n\nlet nom = localStorage.getItem('nom');\nconsole.log('Nom:', nom); // Affiche \"Nom: John Doe\"\n\n// Exemple d'utilisation de sessionStorage\nsessionStorage.setItem('session', '123456789');\n\nlet session = sessionStorage.getItem('session');\nconsole.log('Session:', session); // Affiche \"Session: 123456789\"\n```\n\n#### 7. Bonnes Pratiques\n\n- Utilisez Web Storage pour des données qui ne nécessitent pas d'être sécurisées.\n- Assurez-vous de gérer les erreurs lors de l'accès à Web Storage (par exemple, lorsque le quota est dépassé).\n\n#### 8. Conclusion\n\nWeb Storage est une méthode puissante et simple pour stocker des données côté client en JavaScript. Utilisez localStorage pour les données persistantes et sessionStorage pour les données temporaires de session. Veillez toujours à respecter les bonnes pratiques de sécurité et de gestion des données pour garantir une expérience utilisateur optimale.\n\nEn suivant ce guide, vous pouvez efficacement utiliser Web Storage dans vos applications web pour stocker des informations client-side de manière fiable et sécurisée."
+                        ]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": true,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAAAAAAAAAA",
+                        "parent_id": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                    "children": ["aaa268f1-ad48-4a03-8df4-f053f4f0b848"]
+                  },
+                  "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2": {
+                    "id": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                    "message": {
+                      "id": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720257205.467207,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
+                    "children": ["fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a"]
+                  },
+                  "44dacd94-3797-4531-95cc-c0d55c8eaaa7": {
+                    "id": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
+                    "message": {
+                      "id": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257205.467167,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAA",
+                        "parent_id": "482a6840-84b0-41a3-a123-dbbc1be564a1",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "482a6840-84b0-41a3-a123-dbbc1be564a1",
+                    "children": ["63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2"]
+                  },
+                  "482a6840-84b0-41a3-a123-dbbc1be564a1": {
+                    "id": "482a6840-84b0-41a3-a123-dbbc1be564a1",
+                    "message": {
+                      "id": "482a6840-84b0-41a3-a123-dbbc1be564a1",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257205.467113,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa2f478-5125-487d-8ffc-04555d1020d8",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa2f478-5125-487d-8ffc-04555d1020d8",
+                    "children": ["44dacd94-3797-4531-95cc-c0d55c8eaaa7"]
+                  },
+                  "aaa2f478-5125-487d-8ffc-04555d1020d8": {
+                    "id": "aaa2f478-5125-487d-8ffc-04555d1020d8",
+                    "message": {
+                      "id": "aaa2f478-5125-487d-8ffc-04555d1020d8",
+                      "author": { "role": "user", "metadata": {} },
+                      "create_time": 1720257196.290206,
+                      "content": {
+                        "content_type": "text",
+                        "parts": [
+                          "rédigez un tuto complet : Web Storage en Stockage client-side en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "359c5a0e-fe21-44f8-8bca-f5da00713055",
+                    "children": ["482a6840-84b0-41a3-a123-dbbc1be564a1"]
                   },
-                  "ab868a83-7f8c-467e-9846-079b671b5b91": {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                  "359c5a0e-fe21-44f8-8bca-f5da00713055": {
+                    "id": "359c5a0e-fe21-44f8-8bca-f5da00713055",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "359c5a0e-fe21-44f8-8bca-f5da00713055",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3686,33 +3803,33 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1280b-ba04-443e-8998-41434ab59142",
+                    "children": ["aaa2f478-5125-487d-8ffc-04555d1020d8"]
                   },
-                  "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa": {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                  "aaa1280b-ba04-443e-8998-41434ab59142": {
+                    "id": "aaa1280b-ba04-443e-8998-41434ab59142",
+                    "children": ["359c5a0e-fe21-44f8-8bca-f5da00713055"]
                   }
                 },
                 "moderation_results": [],
-                "current_node": "afffd1c4-f386-418b-a75f-3515d1394f2d",
-                "conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                "current_node": "386a6a29-e6fa-439f-884c-3f30576127c3",
+                "conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
                 "is_archived": false,
                 "safe_urls": [],
                 "is_public": true,
                 "linear_conversation": [
                   {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                    "id": "aaa1280b-ba04-443e-8998-41434ab59142",
+                    "children": ["359c5a0e-fe21-44f8-8bca-f5da00713055"]
                   },
                   {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                    "id": "359c5a0e-fe21-44f8-8bca-f5da00713055",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "359c5a0e-fe21-44f8-8bca-f5da00713055",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3720,45 +3837,45 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1280b-ba04-443e-8998-41434ab59142",
+                    "children": ["aaa2f478-5125-487d-8ffc-04555d1020d8"]
                   },
                   {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                    "id": "aaa2f478-5125-487d-8ffc-04555d1020d8",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa2f478-5125-487d-8ffc-04555d1020d8",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720257196.290206,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : Web Storage en Stockage client-side en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "359c5a0e-fe21-44f8-8bca-f5da00713055",
+                    "children": ["482a6840-84b0-41a3-a123-dbbc1be564a1"]
                   },
                   {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                    "id": "482a6840-84b0-41a3-a123-dbbc1be564a1",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "482a6840-84b0-41a3-a123-dbbc1be564a1",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720257205.467113,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3772,27 +3889,101 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa2f478-5125-487d-8ffc-04555d1020d8",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa2f478-5125-487d-8ffc-04555d1020d8",
+                    "children": ["44dacd94-3797-4531-95cc-c0d55c8eaaa7"]
                   },
                   {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                    "id": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720257205.467167,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAA",
+                        "parent_id": "482a6840-84b0-41a3-a123-dbbc1be564a1",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "482a6840-84b0-41a3-a123-dbbc1be564a1",
+                    "children": ["63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2"]
+                  },
+                  {
+                    "id": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                    "message": {
+                      "id": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720257205.467207,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "44dacd94-3797-4531-95cc-c0d55c8eaaa7",
+                    "children": ["fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a"]
+                  },
+                  {
+                    "id": "fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a",
+                    "message": {
+                      "id": "fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257205.467248,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "### Tutoriel complet : Web Storage en Stockage client-side en JavaScript\n\nLe Web Storage est une API JavaScript qui permet de stocker des données de manière persistante sur le navigateur du client. Il existe deux types de stockage : **localStorage** et **sessionStorage**. Ces deux méthodes offrent une alternative aux cookies pour le stockage de données côté client.\n\n#### 1. Introduction à Web Storage\n\nWeb Storage offre une solution simple pour stocker des données sans expiration automatique à la différence des cookies. Les données sont stockées en paires clé/valeur.\n\n#### 2. Types de Web Storage\n\n- **localStorage**: Stocke les données sans expiration à moins d'être effacé manuellement.\n- **sessionStorage**: Stocke les données pour une session unique. Les données sont effacées à la fermeture de l'onglet ou du navigateur.\n\n#### 3. Utilisation de localStorage\n\nPour stocker des données avec localStorage :\n\n```javascript\n// Stocker une valeur\nlocalStorage.setItem('nom', 'valeur');\n\n// Récupérer une valeur\nlet valeur = localStorage.getItem('nom');\n\n// Supprimer une valeur\nlocalStorage.removeItem('nom');\n\n// Effacer toutes les valeurs\nlocalStorage.clear();\n```\n\n#### 4. Utilisation de sessionStorage\n\nPour utiliser sessionStorage, les méthodes sont similaires à celles de localStorage :\n\n```javascript\n// Stocker une valeur\nsessionStorage.setItem('nom', 'valeur');\n\n// Récupérer une valeur\nlet valeur = sessionStorage.getItem('nom');\n\n// Supprimer une valeur\nsessionStorage.removeItem('nom');\n\n// Effacer toutes les valeurs\nsessionStorage.clear();\n```\n\n#### 5. Limitations et Sécurité\n\n- **Limitations**: Les données sont limitées en taille par navigateur (généralement 5-10 Mo).\n- **Sécurité**: Les données sont accessibles uniquement par le même domaine qui les a stockées, pour des raisons de sécurité (même principe que les cookies).\n\n#### 6. Exemple Pratique\n\n```javascript\n// Exemple d'utilisation de localStorage\nlocalStorage.setItem('nom', 'John Doe');\n\nlet nom = localStorage.getItem('nom');\nconsole.log('Nom:', nom); // Affiche \"Nom: John Doe\"\n\n// Exemple d'utilisation de sessionStorage\nsessionStorage.setItem('session', '123456789');\n\nlet session = sessionStorage.getItem('session');\nconsole.log('Session:', session); // Affiche \"Session: 123456789\"\n```\n\n#### 7. Bonnes Pratiques\n\n- Utilisez Web Storage pour des données qui ne nécessitent pas d'être sécurisées.\n- Assurez-vous de gérer les erreurs lors de l'accès à Web Storage (par exemple, lorsque le quota est dépassé).\n\n#### 8. Conclusion\n\nWeb Storage est une méthode puissante et simple pour stocker des données côté client en JavaScript. Utilisez localStorage pour les données persistantes et sessionStorage pour les données temporaires de session. Veillez toujours à respecter les bonnes pratiques de sécurité et de gestion des données pour garantir une expérience utilisateur optimale.\n\nEn suivant ce guide, vous pouvez efficacement utiliser Web Storage dans vos applications web pour stocker des informations client-side de manière fiable et sécurisée."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3812,23 +4003,23 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "pad": "AAAAAAAAAAAA",
+                        "parent_id": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                        "request_id": "89ee7a52edcbc7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "63c68e50-7a4d-4cf5-a9b3-bd6e6b03aea2",
+                    "children": ["aaa268f1-ad48-4a03-8df4-f053f4f0b848"]
                   },
                   {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "id": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720257235.53681,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3836,27 +4027,57 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee7b41dd9ec7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "fd8f2c8b-b7d1-4bb5-999d-bb71e69fe93a",
+                    "children": ["e4313c51-10db-4b1c-9d24-d9e1d6db792b"]
                   },
                   {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                    "id": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720257247.516912,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
+                        "request_id": "89ee7b41dd9ec7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa268f1-ad48-4a03-8df4-f053f4f0b848",
+                    "children": ["386a6a29-e6fa-439f-884c-3f30576127c3"]
+                  },
+                  {
+                    "id": "386a6a29-e6fa-439f-884c-3f30576127c3",
+                    "message": {
+                      "id": "386a6a29-e6fa-439f-884c-3f30576127c3",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257247.516988,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "### Tutoriel approfondi : Web Storage en Stockage client-side en JavaScript\n\nDans ce tutoriel, nous allons explorer en profondeur l'utilisation avancée de Web Storage pour le stockage client-side en JavaScript, en mettant l'accent sur les meilleures pratiques, la gestion des erreurs, et les cas d'utilisation avancés.\n\n#### 1. Introduction à Web Storage\n\nWeb Storage est une API JavaScript permettant de stocker des données de manière persistante sur le navigateur du client. Contrairement aux cookies, Web Storage offre une capacité de stockage plus grande (généralement entre 5 Mo et 10 Mo par domaine) et une meilleure performance pour le stockage de données non sensibles.\n\n#### 2. Types de Web Storage\n\n- **localStorage**: Stocke les données de manière permanente jusqu'à ce qu'elles soient explicitement supprimées par le code ou l'utilisateur.\n- **sessionStorage**: Stocke les données pour la durée d'une session de navigation. Les données sont effacées lorsque l'utilisateur ferme l'onglet ou le navigateur.\n\n#### 3. Utilisation avancée de Web Storage\n\n##### 3.1. Gestion des Types de Données\n\nWeb Storage stocke les données en tant que chaînes de caractères. Pour stocker et récupérer des objets JavaScript complexes, vous devez les sérialiser et les désérialiser :\n\n```javascript\n// Stocker un objet complexe\nlet user = { name: 'John Doe', email: 'john@example.com' };\nlocalStorage.setItem('user', JSON.stringify(user));\n\n// Récupérer et décoder l'objet\nlet storedUser = JSON.parse(localStorage.getItem('user'));\nconsole.log('Utilisateur:', storedUser); // Affiche l'objet décodé\n```\n\n##### 3.2. Gestion des Erreurs et des Limitations\n\n- **Gestion des erreurs**: Assurez-vous de gérer les exceptions liées à l'accès à localStorage ou sessionStorage, notamment lorsque le quota de stockage est dépassé.\n  \n```javascript\ntry {\n    localStorage.setItem('key', 'value');\n} catch (e) {\n    if (e.name === 'QuotaExceededError') {\n        console.error('Limite de stockage dépassée');\n        // Gérer l'erreur ou informer l'utilisateur\n    }\n}\n```\n\n##### 3.3. Écoute des Changements de Stockage\n\nWeb Storage ne fournit pas d'événements natifs pour détecter les changements. Vous pouvez utiliser les événements de fenêtre (`storage`) pour détecter les changements initiés par d'autres onglets du même domaine :\n\n```javascript\nwindow.addEventListener('storage', function(e) {\n    if (e.key === 'user') {\n        console.log('Changement détecté pour la clé \"user\"', e.newValue);\n        // Mettre à jour l'interface utilisateur ou les données selon le besoin\n    }\n});\n```\n\n#### 4. Sécurité et Bonnes Pratiques\n\n- **Sécurité**: Web Storage est limité au même domaine pour des raisons de sécurité (même principe que les cookies). Ne stockez pas d'informations sensibles telles que des mots de passe ou des jetons d'authentification.\n- **Bonnes pratiques**: Utilisez Web Storage pour des données non critiques et assurez-vous de nettoyer régulièrement les données obsolètes pour éviter de remplir inutilement l'espace de stockage.\n\n#### 5. Cas d'Utilisation Avancés\n\n- **Gestion des préférences utilisateur**: Stockez les préférences utilisateur comme le thème ou les paramètres de langue.\n- **Gestion du panier d'achat**: Stockez temporairement les articles ajoutés au panier jusqu'à la finalisation de l'achat.\n- **Cache côté client**: Stockez des données fréquemment accédées pour améliorer les performances de l'application.\n\n#### 6. Conclusion\n\nWeb Storage est une API puissante pour le stockage de données côté client en JavaScript, offrant une alternative efficace et performante aux cookies pour les applications web modernes. En suivant les bonnes pratiques et en comprenant les nuances de son utilisation, vous pouvez créer des applications robustes et réactives tout en offrant une meilleure expérience utilisateur."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3865,31 +4086,31 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee7b41dd9ec7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b5c70ee6-f190-4296-a006-f0388861e7a6"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "e4313c51-10db-4b1c-9d24-d9e1d6db792b",
                     "children": []
                   }
                 ],
                 "has_user_editable_context": false,
-                "continue_conversation_url": "https://chatgpt.com/share/ac74b161-88bd-43d9-8c48-d05d4bac5152/continue",
+                "continue_conversation_url": "https://chatgpt.com/share/b5c70ee6-f190-4296-a006-f0388861e7a6/continue",
                 "model": {
                   "slug": "text-davinci-002-render-sha",
                   "max_tokens": 8191,
@@ -3923,7 +4144,7 @@
                   "groups": [],
                   "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
                 },
-                "expires": "2024-10-03T19:01:57.668Z",
+                "expires": "2024-10-04T09:14:58.909Z",
                 "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
                 "authProvider": "login-web"
               },
@@ -3944,7 +4165,7 @@
               "userCountry": "SN",
               "userRegion": "Dakar",
               "userRegionCode": "DK",
-              "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+              "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
               "cfIpLatitude": "14.69350",
               "cfIpLongitude": "-17.44800",
               "cfIpCity": "Dakar",
@@ -5217,6 +5438,29 @@
                       "secondary_exposures": [],
                       "is_user_in_experiment": false,
                       "is_experiment_active": false
+                    },
+                    "186644516": {
+                      "name": "186644516",
+                      "value": {
+                        "is_team_enabled": true,
+                        "is_yearly_plus_subscription_enabled": false,
+                        "is_split_between_personal_and_business_enabled": false,
+                        "is_modal_fullscreen": false
+                      },
+                      "group": "prestart",
+                      "rule_id": "prestart",
+                      "is_device_based": false,
+                      "secondary_exposures": [
+                        {
+                          "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                          "gateValue": "false",
+                          "ruleID": "disabled"
+                        }
+                      ],
+                      "explicit_parameters": ["is_team_enabled"],
+                      "is_user_in_experiment": false,
+                      "is_experiment_active": false,
+                      "is_in_layer": true
                     },
                     "340466392": {
                       "name": "340466392",
@@ -6765,16 +7009,6 @@
                       "is_experiment_active": false,
                       "is_in_layer": true
                     },
-                    "3758099832": {
-                      "name": "3758099832",
-                      "value": {},
-                      "group": "prestart",
-                      "rule_id": "prestart",
-                      "is_device_based": false,
-                      "secondary_exposures": [],
-                      "is_user_in_experiment": false,
-                      "is_experiment_active": false
-                    },
                     "3917128856": {
                       "name": "3917128856",
                       "value": {
@@ -7150,7 +7384,7 @@
                     }
                   },
                   "hash_used": "djb2",
-                  "user_hash": "4043779062"
+                  "user_hash": "660792976"
                 },
                 "user": {
                   "country": "SN",
@@ -7165,7 +7399,7 @@
                     "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                     "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                   },
-                  "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                  "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                   "locale": "fr-FR",
                   "privateAttributes": {
                     "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -7187,7 +7421,7 @@
           "__N_SSP": true
         },
         "page": "/share/[[...shareParams]]",
-        "query": { "shareParams": ["ac74b161-88bd-43d9-8c48-d05d4bac5152"] },
+        "query": { "shareParams": ["b5c70ee6-f190-4296-a006-f0388861e7a6"] },
         "buildId": "8GX1pu3rmPezMCbuo-Xqp",
         "assetPrefix": "https://cdn.oaistatic.com",
         "isFallback": false,

@@ -252,7 +252,7 @@
                 "groups": [],
                 "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
               },
-              "expires": "2024-10-03T19:01:57.668Z",
+              "expires": "2024-10-04T09:06:10.990Z",
               "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
               "authProvider": "login-web"
             },
@@ -273,7 +273,7 @@
             "userCountry": "SN",
             "userRegion": "Dakar",
             "userRegionCode": "DK",
-            "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+            "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
             "cfIpLatitude": "14.69350",
             "cfIpLongitude": "-17.44800",
             "cfIpCity": "Dakar",
@@ -1546,6 +1546,29 @@
                     "secondary_exposures": [],
                     "is_user_in_experiment": false,
                     "is_experiment_active": false
+                  },
+                  "186644516": {
+                    "name": "186644516",
+                    "value": {
+                      "is_team_enabled": true,
+                      "is_yearly_plus_subscription_enabled": false,
+                      "is_split_between_personal_and_business_enabled": false,
+                      "is_modal_fullscreen": false
+                    },
+                    "group": "prestart",
+                    "rule_id": "prestart",
+                    "is_device_based": false,
+                    "secondary_exposures": [
+                      {
+                        "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                        "gateValue": "false",
+                        "ruleID": "disabled"
+                      }
+                    ],
+                    "explicit_parameters": ["is_team_enabled"],
+                    "is_user_in_experiment": false,
+                    "is_experiment_active": false,
+                    "is_in_layer": true
                   },
                   "340466392": {
                     "name": "340466392",
@@ -3092,16 +3115,6 @@
                     "is_experiment_active": false,
                     "is_in_layer": true
                   },
-                  "3758099832": {
-                    "name": "3758099832",
-                    "value": {},
-                    "group": "prestart",
-                    "rule_id": "prestart",
-                    "is_device_based": false,
-                    "secondary_exposures": [],
-                    "is_user_in_experiment": false,
-                    "is_experiment_active": false
-                  },
                   "3917128856": {
                     "name": "3917128856",
                     "value": {
@@ -3477,7 +3490,7 @@
                   }
                 },
                 "hash_used": "djb2",
-                "user_hash": "4043779062"
+                "user_hash": "660792976"
               },
               "user": {
                 "country": "SN",
@@ -3492,7 +3505,7 @@
                   "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                   "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                 },
-                "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                 "locale": "fr-FR",
                 "privateAttributes": {
                   "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -3507,24 +3520,24 @@
             "ageVerificationDeadline": null,
             "ageVerificationType": "none",
             "logOutUser": false,
-            "sharedConversationId": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+            "sharedConversationId": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
             "serverResponse": {
               "type": "data",
               "data": {
-                "title": "Événements personnalisés en JS",
-                "create_time": 1720205825.775834,
-                "update_time": 1720205900,
+                "title": "CORS Communication avec Serveur",
+                "create_time": 1720256733.408604,
+                "update_time": 1720256735,
                 "mapping": {
-                  "afffd1c4-f386-418b-a75f-3515d1394f2d": {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                  "55032b60-921c-4395-9c5a-27838ed41310": {
+                    "id": "55032b60-921c-4395-9c5a-27838ed41310",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "55032b60-921c-4395-9c5a-27838ed41310",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720256711.827451,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "Pour approfondir encore davantage sur CORS en communication avec le serveur en JavaScript, nous pouvons explorer quelques concepts avancés et des cas spécifiques :\n\n### Cas spécifiques de CORS\n\n#### 1. Gestion des credentials (cookies, authentification)\n\nLorsque vous avez besoin de transférer des cookies ou des informations d'authentification (credentials) lors d'une requête CORS, vous devez spécifier `credentials: 'include'` dans votre requête fetch :\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'GET',\n  headers: {\n    'Content-Type': 'application/json',\n  },\n  credentials: 'include', // Inclure les cookies et l'authentification\n})\n.then(response =\u003e response.json())\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\nCôté serveur, vous devez également autoriser les credentials en ajoutant `Access-Control-Allow-Credentials: true` dans vos headers CORS.\n\n#### 2. Configuration avancée des headers CORS\n\nEn plus des headers CORS de base (`Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`, `Access-Control-Allow-Headers`), vous pouvez utiliser d'autres headers pour gérer des situations spécifiques :\n\n```javascript\n// Exemple de headers CORS avancés côté serveur (Express.js)\nconst corsOptions = {\n  origin: 'https://example.com', // Domaine autorisé\n  methods: ['GET', 'POST'], // Méthodes HTTP autorisées\n  allowedHeaders: ['Content-Type'], // Headers personnalisés autorisés\n  exposedHeaders: ['Authorization'], // Headers exposés aux clients\n  credentials: true, // Autoriser les credentials (cookies, authentification)\n  maxAge: 86400, // Durée en secondes pour la mise en cache des options pré-vérification\n};\n\napp.options('*', cors(corsOptions));\n```\n\n#### 3. Gestion des erreurs CORS\n\nEn cas d'erreur CORS, assurez-vous de capturer et de gérer correctement les erreurs dans votre code JavaScript :\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'GET',\n  headers: {\n    'Content-Type': 'application/json',\n  },\n})\n.then(response =\u003e {\n  if (!response.ok) {\n    throw new Error('Erreur HTTP ' + response.status);\n  }\n  return response.json();\n})\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n### Sécurité et bonnes pratiques\n\n#### 1. Limiter les origines autorisées\n\nUtilisez `Access-Control-Allow-Origin` avec des valeurs spécifiques au lieu de `*` pour limiter les domaines autorisés à accéder à vos ressources :\n\n```javascript\nheader(\"Access-Control-Allow-Origin: https://example.com\");\n```\n\n#### 2. Utiliser des tokens d'authentification\n\nPour sécuriser les API CORS, utilisez des tokens d'authentification (JWT par exemple) qui peuvent être inclus dans les headers de vos requêtes.\n\n#### 3. Mettre en cache les réponses pré-vérification\n\nUtilisez `Access-Control-Max-Age` pour mettre en cache les réponses aux pré-vérifications OPTIONS et améliorer les performances :\n\n```javascript\nheader(\"Access-Control-Max-Age: 86400\"); // Cache pendant 24 heures (en secondes)\n```\n\n### Conclusion\n\nEn intégrant ces pratiques avancées et en comprenant les cas spécifiques de CORS, vous pouvez sécuriser et optimiser les communications entre votre application web JavaScript et des serveurs avec des origines différentes. Assurez-vous de tester soigneusement votre implémentation CORS pour garantir la sécurité et la compatibilité avec les navigateurs modernes."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3544,87 +3557,23 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
+                        "request_id": "89ee6e3a2e53c79c-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
                     "children": []
                   },
-                  "aaa22ef0-bd30-49c3-b53a-d0352d3476d9": {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                  "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5": {
+                    "id": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                      "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
-                      "content": {
-                        "content_type": "text",
-                        "parts": ["donnez encore plus d'approfondissment."]
-                      },
-                      "status": "finished_successfully",
-                      "weight": 1,
-                      "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
-                        "message_source": null,
-                        "timestamp_": "absolute",
-                        "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
-                  },
-                  "56de34e7-fe55-46c0-b865-b6cf3dc24a48": {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
-                      "content": {
-                        "content_type": "text",
-                        "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
-                        ]
-                      },
-                      "status": "finished_successfully",
-                      "end_turn": true,
-                      "weight": 1,
-                      "metadata": {
-                        "citations": [],
-                        "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
-                        "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
-                  },
-                  "b979367e-e0bb-46ad-86af-93cb1348942a": {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                      "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720256711.827392,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3638,47 +3587,215 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa27464-632c-4236-babc-9364fbd23e04",
+                        "request_id": "89ee6e3a2e53c79c-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa27464-632c-4236-babc-9364fbd23e04",
+                    "children": ["55032b60-921c-4395-9c5a-27838ed41310"]
                   },
-                  "aaa227f6-5254-4482-a596-63335581d790": {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                  "aaa27464-632c-4236-babc-9364fbd23e04": {
+                    "id": "aaa27464-632c-4236-babc-9364fbd23e04",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa27464-632c-4236-babc-9364fbd23e04",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720256700.852961,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["donnez encore plus d'approfondissment."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "request_id": "89ee6e3a2e53c79c-DKR",
+                        "message_source": null,
+                        "timestamp_": "absolute",
+                        "message_type": null,
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "c46afa71-ecfd-4044-ab39-cbc9848f0425",
+                    "children": ["7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5"]
+                  },
+                  "c46afa71-ecfd-4044-ab39-cbc9848f0425": {
+                    "id": "c46afa71-ecfd-4044-ab39-cbc9848f0425",
+                    "message": {
+                      "id": "c46afa71-ecfd-4044-ab39-cbc9848f0425",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256680.340544,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "### Tutoriel complet : Cross-Origin Resource Sharing (CORS) en Communication avec le Serveur en JavaScript\n\n#### Introduction à CORS\n\nCross-Origin Resource Sharing (CORS) est un mécanisme de sécurité utilisé par les navigateurs web pour permettre à des ressources web d'une origine (domaine, protocole et port) d'être partagées avec une autre origine qui diffère de celle de la ressource. Sans CORS, les navigateurs appliquent la politique de même origine (Same-Origin Policy), qui restreint les interactions entre des scripts JavaScript et les ressources provenant d'origines différentes.\n\n#### Pourquoi CORS est-il nécessaire ?\n\nL'utilisation de CORS est nécessaire pour sécuriser les applications web tout en permettant l'accès à des ressources partagées entre différents domaines. Cela permet notamment à une application web hébergée sur un domaine de communiquer avec une API ou un service hébergé sur un autre domaine.\n\n#### Fonctionnement de CORS\n\n1. **Pré-vérification (Preflight)** : Avant de faire une requête CORS complexe (comme une requête avec des méthodes HTTP autres que GET, HEAD, ou POST, ou avec des headers personnalisés), le navigateur envoie une requête HTTP OPTIONS pour vérifier les permissions (méthodes HTTP, headers, etc.) que le serveur autorise pour l'origine requérante.\n\n2. **Réponse CORS** : Le serveur doit répondre aux requêtes CORS avec des headers spécifiques pour indiquer quelles origines peuvent accéder aux ressources, quelles méthodes HTTP sont autorisées, et quels headers peuvent être utilisés dans la requête.\n\n#### Configuration côté serveur\n\nPour gérer CORS côté serveur, vous devez configurer le serveur pour répondre aux requêtes OPTIONS et inclure les headers appropriés dans les réponses aux requêtes HTTP. Voici comment vous pouvez le faire dans quelques environnements populaires :\n\n##### Exemple avec Node.js (Express.js)\n\nSi vous utilisez Node.js avec Express.js, vous pouvez utiliser le middleware `cors` pour gérer les requêtes CORS de manière efficace :\n\n```javascript\nconst express = require('express');\nconst cors = require('cors');\nconst app = express();\n\n// Autoriser tous les domaines à accéder aux ressources\napp.use(cors());\n\n// Configurer les options CORS spécifiques\nconst corsOptions = {\n  origin: 'https://example.com', // Autoriser seulement ce domaine spécifique\n  methods: ['GET', 'POST'], // Autoriser seulement ces méthodes HTTP\n  allowedHeaders: ['Content-Type'], // Autoriser seulement ce header personnalisé\n};\n\napp.options('*', cors(corsOptions)); // Répondre aux pré-vérifications\n\n// Route API\napp.get('/api/data', (req, res) =\u003e {\n  res.json({ message: 'Données accessibles via CORS' });\n});\n\n// Démarrer le serveur\nconst port = 3000;\napp.listen(port, () =\u003e {\n  console.log(`Serveur démarré sur le port ${port}`);\n});\n```\n\n##### Exemple avec PHP\n\nSi vous utilisez PHP pour créer votre API, vous pouvez configurer CORS en ajoutant les headers nécessaires à vos scripts PHP :\n\n```php\n\u003c?php\n// Autoriser tous les domaines à accéder aux ressources\nheader(\"Access-Control-Allow-Origin: *\");\n\n// Autoriser seulement certaines méthodes HTTP\nheader(\"Access-Control-Allow-Methods: GET, POST\");\n\n// Autoriser seulement certains headers personnalisés\nheader(\"Access-Control-Allow-Headers: Content-Type\");\n\n// Vérifier la méthode de la requête\nif ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {\n    http_response_code(200);\n    exit();\n}\n\n// Répondre à la requête API\n$data = array('message' =\u003e 'Données accessibles via CORS');\necho json_encode($data);\n?\u003e\n```\n\n#### Utilisation côté client (JavaScript)\n\nDu côté client, lorsque vous faites des requêtes avec JavaScript, vous devez vous assurer que votre code respecte les règles CORS :\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'GET', // Méthode HTTP\n  headers: {\n    'Content-Type': 'application/json', // Headers personnalisés\n  },\n})\n.then(response =\u003e response.json())\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Conclusion\n\nEn suivant ces étapes, vous pouvez configurer et utiliser CORS pour permettre à votre application web JavaScript d'interagir de manière sécurisée avec des ressources hébergées sur des domaines différents. Assurez-vous de configurer correctement votre serveur et de gérer les pré-vérifications OPTIONS pour garantir le bon fonctionnement des requêtes CORS complexes.\n\nCela conclut notre tutoriel sur CORS en communication avec le serveur en JavaScript. Si vous avez des questions ou des points que vous souhaitez approfondir, n'hésitez pas à demander !"
+                        ]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": true,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "475da958-24de-40da-8d83-75184b996aff",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "475da958-24de-40da-8d83-75184b996aff",
+                    "children": ["aaa27464-632c-4236-babc-9364fbd23e04"]
+                  },
+                  "475da958-24de-40da-8d83-75184b996aff": {
+                    "id": "475da958-24de-40da-8d83-75184b996aff",
+                    "message": {
+                      "id": "475da958-24de-40da-8d83-75184b996aff",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720256680.340492,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "d4f88687-768c-4b09-9446-4fc927c41bd6",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "d4f88687-768c-4b09-9446-4fc927c41bd6",
+                    "children": ["c46afa71-ecfd-4044-ab39-cbc9848f0425"]
+                  },
+                  "d4f88687-768c-4b09-9446-4fc927c41bd6": {
+                    "id": "d4f88687-768c-4b09-9446-4fc927c41bd6",
+                    "message": {
+                      "id": "d4f88687-768c-4b09-9446-4fc927c41bd6",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256680.340435,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "1c07e806-a448-4788-958e-581283449fcd",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "1c07e806-a448-4788-958e-581283449fcd",
+                    "children": ["475da958-24de-40da-8d83-75184b996aff"]
+                  },
+                  "1c07e806-a448-4788-958e-581283449fcd": {
+                    "id": "1c07e806-a448-4788-958e-581283449fcd",
+                    "message": {
+                      "id": "1c07e806-a448-4788-958e-581283449fcd",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256680.340358,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
+                    "children": ["d4f88687-768c-4b09-9446-4fc927c41bd6"]
+                  },
+                  "aaa26d35-52a9-418d-861e-09bac3bb8edf": {
+                    "id": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
+                    "message": {
+                      "id": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
+                      "author": { "role": "user", "metadata": {} },
+                      "create_time": 1720256665.916317,
+                      "content": {
+                        "content_type": "text",
+                        "parts": [
+                          "rédigez un tuto complet : Cross-Origin Resource Sharing (CORS) en  Communication avec le serveur en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "6303749b-6c82-40c6-a4c4-bc5befc14e12",
+                    "children": ["1c07e806-a448-4788-958e-581283449fcd"]
                   },
-                  "ab868a83-7f8c-467e-9846-079b671b5b91": {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                  "6303749b-6c82-40c6-a4c4-bc5befc14e12": {
+                    "id": "6303749b-6c82-40c6-a4c4-bc5befc14e12",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "6303749b-6c82-40c6-a4c4-bc5befc14e12",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3686,33 +3803,33 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1e209-f439-46c8-aabd-1f73c51632a1",
+                    "children": ["aaa26d35-52a9-418d-861e-09bac3bb8edf"]
                   },
-                  "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa": {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                  "aaa1e209-f439-46c8-aabd-1f73c51632a1": {
+                    "id": "aaa1e209-f439-46c8-aabd-1f73c51632a1",
+                    "children": ["6303749b-6c82-40c6-a4c4-bc5befc14e12"]
                   }
                 },
                 "moderation_results": [],
-                "current_node": "afffd1c4-f386-418b-a75f-3515d1394f2d",
-                "conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                "current_node": "55032b60-921c-4395-9c5a-27838ed41310",
+                "conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
                 "is_archived": false,
                 "safe_urls": [],
                 "is_public": true,
                 "linear_conversation": [
                   {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                    "id": "aaa1e209-f439-46c8-aabd-1f73c51632a1",
+                    "children": ["6303749b-6c82-40c6-a4c4-bc5befc14e12"]
                   },
                   {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                    "id": "6303749b-6c82-40c6-a4c4-bc5befc14e12",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "6303749b-6c82-40c6-a4c4-bc5befc14e12",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3720,45 +3837,45 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1e209-f439-46c8-aabd-1f73c51632a1",
+                    "children": ["aaa26d35-52a9-418d-861e-09bac3bb8edf"]
                   },
                   {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                    "id": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720256665.916317,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : Cross-Origin Resource Sharing (CORS) en  Communication avec le serveur en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "6303749b-6c82-40c6-a4c4-bc5befc14e12",
+                    "children": ["1c07e806-a448-4788-958e-581283449fcd"]
                   },
                   {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                    "id": "1c07e806-a448-4788-958e-581283449fcd",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "1c07e806-a448-4788-958e-581283449fcd",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720256680.340358,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3772,27 +3889,101 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa26d35-52a9-418d-861e-09bac3bb8edf",
+                    "children": ["d4f88687-768c-4b09-9446-4fc927c41bd6"]
                   },
                   {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                    "id": "d4f88687-768c-4b09-9446-4fc927c41bd6",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "d4f88687-768c-4b09-9446-4fc927c41bd6",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720256680.340435,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "1c07e806-a448-4788-958e-581283449fcd",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "1c07e806-a448-4788-958e-581283449fcd",
+                    "children": ["475da958-24de-40da-8d83-75184b996aff"]
+                  },
+                  {
+                    "id": "475da958-24de-40da-8d83-75184b996aff",
+                    "message": {
+                      "id": "475da958-24de-40da-8d83-75184b996aff",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720256680.340492,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "d4f88687-768c-4b09-9446-4fc927c41bd6",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "d4f88687-768c-4b09-9446-4fc927c41bd6",
+                    "children": ["c46afa71-ecfd-4044-ab39-cbc9848f0425"]
+                  },
+                  {
+                    "id": "c46afa71-ecfd-4044-ab39-cbc9848f0425",
+                    "message": {
+                      "id": "c46afa71-ecfd-4044-ab39-cbc9848f0425",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256680.340544,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "### Tutoriel complet : Cross-Origin Resource Sharing (CORS) en Communication avec le Serveur en JavaScript\n\n#### Introduction à CORS\n\nCross-Origin Resource Sharing (CORS) est un mécanisme de sécurité utilisé par les navigateurs web pour permettre à des ressources web d'une origine (domaine, protocole et port) d'être partagées avec une autre origine qui diffère de celle de la ressource. Sans CORS, les navigateurs appliquent la politique de même origine (Same-Origin Policy), qui restreint les interactions entre des scripts JavaScript et les ressources provenant d'origines différentes.\n\n#### Pourquoi CORS est-il nécessaire ?\n\nL'utilisation de CORS est nécessaire pour sécuriser les applications web tout en permettant l'accès à des ressources partagées entre différents domaines. Cela permet notamment à une application web hébergée sur un domaine de communiquer avec une API ou un service hébergé sur un autre domaine.\n\n#### Fonctionnement de CORS\n\n1. **Pré-vérification (Preflight)** : Avant de faire une requête CORS complexe (comme une requête avec des méthodes HTTP autres que GET, HEAD, ou POST, ou avec des headers personnalisés), le navigateur envoie une requête HTTP OPTIONS pour vérifier les permissions (méthodes HTTP, headers, etc.) que le serveur autorise pour l'origine requérante.\n\n2. **Réponse CORS** : Le serveur doit répondre aux requêtes CORS avec des headers spécifiques pour indiquer quelles origines peuvent accéder aux ressources, quelles méthodes HTTP sont autorisées, et quels headers peuvent être utilisés dans la requête.\n\n#### Configuration côté serveur\n\nPour gérer CORS côté serveur, vous devez configurer le serveur pour répondre aux requêtes OPTIONS et inclure les headers appropriés dans les réponses aux requêtes HTTP. Voici comment vous pouvez le faire dans quelques environnements populaires :\n\n##### Exemple avec Node.js (Express.js)\n\nSi vous utilisez Node.js avec Express.js, vous pouvez utiliser le middleware `cors` pour gérer les requêtes CORS de manière efficace :\n\n```javascript\nconst express = require('express');\nconst cors = require('cors');\nconst app = express();\n\n// Autoriser tous les domaines à accéder aux ressources\napp.use(cors());\n\n// Configurer les options CORS spécifiques\nconst corsOptions = {\n  origin: 'https://example.com', // Autoriser seulement ce domaine spécifique\n  methods: ['GET', 'POST'], // Autoriser seulement ces méthodes HTTP\n  allowedHeaders: ['Content-Type'], // Autoriser seulement ce header personnalisé\n};\n\napp.options('*', cors(corsOptions)); // Répondre aux pré-vérifications\n\n// Route API\napp.get('/api/data', (req, res) =\u003e {\n  res.json({ message: 'Données accessibles via CORS' });\n});\n\n// Démarrer le serveur\nconst port = 3000;\napp.listen(port, () =\u003e {\n  console.log(`Serveur démarré sur le port ${port}`);\n});\n```\n\n##### Exemple avec PHP\n\nSi vous utilisez PHP pour créer votre API, vous pouvez configurer CORS en ajoutant les headers nécessaires à vos scripts PHP :\n\n```php\n\u003c?php\n// Autoriser tous les domaines à accéder aux ressources\nheader(\"Access-Control-Allow-Origin: *\");\n\n// Autoriser seulement certaines méthodes HTTP\nheader(\"Access-Control-Allow-Methods: GET, POST\");\n\n// Autoriser seulement certains headers personnalisés\nheader(\"Access-Control-Allow-Headers: Content-Type\");\n\n// Vérifier la méthode de la requête\nif ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {\n    http_response_code(200);\n    exit();\n}\n\n// Répondre à la requête API\n$data = array('message' =\u003e 'Données accessibles via CORS');\necho json_encode($data);\n?\u003e\n```\n\n#### Utilisation côté client (JavaScript)\n\nDu côté client, lorsque vous faites des requêtes avec JavaScript, vous devez vous assurer que votre code respecte les règles CORS :\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'GET', // Méthode HTTP\n  headers: {\n    'Content-Type': 'application/json', // Headers personnalisés\n  },\n})\n.then(response =\u003e response.json())\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Conclusion\n\nEn suivant ces étapes, vous pouvez configurer et utiliser CORS pour permettre à votre application web JavaScript d'interagir de manière sécurisée avec des ressources hébergées sur des domaines différents. Assurez-vous de configurer correctement votre serveur et de gérer les pré-vérifications OPTIONS pour garantir le bon fonctionnement des requêtes CORS complexes.\n\nCela conclut notre tutoriel sur CORS en communication avec le serveur en JavaScript. Si vous avez des questions ou des points que vous souhaitez approfondir, n'hésitez pas à demander !"
                         ]
                       },
                       "status": "finished_successfully",
@@ -3812,23 +4003,23 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "475da958-24de-40da-8d83-75184b996aff",
+                        "request_id": "89ee6d5dbf52c79c-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "475da958-24de-40da-8d83-75184b996aff",
+                    "children": ["aaa27464-632c-4236-babc-9364fbd23e04"]
                   },
                   {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "id": "aaa27464-632c-4236-babc-9364fbd23e04",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa27464-632c-4236-babc-9364fbd23e04",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720256700.852961,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3836,27 +4027,57 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee6e3a2e53c79c-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "c46afa71-ecfd-4044-ab39-cbc9848f0425",
+                    "children": ["7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5"]
                   },
                   {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                    "id": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720256711.827392,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa27464-632c-4236-babc-9364fbd23e04",
+                        "request_id": "89ee6e3a2e53c79c-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa27464-632c-4236-babc-9364fbd23e04",
+                    "children": ["55032b60-921c-4395-9c5a-27838ed41310"]
+                  },
+                  {
+                    "id": "55032b60-921c-4395-9c5a-27838ed41310",
+                    "message": {
+                      "id": "55032b60-921c-4395-9c5a-27838ed41310",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256711.827451,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "Pour approfondir encore davantage sur CORS en communication avec le serveur en JavaScript, nous pouvons explorer quelques concepts avancés et des cas spécifiques :\n\n### Cas spécifiques de CORS\n\n#### 1. Gestion des credentials (cookies, authentification)\n\nLorsque vous avez besoin de transférer des cookies ou des informations d'authentification (credentials) lors d'une requête CORS, vous devez spécifier `credentials: 'include'` dans votre requête fetch :\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'GET',\n  headers: {\n    'Content-Type': 'application/json',\n  },\n  credentials: 'include', // Inclure les cookies et l'authentification\n})\n.then(response =\u003e response.json())\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\nCôté serveur, vous devez également autoriser les credentials en ajoutant `Access-Control-Allow-Credentials: true` dans vos headers CORS.\n\n#### 2. Configuration avancée des headers CORS\n\nEn plus des headers CORS de base (`Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`, `Access-Control-Allow-Headers`), vous pouvez utiliser d'autres headers pour gérer des situations spécifiques :\n\n```javascript\n// Exemple de headers CORS avancés côté serveur (Express.js)\nconst corsOptions = {\n  origin: 'https://example.com', // Domaine autorisé\n  methods: ['GET', 'POST'], // Méthodes HTTP autorisées\n  allowedHeaders: ['Content-Type'], // Headers personnalisés autorisés\n  exposedHeaders: ['Authorization'], // Headers exposés aux clients\n  credentials: true, // Autoriser les credentials (cookies, authentification)\n  maxAge: 86400, // Durée en secondes pour la mise en cache des options pré-vérification\n};\n\napp.options('*', cors(corsOptions));\n```\n\n#### 3. Gestion des erreurs CORS\n\nEn cas d'erreur CORS, assurez-vous de capturer et de gérer correctement les erreurs dans votre code JavaScript :\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'GET',\n  headers: {\n    'Content-Type': 'application/json',\n  },\n})\n.then(response =\u003e {\n  if (!response.ok) {\n    throw new Error('Erreur HTTP ' + response.status);\n  }\n  return response.json();\n})\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n### Sécurité et bonnes pratiques\n\n#### 1. Limiter les origines autorisées\n\nUtilisez `Access-Control-Allow-Origin` avec des valeurs spécifiques au lieu de `*` pour limiter les domaines autorisés à accéder à vos ressources :\n\n```javascript\nheader(\"Access-Control-Allow-Origin: https://example.com\");\n```\n\n#### 2. Utiliser des tokens d'authentification\n\nPour sécuriser les API CORS, utilisez des tokens d'authentification (JWT par exemple) qui peuvent être inclus dans les headers de vos requêtes.\n\n#### 3. Mettre en cache les réponses pré-vérification\n\nUtilisez `Access-Control-Max-Age` pour mettre en cache les réponses aux pré-vérifications OPTIONS et améliorer les performances :\n\n```javascript\nheader(\"Access-Control-Max-Age: 86400\"); // Cache pendant 24 heures (en secondes)\n```\n\n### Conclusion\n\nEn intégrant ces pratiques avancées et en comprenant les cas spécifiques de CORS, vous pouvez sécuriser et optimiser les communications entre votre application web JavaScript et des serveurs avec des origines différentes. Assurez-vous de tester soigneusement votre implémentation CORS pour garantir la sécurité et la compatibilité avec les navigateurs modernes."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3876,20 +4097,20 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
+                        "request_id": "89ee6e3a2e53c79c-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "b9cd688e-b633-4b99-aa61-3b4090c440d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "7cf3f3e2-8b3c-4eac-b255-a0075fc0f7f5",
                     "children": []
                   }
                 ],
                 "has_user_editable_context": false,
-                "continue_conversation_url": "https://chatgpt.com/share/ac74b161-88bd-43d9-8c48-d05d4bac5152/continue",
+                "continue_conversation_url": "https://chatgpt.com/share/b9cd688e-b633-4b99-aa61-3b4090c440d1/continue",
                 "model": {
                   "slug": "text-davinci-002-render-sha",
                   "max_tokens": 8191,
@@ -3923,7 +4144,7 @@
                   "groups": [],
                   "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
                 },
-                "expires": "2024-10-03T19:01:57.668Z",
+                "expires": "2024-10-04T09:06:10.990Z",
                 "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
                 "authProvider": "login-web"
               },
@@ -3944,7 +4165,7 @@
               "userCountry": "SN",
               "userRegion": "Dakar",
               "userRegionCode": "DK",
-              "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+              "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
               "cfIpLatitude": "14.69350",
               "cfIpLongitude": "-17.44800",
               "cfIpCity": "Dakar",
@@ -5217,6 +5438,29 @@
                       "secondary_exposures": [],
                       "is_user_in_experiment": false,
                       "is_experiment_active": false
+                    },
+                    "186644516": {
+                      "name": "186644516",
+                      "value": {
+                        "is_team_enabled": true,
+                        "is_yearly_plus_subscription_enabled": false,
+                        "is_split_between_personal_and_business_enabled": false,
+                        "is_modal_fullscreen": false
+                      },
+                      "group": "prestart",
+                      "rule_id": "prestart",
+                      "is_device_based": false,
+                      "secondary_exposures": [
+                        {
+                          "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                          "gateValue": "false",
+                          "ruleID": "disabled"
+                        }
+                      ],
+                      "explicit_parameters": ["is_team_enabled"],
+                      "is_user_in_experiment": false,
+                      "is_experiment_active": false,
+                      "is_in_layer": true
                     },
                     "340466392": {
                       "name": "340466392",
@@ -6765,16 +7009,6 @@
                       "is_experiment_active": false,
                       "is_in_layer": true
                     },
-                    "3758099832": {
-                      "name": "3758099832",
-                      "value": {},
-                      "group": "prestart",
-                      "rule_id": "prestart",
-                      "is_device_based": false,
-                      "secondary_exposures": [],
-                      "is_user_in_experiment": false,
-                      "is_experiment_active": false
-                    },
                     "3917128856": {
                       "name": "3917128856",
                       "value": {
@@ -7150,7 +7384,7 @@
                     }
                   },
                   "hash_used": "djb2",
-                  "user_hash": "4043779062"
+                  "user_hash": "660792976"
                 },
                 "user": {
                   "country": "SN",
@@ -7165,7 +7399,7 @@
                     "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                     "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                   },
-                  "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                  "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                   "locale": "fr-FR",
                   "privateAttributes": {
                     "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -7187,7 +7421,7 @@
           "__N_SSP": true
         },
         "page": "/share/[[...shareParams]]",
-        "query": { "shareParams": ["ac74b161-88bd-43d9-8c48-d05d4bac5152"] },
+        "query": { "shareParams": ["b9cd688e-b633-4b99-aa61-3b4090c440d1"] },
         "buildId": "8GX1pu3rmPezMCbuo-Xqp",
         "assetPrefix": "https://cdn.oaistatic.com",
         "isFallback": false,

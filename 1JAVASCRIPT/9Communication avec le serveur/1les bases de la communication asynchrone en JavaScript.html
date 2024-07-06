@@ -252,7 +252,7 @@
                 "groups": [],
                 "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
               },
-              "expires": "2024-10-03T19:01:57.668Z",
+              "expires": "2024-10-04T08:47:54.333Z",
               "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
               "authProvider": "login-web"
             },
@@ -273,7 +273,7 @@
             "userCountry": "SN",
             "userRegion": "Dakar",
             "userRegionCode": "DK",
-            "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+            "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
             "cfIpLatitude": "14.69350",
             "cfIpLongitude": "-17.44800",
             "cfIpCity": "Dakar",
@@ -1546,6 +1546,29 @@
                     "secondary_exposures": [],
                     "is_user_in_experiment": false,
                     "is_experiment_active": false
+                  },
+                  "186644516": {
+                    "name": "186644516",
+                    "value": {
+                      "is_team_enabled": true,
+                      "is_yearly_plus_subscription_enabled": false,
+                      "is_split_between_personal_and_business_enabled": false,
+                      "is_modal_fullscreen": false
+                    },
+                    "group": "prestart",
+                    "rule_id": "prestart",
+                    "is_device_based": false,
+                    "secondary_exposures": [
+                      {
+                        "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                        "gateValue": "false",
+                        "ruleID": "disabled"
+                      }
+                    ],
+                    "explicit_parameters": ["is_team_enabled"],
+                    "is_user_in_experiment": false,
+                    "is_experiment_active": false,
+                    "is_in_layer": true
                   },
                   "340466392": {
                     "name": "340466392",
@@ -3092,16 +3115,6 @@
                     "is_experiment_active": false,
                     "is_in_layer": true
                   },
-                  "3758099832": {
-                    "name": "3758099832",
-                    "value": {},
-                    "group": "prestart",
-                    "rule_id": "prestart",
-                    "is_device_based": false,
-                    "secondary_exposures": [],
-                    "is_user_in_experiment": false,
-                    "is_experiment_active": false
-                  },
                   "3917128856": {
                     "name": "3917128856",
                     "value": {
@@ -3477,7 +3490,7 @@
                   }
                 },
                 "hash_used": "djb2",
-                "user_hash": "4043779062"
+                "user_hash": "660792976"
               },
               "user": {
                 "country": "SN",
@@ -3492,7 +3505,7 @@
                   "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                   "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                 },
-                "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                 "locale": "fr-FR",
                 "privateAttributes": {
                   "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -3507,24 +3520,24 @@
             "ageVerificationDeadline": null,
             "ageVerificationType": "none",
             "logOutUser": false,
-            "sharedConversationId": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+            "sharedConversationId": "3fe33402-b040-4442-8b30-595173d7f393",
             "serverResponse": {
               "type": "data",
               "data": {
-                "title": "Événements personnalisés en JS",
-                "create_time": 1720205825.775834,
-                "update_time": 1720205900,
+                "title": "Communication Asynchrone en JavaScript",
+                "create_time": 1720255659.275688,
+                "update_time": 1720255662,
                 "mapping": {
-                  "afffd1c4-f386-418b-a75f-3515d1394f2d": {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                  "f04ea41b-a84d-4b20-93df-06f3bed4e9bc": {
+                    "id": "f04ea41b-a84d-4b20-93df-06f3bed4e9bc",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "f04ea41b-a84d-4b20-93df-06f3bed4e9bc",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720255516.757034,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n### Conclusion\n\nLa communication asynchrone en JavaScript permet de créer des applications web réactives et fluides. Avec `XMLHttpRequest`, les promesses, `fetch`, et `async/await`, vous pouvez gérer les opérations réseau de manière efficace et moderne. N'oubliez pas d'inclure une gestion robuste des erreurs et d'explorer des techniques avancées telles que `AbortController` pour annuler les requêtes si nécessaire. Continuez à expérimenter et à adapter ces techniques à vos besoins spécifiques pour améliorer l'expérience utilisateur de vos applications web."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3535,32 +3548,63 @@
                         "gizmo_id": null,
                         "finish_details": {
                           "type": "stop",
-                          "stop_tokens": [100260]
+                          "stop_tokens": [200002]
                         },
                         "is_complete": true,
                         "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
+                        "model_slug": "gpt-4o",
                         "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "A",
+                        "parent_id": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
+                        "request_id": "89ee51297a08f5be-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
                     "children": []
                   },
-                  "aaa22ef0-bd30-49c3-b53a-d0352d3476d9": {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                  "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0": {
+                    "id": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720255387.282497,
+                      "content": {
+                        "content_type": "text",
+                        "parts": [
+                          "### Tutoriel : Les Bases de la Communication Asynchrone en JavaScript avec le Serveur\n\nLa communication asynchrone est une composante essentielle pour les applications web modernes, permettant aux pages de se mettre à jour sans nécessiter de rechargement complet. Ce tutoriel approfondi couvre les techniques modernes et avancées pour réaliser des requêtes HTTP asynchrones avec JavaScript.\n\n### Table des Matières\n\n1. Introduction à la Communication Asynchrone\n2. Utilisation de `XMLHttpRequest`\n3. Introduction aux Promesses\n4. Utilisation de l'API `fetch`\n5. Utilisation de `async/await`\n6. Gestion des Erreurs\n7. Exemples Pratiques\n8. Utilisation Avancée de `fetch` pour les Requêtes Complexes\n9. Interception de Requêtes avec `AbortController`\n10. Gestion de la Réponse\n11. Conclusion\n\n---\n\n### 1. Introduction à la Communication Asynchrone\n\nLa communication asynchrone permet d'exécuter des requêtes HTTP sans interrompre l'interaction de l'utilisateur avec la page. Les techniques principales incluent `XMLHttpRequest`, les Promesses, l'API `fetch`, et `async/await`.\n\n### 2. Utilisation de `XMLHttpRequest`\n\nL'objet `XMLHttpRequest` permet de réaliser des requêtes HTTP asynchrones. Bien que moins courant aujourd'hui avec l'apparition de `fetch`, il reste utile à connaître.\n\n#### Exemple de requête GET\n\n```javascript\nlet xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\nxhr.send();\n```\n\n#### Exemple de requête POST\n\n```javascript\nlet xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://api.example.com/data', true);\nxhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\nxhr.send(JSON.stringify({name: 'John Doe', age: 30}));\n```\n\n### 3. Introduction aux Promesses\n\nLes promesses facilitent la gestion des opérations asynchrones. Une promesse représente une opération qui sera complétée dans le futur.\n\n#### Création et Utilisation de Promesses\n\n```javascript\nlet promise = new Promise((resolve, reject) =\u003e {\n  setTimeout(() =\u003e {\n    resolve('Données reçues');\n  }, 1000);\n});\n\npromise.then(response =\u003e {\n  console.log(response); // \"Données reçues\"\n}).catch(error =\u003e {\n  console.error(error);\n});\n```\n\n### 4. Utilisation de l'API `fetch`\n\nL'API `fetch` offre une interface moderne pour réaliser des requêtes HTTP asynchrones.\n\n#### Requête GET avec `fetch`\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .then(data =\u003e {\n    console.log(data);\n  })\n  .catch(error =\u003e {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n#### Requête POST avec `fetch`\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({name: 'John Doe', age: 30})\n})\n.then(response =\u003e {\n  if (!response.ok) {\n    throw new Error('Erreur réseau');\n  }\n  return response.json();\n})\n.then(data =\u003e {\n  console.log('Utilisateur créé:', data);\n})\n.catch(error =\u003e {\n  console.error('Il y a eu un problème avec la requête fetch:', error);\n});\n```\n\n### 5. Utilisation de `async/await`\n\n`async/await` permet de travailler avec des promesses de manière plus synchrone et lisible.\n\n#### Exemple avec `async/await`\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n### 6. Gestion des Erreurs\n\nLa gestion des erreurs est cruciale pour des opérations réseau robustes. Utilisez `try...catch` avec `async/await` ou les méthodes `.catch()` avec les promesses.\n\n#### Gestion des Erreurs avec `fetch`\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .catch(error =\u003e {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n#### Gestion des Erreurs avec `async/await`\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n### 7. Exemples Pratiques\n\n#### Exemple 1 : Requête GET avec `fetch`\n\n```javascript\nasync function getUserData() {\n  try {\n    let response = await fetch('https://api.example.com/user');\n    if (!response.ok) {\n      throw new Error('Erreur lors de la récupération des données utilisateur');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ngetUserData();\n```\n\n#### Exemple 2 : Requête POST avec `fetch`\n\n```javascript\nasync function createUser() {\n  try {\n    let response = await fetch('https://api.example.com/user', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json'\n      },\n      body: JSON.stringify({ name: 'John Doe', age: 30 })\n    });\n    if (!response.ok) {\n      throw new Error('Erreur lors de la création de l\\'utilisateur');\n    }\n    let data = await response.json();\n    console.log('Utilisateur créé:', data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ncreateUser();\n```\n\n### 8. Utilisation Avancée de `fetch` pour les Requêtes Complexes\n\n#### Requête avec Authentification\n\n```javascript\nasync function fetchProtectedData(token) {\n  try {\n    let response = await fetch('https://api.example.com/protected', {\n      method: 'GET',\n      headers: {\n        'Authorization': `Bearer ${token}`\n      }\n    });\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\nfetchProtectedData('votre-token-jwt');\n```\n\n#### Requête avec Paramètres de Requête\n\n```javascript\nasync function fetchDataWithParams() {\n  try {\n    let url = new URL('https://api.example.com/data');\n    let params = { search: 'query', limit: 10 };\n    Object.keys(params).forEach(key =\u003e url.searchParams.append(key, params[key]));\n    let response = await fetch(url);\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\nfetchDataWithParams();\n```\n\n### 9. Interception de Requêtes avec `AbortController`\n\n`AbortController` permet d'annuler des requêtes en cours.\n\n#### Exemple avec `AbortController`\n\n```javascript\nconst controller = new AbortController();\nconst signal = controller.signal;\n\nfetch('https://api.example.com/data', { signal })\n  .then(response =\u003e response.json())\n  .then(data =\u003e console.log(data))\n  .catch(error =\u003e {\n    if (error.name === 'AbortError') {\n      console.log('Requête annulée');\n    } else {\n      console.error('Erreur:', error);\n    }\n  });\n\n// Annuler la requête\ncontroller.abort();\n```\n\n### 10. Gestion de la Réponse\n\n#### Vérification de l'État de la Réponse\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error(`Erreur réseau: ${response.status}`);\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n#### Gestion des Données JSON\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .then(data =\u003e {\n    console.log(data);\n  })\n  .catch(error =\u003e {\n    console.error"
+                        ]
+                      },
+                      "status": "finished_partial_completion",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": { "type": "max_tokens" },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAA",
+                        "parent_id": "aaa2575e-a779-4668-8f1a-e499870b5376",
+                        "request_id": "89ee4c8adf19c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa2575e-a779-4668-8f1a-e499870b5376",
+                    "children": ["f04ea41b-a84d-4b20-93df-06f3bed4e9bc"]
+                  },
+                  "aaa2575e-a779-4668-8f1a-e499870b5376": {
+                    "id": "aaa2575e-a779-4668-8f1a-e499870b5376",
+                    "message": {
+                      "id": "aaa2575e-a779-4668-8f1a-e499870b5376",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720255321.17727,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3568,27 +3612,27 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee4c8adf19c7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "71d063fc-a580-4e00-a023-46a0e31d6964",
+                    "children": ["e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0"]
                   },
-                  "56de34e7-fe55-46c0-b865-b6cf3dc24a48": {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                  "71d063fc-a580-4e00-a023-46a0e31d6964": {
+                    "id": "71d063fc-a580-4e00-a023-46a0e31d6964",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "71d063fc-a580-4e00-a023-46a0e31d6964",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720255160.526535,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "## Tutoriel : Les Bases de la Communication Asynchrone en JavaScript avec le Serveur\n\nLa communication asynchrone est essentielle pour créer des applications web réactives. Elle permet à une application de communiquer avec le serveur sans recharger la page, offrant ainsi une expérience utilisateur plus fluide. Ce tutoriel couvre les bases de la communication asynchrone en JavaScript, en mettant l'accent sur l'utilisation de `XMLHttpRequest` et de `fetch`, ainsi que sur les promesses et `async/await`.\n\n### Table des Matières\n\n1. Introduction à la Communication Asynchrone\n2. Utilisation de `XMLHttpRequest`\n3. Introduction aux Promesses\n4. Utilisation de l'API `fetch`\n5. Utilisation de `async/await`\n6. Gestion des Erreurs\n7. Exemples Pratiques\n\n---\n\n### 1. Introduction à la Communication Asynchrone\n\nLa communication asynchrone permet à votre application de faire des requêtes au serveur et de recevoir des réponses sans interrompre l'interaction de l'utilisateur avec la page. Cela est principalement accompli en utilisant AJAX (Asynchronous JavaScript and XML).\n\n### 2. Utilisation de `XMLHttpRequest`\n\nL'objet `XMLHttpRequest` est l'une des premières interfaces utilisées pour les requêtes asynchrones. Voici un exemple de son utilisation :\n\n```javascript\n// Créer une nouvelle requête\nlet xhr = new XMLHttpRequest();\n\n// Configurer la requête\nxhr.open('GET', 'https://api.example.com/data', true);\n\n// Définir ce qu'il faut faire lorsque la réponse est reçue\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\n\n// Envoyer la requête\nxhr.send();\n```\n\n### 3. Introduction aux Promesses\n\nLes promesses simplifient la gestion des opérations asynchrones. Une promesse représente une valeur qui peut être disponible maintenant, dans le futur, ou jamais.\n\n```javascript\nlet promise = new Promise((resolve, reject) =\u003e {\n  // Exécution asynchrone\n  setTimeout(() =\u003e {\n    resolve('Données reçues');\n  }, 1000);\n});\n\npromise.then(response =\u003e {\n  console.log(response); // \"Données reçues\"\n}).catch(error =\u003e {\n  console.error(error);\n});\n```\n\n### 4. Utilisation de l'API `fetch`\n\nL'API `fetch` offre une interface plus moderne et plus facile à utiliser pour faire des requêtes HTTP asynchrones.\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .then(data =\u003e {\n    console.log(data);\n  })\n  .catch(error =\u003e {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n### 5. Utilisation de `async/await`\n\n`async/await` est une syntaxe qui permet de travailler avec des promesses de manière plus synchrone et lisible.\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n### 6. Gestion des Erreurs\n\nLa gestion des erreurs est cruciale pour les requêtes asynchrones. Utilisez `try...catch` avec `async/await` ou les méthodes `.catch()` avec les promesses pour gérer les erreurs.\n\n### 7. Exemples Pratiques\n\n#### Exemple 1 : Requête GET avec `fetch`\n\n```javascript\nasync function getUserData() {\n  try {\n    let response = await fetch('https://api.example.com/user');\n    if (!response.ok) {\n      throw new Error('Erreur lors de la récupération des données utilisateur');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ngetUserData();\n```\n\n#### Exemple 2 : Requête POST avec `fetch`\n\n```javascript\nasync function createUser() {\n  try {\n    let response = await fetch('https://api.example.com/user', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json'\n      },\n      body: JSON.stringify({ name: 'John Doe', age: 30 })\n    });\n    if (!response.ok) {\n      throw new Error('Erreur lors de la création de l\\'utilisateur');\n    }\n    let data = await response.json();\n    console.log('Utilisateur créé:', data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ncreateUser();\n```\n\n### Conclusion\n\nLa communication asynchrone en JavaScript est un outil puissant pour créer des applications web interactives et réactives. En utilisant `XMLHttpRequest`, les promesses, `fetch` et `async/await`, vous pouvez effectuer des opérations réseau sans bloquer l'interface utilisateur, offrant ainsi une meilleure expérience utilisateur.\n\nN'hésitez pas à explorer et à expérimenter ces techniques pour les adapter à vos besoins spécifiques."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3597,34 +3641,31 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAA",
+                        "parent_id": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
                         "finish_details": {
                           "type": "stop",
-                          "stop_tokens": [100260]
+                          "stop_tokens": [200002]
                         },
                         "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee47bada16f5c2-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
+                    "children": ["aaa2575e-a779-4668-8f1a-e499870b5376"]
                   },
-                  "b979367e-e0bb-46ad-86af-93cb1348942a": {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                  "89e3467f-1a39-4cfe-840f-2518ac8d6627": {
+                    "id": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720255160.526484,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3633,52 +3674,49 @@
                       "weight": 1,
                       "metadata": {
                         "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
+                        "model_slug": "gpt-4o",
                         "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa2ead7-7171-461c-b788-381cee75fa53",
+                        "request_id": "89ee47bada16f5c2-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa2ead7-7171-461c-b788-381cee75fa53",
+                    "children": ["71d063fc-a580-4e00-a023-46a0e31d6964"]
                   },
-                  "aaa227f6-5254-4482-a596-63335581d790": {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                  "aaa2ead7-7171-461c-b788-381cee75fa53": {
+                    "id": "aaa2ead7-7171-461c-b788-381cee75fa53",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa2ead7-7171-461c-b788-381cee75fa53",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720255123.982575,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : les bases de la communication asynchrone en JavaScript en Communication avec le serveur"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee47bada16f5c2-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e",
+                    "children": ["89e3467f-1a39-4cfe-840f-2518ac8d6627"]
                   },
-                  "ab868a83-7f8c-467e-9846-079b671b5b91": {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                  "2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e": {
+                    "id": "2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3686,33 +3724,33 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1a076-888a-4aed-89e5-146ab1a4745d",
+                    "children": ["aaa2ead7-7171-461c-b788-381cee75fa53"]
                   },
-                  "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa": {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                  "aaa1a076-888a-4aed-89e5-146ab1a4745d": {
+                    "id": "aaa1a076-888a-4aed-89e5-146ab1a4745d",
+                    "children": ["2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e"]
                   }
                 },
                 "moderation_results": [],
-                "current_node": "afffd1c4-f386-418b-a75f-3515d1394f2d",
-                "conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                "current_node": "f04ea41b-a84d-4b20-93df-06f3bed4e9bc",
+                "conversation_id": "3fe33402-b040-4442-8b30-595173d7f393",
                 "is_archived": false,
                 "safe_urls": [],
                 "is_public": true,
                 "linear_conversation": [
                   {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                    "id": "aaa1a076-888a-4aed-89e5-146ab1a4745d",
+                    "children": ["2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e"]
                   },
                   {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                    "id": "2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3720,45 +3758,45 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1a076-888a-4aed-89e5-146ab1a4745d",
+                    "children": ["aaa2ead7-7171-461c-b788-381cee75fa53"]
                   },
                   {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                    "id": "aaa2ead7-7171-461c-b788-381cee75fa53",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa2ead7-7171-461c-b788-381cee75fa53",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720255123.982575,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : les bases de la communication asynchrone en JavaScript en Communication avec le serveur"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee47bada16f5c2-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "2ae254fc-993b-4bcc-bfc2-17d4bfbe4c6e",
+                    "children": ["89e3467f-1a39-4cfe-840f-2518ac8d6627"]
                   },
                   {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                    "id": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720255160.526484,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3767,32 +3805,29 @@
                       "weight": 1,
                       "metadata": {
                         "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
+                        "model_slug": "gpt-4o",
                         "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa2ead7-7171-461c-b788-381cee75fa53",
+                        "request_id": "89ee47bada16f5c2-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa2ead7-7171-461c-b788-381cee75fa53",
+                    "children": ["71d063fc-a580-4e00-a023-46a0e31d6964"]
                   },
                   {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                    "id": "71d063fc-a580-4e00-a023-46a0e31d6964",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "71d063fc-a580-4e00-a023-46a0e31d6964",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720255160.526535,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "## Tutoriel : Les Bases de la Communication Asynchrone en JavaScript avec le Serveur\n\nLa communication asynchrone est essentielle pour créer des applications web réactives. Elle permet à une application de communiquer avec le serveur sans recharger la page, offrant ainsi une expérience utilisateur plus fluide. Ce tutoriel couvre les bases de la communication asynchrone en JavaScript, en mettant l'accent sur l'utilisation de `XMLHttpRequest` et de `fetch`, ainsi que sur les promesses et `async/await`.\n\n### Table des Matières\n\n1. Introduction à la Communication Asynchrone\n2. Utilisation de `XMLHttpRequest`\n3. Introduction aux Promesses\n4. Utilisation de l'API `fetch`\n5. Utilisation de `async/await`\n6. Gestion des Erreurs\n7. Exemples Pratiques\n\n---\n\n### 1. Introduction à la Communication Asynchrone\n\nLa communication asynchrone permet à votre application de faire des requêtes au serveur et de recevoir des réponses sans interrompre l'interaction de l'utilisateur avec la page. Cela est principalement accompli en utilisant AJAX (Asynchronous JavaScript and XML).\n\n### 2. Utilisation de `XMLHttpRequest`\n\nL'objet `XMLHttpRequest` est l'une des premières interfaces utilisées pour les requêtes asynchrones. Voici un exemple de son utilisation :\n\n```javascript\n// Créer une nouvelle requête\nlet xhr = new XMLHttpRequest();\n\n// Configurer la requête\nxhr.open('GET', 'https://api.example.com/data', true);\n\n// Définir ce qu'il faut faire lorsque la réponse est reçue\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\n\n// Envoyer la requête\nxhr.send();\n```\n\n### 3. Introduction aux Promesses\n\nLes promesses simplifient la gestion des opérations asynchrones. Une promesse représente une valeur qui peut être disponible maintenant, dans le futur, ou jamais.\n\n```javascript\nlet promise = new Promise((resolve, reject) =\u003e {\n  // Exécution asynchrone\n  setTimeout(() =\u003e {\n    resolve('Données reçues');\n  }, 1000);\n});\n\npromise.then(response =\u003e {\n  console.log(response); // \"Données reçues\"\n}).catch(error =\u003e {\n  console.error(error);\n});\n```\n\n### 4. Utilisation de l'API `fetch`\n\nL'API `fetch` offre une interface plus moderne et plus facile à utiliser pour faire des requêtes HTTP asynchrones.\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .then(data =\u003e {\n    console.log(data);\n  })\n  .catch(error =\u003e {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n### 5. Utilisation de `async/await`\n\n`async/await` est une syntaxe qui permet de travailler avec des promesses de manière plus synchrone et lisible.\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n### 6. Gestion des Erreurs\n\nLa gestion des erreurs est cruciale pour les requêtes asynchrones. Utilisez `try...catch` avec `async/await` ou les méthodes `.catch()` avec les promesses pour gérer les erreurs.\n\n### 7. Exemples Pratiques\n\n#### Exemple 1 : Requête GET avec `fetch`\n\n```javascript\nasync function getUserData() {\n  try {\n    let response = await fetch('https://api.example.com/user');\n    if (!response.ok) {\n      throw new Error('Erreur lors de la récupération des données utilisateur');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ngetUserData();\n```\n\n#### Exemple 2 : Requête POST avec `fetch`\n\n```javascript\nasync function createUser() {\n  try {\n    let response = await fetch('https://api.example.com/user', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json'\n      },\n      body: JSON.stringify({ name: 'John Doe', age: 30 })\n    });\n    if (!response.ok) {\n      throw new Error('Erreur lors de la création de l\\'utilisateur');\n    }\n    let data = await response.json();\n    console.log('Utilisateur créé:', data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ncreateUser();\n```\n\n### Conclusion\n\nLa communication asynchrone en JavaScript est un outil puissant pour créer des applications web interactives et réactives. En utilisant `XMLHttpRequest`, les promesses, `fetch` et `async/await`, vous pouvez effectuer des opérations réseau sans bloquer l'interface utilisateur, offrant ainsi une meilleure expérience utilisateur.\n\nN'hésitez pas à explorer et à expérimenter ces techniques pour les adapter à vos besoins spécifiques."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3801,34 +3836,31 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAA",
+                        "parent_id": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
                         "finish_details": {
                           "type": "stop",
-                          "stop_tokens": [100260]
+                          "stop_tokens": [200002]
                         },
                         "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee47bada16f5c2-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "89e3467f-1a39-4cfe-840f-2518ac8d6627",
+                    "children": ["aaa2575e-a779-4668-8f1a-e499870b5376"]
                   },
                   {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "id": "aaa2575e-a779-4668-8f1a-e499870b5376",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa2575e-a779-4668-8f1a-e499870b5376",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720255321.17727,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3836,27 +3868,61 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee4c8adf19c7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "71d063fc-a580-4e00-a023-46a0e31d6964",
+                    "children": ["e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0"]
                   },
                   {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                    "id": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720255387.282497,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "### Tutoriel : Les Bases de la Communication Asynchrone en JavaScript avec le Serveur\n\nLa communication asynchrone est une composante essentielle pour les applications web modernes, permettant aux pages de se mettre à jour sans nécessiter de rechargement complet. Ce tutoriel approfondi couvre les techniques modernes et avancées pour réaliser des requêtes HTTP asynchrones avec JavaScript.\n\n### Table des Matières\n\n1. Introduction à la Communication Asynchrone\n2. Utilisation de `XMLHttpRequest`\n3. Introduction aux Promesses\n4. Utilisation de l'API `fetch`\n5. Utilisation de `async/await`\n6. Gestion des Erreurs\n7. Exemples Pratiques\n8. Utilisation Avancée de `fetch` pour les Requêtes Complexes\n9. Interception de Requêtes avec `AbortController`\n10. Gestion de la Réponse\n11. Conclusion\n\n---\n\n### 1. Introduction à la Communication Asynchrone\n\nLa communication asynchrone permet d'exécuter des requêtes HTTP sans interrompre l'interaction de l'utilisateur avec la page. Les techniques principales incluent `XMLHttpRequest`, les Promesses, l'API `fetch`, et `async/await`.\n\n### 2. Utilisation de `XMLHttpRequest`\n\nL'objet `XMLHttpRequest` permet de réaliser des requêtes HTTP asynchrones. Bien que moins courant aujourd'hui avec l'apparition de `fetch`, il reste utile à connaître.\n\n#### Exemple de requête GET\n\n```javascript\nlet xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\nxhr.send();\n```\n\n#### Exemple de requête POST\n\n```javascript\nlet xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://api.example.com/data', true);\nxhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\nxhr.send(JSON.stringify({name: 'John Doe', age: 30}));\n```\n\n### 3. Introduction aux Promesses\n\nLes promesses facilitent la gestion des opérations asynchrones. Une promesse représente une opération qui sera complétée dans le futur.\n\n#### Création et Utilisation de Promesses\n\n```javascript\nlet promise = new Promise((resolve, reject) =\u003e {\n  setTimeout(() =\u003e {\n    resolve('Données reçues');\n  }, 1000);\n});\n\npromise.then(response =\u003e {\n  console.log(response); // \"Données reçues\"\n}).catch(error =\u003e {\n  console.error(error);\n});\n```\n\n### 4. Utilisation de l'API `fetch`\n\nL'API `fetch` offre une interface moderne pour réaliser des requêtes HTTP asynchrones.\n\n#### Requête GET avec `fetch`\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .then(data =\u003e {\n    console.log(data);\n  })\n  .catch(error =\u003e {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n#### Requête POST avec `fetch`\n\n```javascript\nfetch('https://api.example.com/data', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({name: 'John Doe', age: 30})\n})\n.then(response =\u003e {\n  if (!response.ok) {\n    throw new Error('Erreur réseau');\n  }\n  return response.json();\n})\n.then(data =\u003e {\n  console.log('Utilisateur créé:', data);\n})\n.catch(error =\u003e {\n  console.error('Il y a eu un problème avec la requête fetch:', error);\n});\n```\n\n### 5. Utilisation de `async/await`\n\n`async/await` permet de travailler avec des promesses de manière plus synchrone et lisible.\n\n#### Exemple avec `async/await`\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n### 6. Gestion des Erreurs\n\nLa gestion des erreurs est cruciale pour des opérations réseau robustes. Utilisez `try...catch` avec `async/await` ou les méthodes `.catch()` avec les promesses.\n\n#### Gestion des Erreurs avec `fetch`\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .catch(error =\u003e {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n#### Gestion des Erreurs avec `async/await`\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n### 7. Exemples Pratiques\n\n#### Exemple 1 : Requête GET avec `fetch`\n\n```javascript\nasync function getUserData() {\n  try {\n    let response = await fetch('https://api.example.com/user');\n    if (!response.ok) {\n      throw new Error('Erreur lors de la récupération des données utilisateur');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ngetUserData();\n```\n\n#### Exemple 2 : Requête POST avec `fetch`\n\n```javascript\nasync function createUser() {\n  try {\n    let response = await fetch('https://api.example.com/user', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json'\n      },\n      body: JSON.stringify({ name: 'John Doe', age: 30 })\n    });\n    if (!response.ok) {\n      throw new Error('Erreur lors de la création de l\\'utilisateur');\n    }\n    let data = await response.json();\n    console.log('Utilisateur créé:', data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\ncreateUser();\n```\n\n### 8. Utilisation Avancée de `fetch` pour les Requêtes Complexes\n\n#### Requête avec Authentification\n\n```javascript\nasync function fetchProtectedData(token) {\n  try {\n    let response = await fetch('https://api.example.com/protected', {\n      method: 'GET',\n      headers: {\n        'Authorization': `Bearer ${token}`\n      }\n    });\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\nfetchProtectedData('votre-token-jwt');\n```\n\n#### Requête avec Paramètres de Requête\n\n```javascript\nasync function fetchDataWithParams() {\n  try {\n    let url = new URL('https://api.example.com/data');\n    let params = { search: 'query', limit: 10 };\n    Object.keys(params).forEach(key =\u003e url.searchParams.append(key, params[key]));\n    let response = await fetch(url);\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Erreur:', error);\n  }\n}\n\nfetchDataWithParams();\n```\n\n### 9. Interception de Requêtes avec `AbortController`\n\n`AbortController` permet d'annuler des requêtes en cours.\n\n#### Exemple avec `AbortController`\n\n```javascript\nconst controller = new AbortController();\nconst signal = controller.signal;\n\nfetch('https://api.example.com/data', { signal })\n  .then(response =\u003e response.json())\n  .then(data =\u003e console.log(data))\n  .catch(error =\u003e {\n    if (error.name === 'AbortError') {\n      console.log('Requête annulée');\n    } else {\n      console.error('Erreur:', error);\n    }\n  });\n\n// Annuler la requête\ncontroller.abort();\n```\n\n### 10. Gestion de la Réponse\n\n#### Vérification de l'État de la Réponse\n\n```javascript\nasync function fetchData() {\n  try {\n    let response = await fetch('https://api.example.com/data');\n    if (!response.ok) {\n      throw new Error(`Erreur réseau: ${response.status}`);\n    }\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error('Il y a eu un problème avec la requête fetch:', error);\n  }\n}\n\nfetchData();\n```\n\n#### Gestion des Données JSON\n\n```javascript\nfetch('https://api.example.com/data')\n  .then(response =\u003e {\n    if (!response.ok) {\n      throw new Error('Erreur réseau');\n    }\n    return response.json();\n  })\n  .then(data =\u003e {\n    console.log(data);\n  })\n  .catch(error =\u003e {\n    console.error"
+                        ]
+                      },
+                      "status": "finished_partial_completion",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": { "type": "max_tokens" },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAA",
+                        "parent_id": "aaa2575e-a779-4668-8f1a-e499870b5376",
+                        "request_id": "89ee4c8adf19c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa2575e-a779-4668-8f1a-e499870b5376",
+                    "children": ["f04ea41b-a84d-4b20-93df-06f3bed4e9bc"]
+                  },
+                  {
+                    "id": "f04ea41b-a84d-4b20-93df-06f3bed4e9bc",
+                    "message": {
+                      "id": "f04ea41b-a84d-4b20-93df-06f3bed4e9bc",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720255516.757034,
+                      "content": {
+                        "content_type": "text",
+                        "parts": [
+                          "('Il y a eu un problème avec la requête fetch:', error);\n  });\n```\n\n### Conclusion\n\nLa communication asynchrone en JavaScript permet de créer des applications web réactives et fluides. Avec `XMLHttpRequest`, les promesses, `fetch`, et `async/await`, vous pouvez gérer les opérations réseau de manière efficace et moderne. N'oubliez pas d'inclure une gestion robuste des erreurs et d'explorer des techniques avancées telles que `AbortController` pour annuler les requêtes si nécessaire. Continuez à expérimenter et à adapter ces techniques à vos besoins spécifiques pour améliorer l'expérience utilisateur de vos applications web."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3867,35 +3933,32 @@
                         "gizmo_id": null,
                         "finish_details": {
                           "type": "stop",
-                          "stop_tokens": [100260]
+                          "stop_tokens": [200002]
                         },
                         "is_complete": true,
                         "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
+                        "model_slug": "gpt-4o",
                         "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "A",
+                        "parent_id": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
+                        "request_id": "89ee51297a08f5be-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "3fe33402-b040-4442-8b30-595173d7f393"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "e4f3bf49-d7b5-4853-b125-ce55c8f0fbd0",
                     "children": []
                   }
                 ],
                 "has_user_editable_context": false,
-                "continue_conversation_url": "https://chatgpt.com/share/ac74b161-88bd-43d9-8c48-d05d4bac5152/continue",
+                "continue_conversation_url": "https://chatgpt.com/share/3fe33402-b040-4442-8b30-595173d7f393/continue",
                 "model": {
-                  "slug": "text-davinci-002-render-sha",
-                  "max_tokens": 8191,
-                  "title": "Default (GPT-3.5)",
-                  "description": "Our fastest model, great for most everyday tasks.",
-                  "tags": ["gpt3.5"]
+                  "slug": "gpt-4o",
+                  "max_tokens": 32767,
+                  "title": "GPT-4o",
+                  "description": "Newest and most advanced model",
+                  "tags": ["gpt4", "gpt4o"]
                 },
                 "moderation_state": {
                   "has_been_moderated": false,
@@ -3923,7 +3986,7 @@
                   "groups": [],
                   "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
                 },
-                "expires": "2024-10-03T19:01:57.668Z",
+                "expires": "2024-10-04T08:47:54.333Z",
                 "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
                 "authProvider": "login-web"
               },
@@ -3944,7 +4007,7 @@
               "userCountry": "SN",
               "userRegion": "Dakar",
               "userRegionCode": "DK",
-              "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+              "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
               "cfIpLatitude": "14.69350",
               "cfIpLongitude": "-17.44800",
               "cfIpCity": "Dakar",
@@ -5217,6 +5280,29 @@
                       "secondary_exposures": [],
                       "is_user_in_experiment": false,
                       "is_experiment_active": false
+                    },
+                    "186644516": {
+                      "name": "186644516",
+                      "value": {
+                        "is_team_enabled": true,
+                        "is_yearly_plus_subscription_enabled": false,
+                        "is_split_between_personal_and_business_enabled": false,
+                        "is_modal_fullscreen": false
+                      },
+                      "group": "prestart",
+                      "rule_id": "prestart",
+                      "is_device_based": false,
+                      "secondary_exposures": [
+                        {
+                          "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                          "gateValue": "false",
+                          "ruleID": "disabled"
+                        }
+                      ],
+                      "explicit_parameters": ["is_team_enabled"],
+                      "is_user_in_experiment": false,
+                      "is_experiment_active": false,
+                      "is_in_layer": true
                     },
                     "340466392": {
                       "name": "340466392",
@@ -6765,16 +6851,6 @@
                       "is_experiment_active": false,
                       "is_in_layer": true
                     },
-                    "3758099832": {
-                      "name": "3758099832",
-                      "value": {},
-                      "group": "prestart",
-                      "rule_id": "prestart",
-                      "is_device_based": false,
-                      "secondary_exposures": [],
-                      "is_user_in_experiment": false,
-                      "is_experiment_active": false
-                    },
                     "3917128856": {
                       "name": "3917128856",
                       "value": {
@@ -7150,7 +7226,7 @@
                     }
                   },
                   "hash_used": "djb2",
-                  "user_hash": "4043779062"
+                  "user_hash": "660792976"
                 },
                 "user": {
                   "country": "SN",
@@ -7165,7 +7241,7 @@
                     "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                     "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                   },
-                  "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                  "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                   "locale": "fr-FR",
                   "privateAttributes": {
                     "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -7187,7 +7263,7 @@
           "__N_SSP": true
         },
         "page": "/share/[[...shareParams]]",
-        "query": { "shareParams": ["ac74b161-88bd-43d9-8c48-d05d4bac5152"] },
+        "query": { "shareParams": ["3fe33402-b040-4442-8b30-595173d7f393"] },
         "buildId": "8GX1pu3rmPezMCbuo-Xqp",
         "assetPrefix": "https://cdn.oaistatic.com",
         "isFallback": false,

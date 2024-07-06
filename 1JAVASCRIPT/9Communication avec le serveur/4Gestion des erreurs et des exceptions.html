@@ -252,7 +252,7 @@
                 "groups": [],
                 "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
               },
-              "expires": "2024-10-03T19:01:57.668Z",
+              "expires": "2024-10-04T08:59:12.853Z",
               "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
               "authProvider": "login-web"
             },
@@ -273,7 +273,7 @@
             "userCountry": "SN",
             "userRegion": "Dakar",
             "userRegionCode": "DK",
-            "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+            "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
             "cfIpLatitude": "14.69350",
             "cfIpLongitude": "-17.44800",
             "cfIpCity": "Dakar",
@@ -1546,6 +1546,29 @@
                     "secondary_exposures": [],
                     "is_user_in_experiment": false,
                     "is_experiment_active": false
+                  },
+                  "186644516": {
+                    "name": "186644516",
+                    "value": {
+                      "is_team_enabled": true,
+                      "is_yearly_plus_subscription_enabled": false,
+                      "is_split_between_personal_and_business_enabled": false,
+                      "is_modal_fullscreen": false
+                    },
+                    "group": "prestart",
+                    "rule_id": "prestart",
+                    "is_device_based": false,
+                    "secondary_exposures": [
+                      {
+                        "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                        "gateValue": "false",
+                        "ruleID": "disabled"
+                      }
+                    ],
+                    "explicit_parameters": ["is_team_enabled"],
+                    "is_user_in_experiment": false,
+                    "is_experiment_active": false,
+                    "is_in_layer": true
                   },
                   "340466392": {
                     "name": "340466392",
@@ -3092,16 +3115,6 @@
                     "is_experiment_active": false,
                     "is_in_layer": true
                   },
-                  "3758099832": {
-                    "name": "3758099832",
-                    "value": {},
-                    "group": "prestart",
-                    "rule_id": "prestart",
-                    "is_device_based": false,
-                    "secondary_exposures": [],
-                    "is_user_in_experiment": false,
-                    "is_experiment_active": false
-                  },
                   "3917128856": {
                     "name": "3917128856",
                     "value": {
@@ -3477,7 +3490,7 @@
                   }
                 },
                 "hash_used": "djb2",
-                "user_hash": "4043779062"
+                "user_hash": "660792976"
               },
               "user": {
                 "country": "SN",
@@ -3492,7 +3505,7 @@
                   "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                   "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                 },
-                "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                 "locale": "fr-FR",
                 "privateAttributes": {
                   "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -3507,24 +3520,24 @@
             "ageVerificationDeadline": null,
             "ageVerificationType": "none",
             "logOutUser": false,
-            "sharedConversationId": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+            "sharedConversationId": "9c82126c-b9f8-4afe-b299-8545428733d1",
             "serverResponse": {
               "type": "data",
               "data": {
-                "title": "Événements personnalisés en JS",
-                "create_time": 1720205825.775834,
-                "update_time": 1720205900,
+                "title": "Gestion des Erreurs AJAX",
+                "create_time": 1720256337.302853,
+                "update_time": 1720256340,
                 "mapping": {
-                  "afffd1c4-f386-418b-a75f-3515d1394f2d": {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                  "1abce879-eb43-4235-b3d7-9b7fbb11edbe": {
+                    "id": "1abce879-eb43-4235-b3d7-9b7fbb11edbe",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "1abce879-eb43-4235-b3d7-9b7fbb11edbe",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720256293.680931,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "### Tutoriel Approfondi : Gestion des Erreurs et des Exceptions en Communication avec le Serveur en JavaScript\n\nDans ce tutoriel approfondi, nous allons explorer en détail comment gérer de manière avancée les erreurs et les exceptions lors de la communication avec un serveur en JavaScript. Nous aborderons des techniques avancées et des cas spécifiques pour assurer une gestion robuste des erreurs dans vos applications web.\n\n#### 1. Gestion Avancée des Erreurs avec Fetch API\n\nLa Fetch API offre une syntaxe moderne et asynchrone pour effectuer des requêtes réseau. Voici quelques pratiques avancées pour gérer les erreurs avec Fetch :\n\n##### Utilisation de Promesses et Async/Await\n\n```javascript\nasync function fetchData() {\n  try {\n    const response = await fetch('/endpoint');\n    if (!response.ok) {\n      throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n    }\n    const data = await response.json();\n    console.log('Réponse reçue : ', data);\n  } catch (error) {\n    console.error('Une erreur s\\'est produite : ', error);\n  }\n}\n\nfetchData();\n```\n\n- **Async/Await :** Utilisez async/await pour rendre le code asynchrone plus lisible et gérer les erreurs de manière synchrone.\n\n##### Gestion des Délais et des Retentatives\n\n```javascript\nasync function fetchDataWithRetry() {\n  const maxRetries = 3;\n  let retries = 0;\n  while (retries \u003c maxRetries) {\n    try {\n      const response = await fetch('/endpoint');\n      if (!response.ok) {\n        throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n      }\n      const data = await response.json();\n      console.log('Réponse reçue : ', data);\n      return; // Sortie de la fonction si succès\n    } catch (error) {\n      console.error('Erreur de requête : ', error);\n      retries++;\n      await new Promise(resolve =\u003e setTimeout(resolve, 1000)); // Délai de 1 seconde entre les retentatives\n    }\n  }\n  console.error('La requête a échoué après plusieurs tentatives');\n}\n\nfetchDataWithRetry();\n```\n\n- **Retentatives :** Implémentez des retentatives automatiques pour les requêtes échouées, avec un délai entre chaque tentative pour éviter les surcharges.\n\n#### 2. Gestion des Erreurs Spécifiques et Personnalisées\n\nLorsque vous communiquez avec un serveur, il est courant de rencontrer des erreurs spécifiques qui nécessitent une gestion différente. Par exemple, si votre serveur renvoie des erreurs personnalisées avec des détails spécifiques, vous pouvez les gérer de manière appropriée côté client :\n\n```javascript\nfetch('/endpoint')\n  .then(function(response) {\n    if (!response.ok) {\n      if (response.status === 404) {\n        throw new Error('Ressource non trouvée');\n      } else if (response.status === 401) {\n        throw new Error('Non autorisé - Veuillez vous connecter');\n      } else {\n        throw new Error('Erreur inattendue : ' + response.statusText);\n      }\n    }\n    return response.json();\n  })\n  .then(function(data) {\n    console.log('Réponse reçue : ', data);\n  })\n  .catch(function(error) {\n    console.error('Une erreur s\\'est produite : ', error.message);\n  });\n```\n\n- **Gestion des Codes d'Erreur :** Traitez les différents codes de statut HTTP de manière appropriée pour une expérience utilisateur améliorée.\n\n#### 3. Logging et Reporting des Erreurs\n\nPour le débogage et l'amélioration continue de vos applications, il est essentiel de logger et de rapporter les erreurs côté client :\n\n```javascript\nfunction logError(error) {\n  // Enregistrez les détails de l'erreur dans votre système de logs ou utilisez un service de logging tiers\n  console.error('Erreur : ', error);\n}\n\nfetch('/endpoint')\n  .then(function(response) {\n    if (!response.ok) {\n      throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n    }\n    return response.json();\n  })\n  .then(function(data) {\n    console.log('Réponse reçue : ', data);\n  })\n  .catch(function(error) {\n    logError(error);\n    console.error('Une erreur s\\'est produite : ', error.message);\n  });\n```\n\n- **Service de Logging :** Intégrez un service de logging comme Sentry, Loggly, ou utilisez votre propre système pour enregistrer les erreurs client de manière centralisée.\n\n#### 4. Optimisation des Performances et Gestion des Erreurs\n\nPour les applications à haute performance, optimisez la gestion des erreurs pour minimiser l'impact sur les performances :\n\n- **Gestion des Exceptions Légères :** Utilisez des messages d'erreur légers pour éviter les surcharges réseau inutiles.\n- **Optimisation des Requêtes :** Limitez le nombre de requêtes réseau et les données échangées pour réduire les chances d'erreurs.\n\n#### Conclusion\n\nLa gestion avancée des erreurs en communication avec un serveur en JavaScript nécessite une combinaison de bonnes pratiques, de techniques de gestion des exceptions, et de considérations spécifiques à votre application. En suivant ces pratiques, vous pouvez améliorer la fiabilité et la robustesse de vos applications web, tout en offrant une meilleure expérience utilisateur.\n\nCe tutoriel couvre des aspects avancés de la gestion des erreurs en communication avec le serveur en JavaScript. Pour des cas spécifiques ou des scénarios plus complexes, adaptez ces concepts en fonction des besoins de votre projet et des retours d'erreurs rencontrés.\n\n---\n\nJ'espère que ce tutoriel approfondi répond à vos attentes ! N'hésitez pas à me poser d'autres questions si vous avez besoin de plus d'informations."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3533,98 +3546,34 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAA",
+                        "parent_id": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee63dd983dc7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
                     "children": []
                   },
-                  "aaa22ef0-bd30-49c3-b53a-d0352d3476d9": {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                  "9cc20f5f-ec46-461e-89bf-bd641762dfcb": {
+                    "id": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                      "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
-                      "content": {
-                        "content_type": "text",
-                        "parts": ["donnez encore plus d'approfondissment."]
-                      },
-                      "status": "finished_successfully",
-                      "weight": 1,
-                      "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
-                        "message_source": null,
-                        "timestamp_": "absolute",
-                        "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
-                  },
-                  "56de34e7-fe55-46c0-b865-b6cf3dc24a48": {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
-                      "content": {
-                        "content_type": "text",
-                        "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
-                        ]
-                      },
-                      "status": "finished_successfully",
-                      "end_turn": true,
-                      "weight": 1,
-                      "metadata": {
-                        "citations": [],
-                        "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
-                        "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
-                  },
-                  "b979367e-e0bb-46ad-86af-93cb1348942a": {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                      "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720256293.680879,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3638,47 +3587,215 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
+                        "request_id": "89ee63dd983dc7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
+                    "children": ["1abce879-eb43-4235-b3d7-9b7fbb11edbe"]
                   },
-                  "aaa227f6-5254-4482-a596-63335581d790": {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                  "aaa2b689-bca5-4e21-b0fb-e71b827e7577": {
+                    "id": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720256276.438571,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["donnez encore plus d'approfondissment."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "request_id": "89ee63dd983dc7a4-DKR",
+                        "message_source": null,
+                        "timestamp_": "absolute",
+                        "message_type": null,
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "c0f5f935-20f3-4215-b81f-5baba9301a13",
+                    "children": ["9cc20f5f-ec46-461e-89bf-bd641762dfcb"]
+                  },
+                  "c0f5f935-20f3-4215-b81f-5baba9301a13": {
+                    "id": "c0f5f935-20f3-4215-b81f-5baba9301a13",
+                    "message": {
+                      "id": "c0f5f935-20f3-4215-b81f-5baba9301a13",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256273.404051,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "### Tutoriel : Gestion des Erreurs et des Exceptions en Communication avec le Serveur en JavaScript\n\nLorsque vous effectuez des requêtes vers un serveur depuis une application web en JavaScript, il est crucial de gérer correctement les erreurs et les exceptions. Cela garantit une meilleure robustesse et une expérience utilisateur plus fluide. Dans ce tutoriel, nous allons explorer les meilleures pratiques pour gérer les erreurs et les exceptions lors de la communication avec un serveur en utilisant JavaScript.\n\n#### 1. Utilisation de XMLHttpRequest (XHR) ou Fetch API\n\nAvant d'explorer la gestion des erreurs, assurons-nous de comprendre comment effectuer une requête AJAX en JavaScript. Deux méthodes principales sont couramment utilisées : XMLHttpRequest (XHR) et Fetch API. Voici comment elles fonctionnent :\n\n##### Utilisation de XMLHttpRequest (XHR)\n\n```javascript\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', '/endpoint', true);\n\nxhr.onload = function() {\n  if (xhr.status \u003e= 200 \u0026\u0026 xhr.status \u003c 300) {\n    // Succès de la requête\n    console.log('Réponse reçue : ' + xhr.responseText);\n  } else {\n    // Gestion des erreurs HTTP\n    console.error('La requête a échoué avec un statut HTTP : ' + xhr.status);\n  }\n};\n\nxhr.onerror = function() {\n  // Gestion des erreurs de réseau\n  console.error('Une erreur de réseau s\\'est produite');\n};\n\nxhr.send();\n```\n\n##### Utilisation de Fetch API\n\n```javascript\nfetch('/endpoint')\n  .then(function(response) {\n    if (!response.ok) {\n      throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n    }\n    return response.json();\n  })\n  .then(function(data) {\n    // Traitement des données\n    console.log('Réponse reçue : ', data);\n  })\n  .catch(function(error) {\n    // Gestion des erreurs\n    console.error('Une erreur s\\'est produite : ', error);\n  });\n```\n\n#### 2. Gestion des Erreurs et Exceptions\n\nMaintenant, voyons comment gérer spécifiquement les erreurs et exceptions dans ces deux approches :\n\n##### Gestion des Erreurs avec XMLHttpRequest (XHR)\n\n- **xhr.onerror :** Cette méthode est appelée en cas d'erreur réseau ou si la requête échoue pour une raison quelconque.\n- **xhr.onload :** Ici, nous vérifions le statut HTTP de la réponse pour déterminer si la requête a réussi ou non.\n\n##### Gestion des Erreurs avec Fetch API\n\n- **response.ok :** Vérifie si la réponse est dans la plage de statut HTTP 200-299. Sinon, une erreur est lancée.\n- **.catch() :** Capture toutes les erreurs survenues lors de la requête ou du traitement de la réponse.\n\n#### 3. Types d'Erreurs Communes à Gérer\n\nVoici quelques types d'erreurs courantes à considérer lors de la gestion des erreurs en communication avec un serveur :\n\n- **Erreurs réseau :** Problèmes de connectivité, déconnexion ou erreurs DNS.\n- **Erreurs HTTP :** Statuts HTTP comme 404 (non trouvé), 500 (erreur interne du serveur), etc.\n- **Erreurs de parsing :** Échecs lors de l'interprétation de la réponse (par exemple, JSON mal formé).\n- **Exceptions côté serveur :** Réponses personnalisées du serveur pour des erreurs spécifiques.\n\n#### 4. Stratégies de Gestion Avancée\n\nPour une gestion des erreurs plus avancée et robuste, vous pouvez envisager les techniques suivantes :\n\n- **Logging :** Enregistrez les détails des erreurs côté client pour le débogage.\n- **Retentatives automatiques :** Retry automatiquement les requêtes échouées après une courte période.\n- **Messages d'erreur conviviaux :** Affichez des messages d'erreur compréhensibles pour les utilisateurs finaux.\n\n#### Conclusion\n\nEn suivant ces bonnes pratiques, vous pouvez améliorer la fiabilité et la résilience de vos applications web JavaScript lors de la communication avec un serveur. La gestion appropriée des erreurs et des exceptions garantit une expérience utilisateur améliorée et réduit les temps d'arrêt inattendus.\n\nCe tutoriel couvre les bases de la gestion des erreurs en communication avec le serveur en JavaScript. N'hésitez pas à l'adapter en fonction des besoins spécifiques de votre application et des environnements de développement.\n\n---\n\nJ'espère que ce tutoriel vous sera utile ! Si vous avez d'autres questions ou besoin de clarifications supplémentaires, n'hésitez pas à demander."
+                        ]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": true,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAAAAA",
+                        "parent_id": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                        "request_id": "89ee6373bd04c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                    "children": ["aaa2b689-bca5-4e21-b0fb-e71b827e7577"]
+                  },
+                  "9631f98a-59b7-42d6-a66d-163d42a811da": {
+                    "id": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                    "message": {
+                      "id": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720256273.404012,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
+                        "request_id": "89ee6373bd04c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
+                    "children": ["c0f5f935-20f3-4215-b81f-5baba9301a13"]
+                  },
+                  "77aa24a7-4c90-425f-aeb2-d50cc086fb96": {
+                    "id": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
+                    "message": {
+                      "id": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256273.403973,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
+                        "request_id": "89ee6373bd04c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
+                    "children": ["9631f98a-59b7-42d6-a66d-163d42a811da"]
+                  },
+                  "f3e56488-b79f-4d1c-9170-f0cb282645ea": {
+                    "id": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
+                    "message": {
+                      "id": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256273.40392,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
+                        "request_id": "89ee6373bd04c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
+                    "children": ["77aa24a7-4c90-425f-aeb2-d50cc086fb96"]
+                  },
+                  "aaa2e446-9232-4548-af8c-9b8b0df36a10": {
+                    "id": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
+                    "message": {
+                      "id": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
+                      "author": { "role": "user", "metadata": {} },
+                      "create_time": 1720256259.422418,
+                      "content": {
+                        "content_type": "text",
+                        "parts": [
+                          "rédigez un tuto complet : Gestion des erreurs et des exceptions en Communication avec le serveur en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee6373bd04c7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db",
+                    "children": ["f3e56488-b79f-4d1c-9170-f0cb282645ea"]
                   },
-                  "ab868a83-7f8c-467e-9846-079b671b5b91": {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                  "f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db": {
+                    "id": "f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3686,33 +3803,33 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1b9ca-e0cb-4e6a-bced-591aea03cf6f",
+                    "children": ["aaa2e446-9232-4548-af8c-9b8b0df36a10"]
                   },
-                  "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa": {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                  "aaa1b9ca-e0cb-4e6a-bced-591aea03cf6f": {
+                    "id": "aaa1b9ca-e0cb-4e6a-bced-591aea03cf6f",
+                    "children": ["f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db"]
                   }
                 },
                 "moderation_results": [],
-                "current_node": "afffd1c4-f386-418b-a75f-3515d1394f2d",
-                "conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                "current_node": "1abce879-eb43-4235-b3d7-9b7fbb11edbe",
+                "conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
                 "is_archived": false,
                 "safe_urls": [],
                 "is_public": true,
                 "linear_conversation": [
                   {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                    "id": "aaa1b9ca-e0cb-4e6a-bced-591aea03cf6f",
+                    "children": ["f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db"]
                   },
                   {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                    "id": "f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3720,45 +3837,45 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1b9ca-e0cb-4e6a-bced-591aea03cf6f",
+                    "children": ["aaa2e446-9232-4548-af8c-9b8b0df36a10"]
                   },
                   {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                    "id": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720256259.422418,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : Gestion des erreurs et des exceptions en Communication avec le serveur en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee6373bd04c7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "f9ec6ea9-db33-48fa-bb1f-c7543d0cd8db",
+                    "children": ["f3e56488-b79f-4d1c-9170-f0cb282645ea"]
                   },
                   {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                    "id": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720256273.40392,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3772,27 +3889,101 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
+                        "request_id": "89ee6373bd04c7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa2e446-9232-4548-af8c-9b8b0df36a10",
+                    "children": ["77aa24a7-4c90-425f-aeb2-d50cc086fb96"]
                   },
                   {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                    "id": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720256273.403973,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
+                        "request_id": "89ee6373bd04c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "f3e56488-b79f-4d1c-9170-f0cb282645ea",
+                    "children": ["9631f98a-59b7-42d6-a66d-163d42a811da"]
+                  },
+                  {
+                    "id": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                    "message": {
+                      "id": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720256273.404012,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
+                        "request_id": "89ee6373bd04c7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "77aa24a7-4c90-425f-aeb2-d50cc086fb96",
+                    "children": ["c0f5f935-20f3-4215-b81f-5baba9301a13"]
+                  },
+                  {
+                    "id": "c0f5f935-20f3-4215-b81f-5baba9301a13",
+                    "message": {
+                      "id": "c0f5f935-20f3-4215-b81f-5baba9301a13",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256273.404051,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "### Tutoriel : Gestion des Erreurs et des Exceptions en Communication avec le Serveur en JavaScript\n\nLorsque vous effectuez des requêtes vers un serveur depuis une application web en JavaScript, il est crucial de gérer correctement les erreurs et les exceptions. Cela garantit une meilleure robustesse et une expérience utilisateur plus fluide. Dans ce tutoriel, nous allons explorer les meilleures pratiques pour gérer les erreurs et les exceptions lors de la communication avec un serveur en utilisant JavaScript.\n\n#### 1. Utilisation de XMLHttpRequest (XHR) ou Fetch API\n\nAvant d'explorer la gestion des erreurs, assurons-nous de comprendre comment effectuer une requête AJAX en JavaScript. Deux méthodes principales sont couramment utilisées : XMLHttpRequest (XHR) et Fetch API. Voici comment elles fonctionnent :\n\n##### Utilisation de XMLHttpRequest (XHR)\n\n```javascript\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', '/endpoint', true);\n\nxhr.onload = function() {\n  if (xhr.status \u003e= 200 \u0026\u0026 xhr.status \u003c 300) {\n    // Succès de la requête\n    console.log('Réponse reçue : ' + xhr.responseText);\n  } else {\n    // Gestion des erreurs HTTP\n    console.error('La requête a échoué avec un statut HTTP : ' + xhr.status);\n  }\n};\n\nxhr.onerror = function() {\n  // Gestion des erreurs de réseau\n  console.error('Une erreur de réseau s\\'est produite');\n};\n\nxhr.send();\n```\n\n##### Utilisation de Fetch API\n\n```javascript\nfetch('/endpoint')\n  .then(function(response) {\n    if (!response.ok) {\n      throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n    }\n    return response.json();\n  })\n  .then(function(data) {\n    // Traitement des données\n    console.log('Réponse reçue : ', data);\n  })\n  .catch(function(error) {\n    // Gestion des erreurs\n    console.error('Une erreur s\\'est produite : ', error);\n  });\n```\n\n#### 2. Gestion des Erreurs et Exceptions\n\nMaintenant, voyons comment gérer spécifiquement les erreurs et exceptions dans ces deux approches :\n\n##### Gestion des Erreurs avec XMLHttpRequest (XHR)\n\n- **xhr.onerror :** Cette méthode est appelée en cas d'erreur réseau ou si la requête échoue pour une raison quelconque.\n- **xhr.onload :** Ici, nous vérifions le statut HTTP de la réponse pour déterminer si la requête a réussi ou non.\n\n##### Gestion des Erreurs avec Fetch API\n\n- **response.ok :** Vérifie si la réponse est dans la plage de statut HTTP 200-299. Sinon, une erreur est lancée.\n- **.catch() :** Capture toutes les erreurs survenues lors de la requête ou du traitement de la réponse.\n\n#### 3. Types d'Erreurs Communes à Gérer\n\nVoici quelques types d'erreurs courantes à considérer lors de la gestion des erreurs en communication avec un serveur :\n\n- **Erreurs réseau :** Problèmes de connectivité, déconnexion ou erreurs DNS.\n- **Erreurs HTTP :** Statuts HTTP comme 404 (non trouvé), 500 (erreur interne du serveur), etc.\n- **Erreurs de parsing :** Échecs lors de l'interprétation de la réponse (par exemple, JSON mal formé).\n- **Exceptions côté serveur :** Réponses personnalisées du serveur pour des erreurs spécifiques.\n\n#### 4. Stratégies de Gestion Avancée\n\nPour une gestion des erreurs plus avancée et robuste, vous pouvez envisager les techniques suivantes :\n\n- **Logging :** Enregistrez les détails des erreurs côté client pour le débogage.\n- **Retentatives automatiques :** Retry automatiquement les requêtes échouées après une courte période.\n- **Messages d'erreur conviviaux :** Affichez des messages d'erreur compréhensibles pour les utilisateurs finaux.\n\n#### Conclusion\n\nEn suivant ces bonnes pratiques, vous pouvez améliorer la fiabilité et la résilience de vos applications web JavaScript lors de la communication avec un serveur. La gestion appropriée des erreurs et des exceptions garantit une expérience utilisateur améliorée et réduit les temps d'arrêt inattendus.\n\nCe tutoriel couvre les bases de la gestion des erreurs en communication avec le serveur en JavaScript. N'hésitez pas à l'adapter en fonction des besoins spécifiques de votre application et des environnements de développement.\n\n---\n\nJ'espère que ce tutoriel vous sera utile ! Si vous avez d'autres questions ou besoin de clarifications supplémentaires, n'hésitez pas à demander."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3812,23 +4003,23 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "pad": "AAAAAAA",
+                        "parent_id": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                        "request_id": "89ee6373bd04c7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "9631f98a-59b7-42d6-a66d-163d42a811da",
+                    "children": ["aaa2b689-bca5-4e21-b0fb-e71b827e7577"]
                   },
                   {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "id": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720256276.438571,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3836,27 +4027,57 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee63dd983dc7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "c0f5f935-20f3-4215-b81f-5baba9301a13",
+                    "children": ["9cc20f5f-ec46-461e-89bf-bd641762dfcb"]
                   },
                   {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                    "id": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720256293.680879,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
+                        "request_id": "89ee63dd983dc7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa2b689-bca5-4e21-b0fb-e71b827e7577",
+                    "children": ["1abce879-eb43-4235-b3d7-9b7fbb11edbe"]
+                  },
+                  {
+                    "id": "1abce879-eb43-4235-b3d7-9b7fbb11edbe",
+                    "message": {
+                      "id": "1abce879-eb43-4235-b3d7-9b7fbb11edbe",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720256293.680931,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "### Tutoriel Approfondi : Gestion des Erreurs et des Exceptions en Communication avec le Serveur en JavaScript\n\nDans ce tutoriel approfondi, nous allons explorer en détail comment gérer de manière avancée les erreurs et les exceptions lors de la communication avec un serveur en JavaScript. Nous aborderons des techniques avancées et des cas spécifiques pour assurer une gestion robuste des erreurs dans vos applications web.\n\n#### 1. Gestion Avancée des Erreurs avec Fetch API\n\nLa Fetch API offre une syntaxe moderne et asynchrone pour effectuer des requêtes réseau. Voici quelques pratiques avancées pour gérer les erreurs avec Fetch :\n\n##### Utilisation de Promesses et Async/Await\n\n```javascript\nasync function fetchData() {\n  try {\n    const response = await fetch('/endpoint');\n    if (!response.ok) {\n      throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n    }\n    const data = await response.json();\n    console.log('Réponse reçue : ', data);\n  } catch (error) {\n    console.error('Une erreur s\\'est produite : ', error);\n  }\n}\n\nfetchData();\n```\n\n- **Async/Await :** Utilisez async/await pour rendre le code asynchrone plus lisible et gérer les erreurs de manière synchrone.\n\n##### Gestion des Délais et des Retentatives\n\n```javascript\nasync function fetchDataWithRetry() {\n  const maxRetries = 3;\n  let retries = 0;\n  while (retries \u003c maxRetries) {\n    try {\n      const response = await fetch('/endpoint');\n      if (!response.ok) {\n        throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n      }\n      const data = await response.json();\n      console.log('Réponse reçue : ', data);\n      return; // Sortie de la fonction si succès\n    } catch (error) {\n      console.error('Erreur de requête : ', error);\n      retries++;\n      await new Promise(resolve =\u003e setTimeout(resolve, 1000)); // Délai de 1 seconde entre les retentatives\n    }\n  }\n  console.error('La requête a échoué après plusieurs tentatives');\n}\n\nfetchDataWithRetry();\n```\n\n- **Retentatives :** Implémentez des retentatives automatiques pour les requêtes échouées, avec un délai entre chaque tentative pour éviter les surcharges.\n\n#### 2. Gestion des Erreurs Spécifiques et Personnalisées\n\nLorsque vous communiquez avec un serveur, il est courant de rencontrer des erreurs spécifiques qui nécessitent une gestion différente. Par exemple, si votre serveur renvoie des erreurs personnalisées avec des détails spécifiques, vous pouvez les gérer de manière appropriée côté client :\n\n```javascript\nfetch('/endpoint')\n  .then(function(response) {\n    if (!response.ok) {\n      if (response.status === 404) {\n        throw new Error('Ressource non trouvée');\n      } else if (response.status === 401) {\n        throw new Error('Non autorisé - Veuillez vous connecter');\n      } else {\n        throw new Error('Erreur inattendue : ' + response.statusText);\n      }\n    }\n    return response.json();\n  })\n  .then(function(data) {\n    console.log('Réponse reçue : ', data);\n  })\n  .catch(function(error) {\n    console.error('Une erreur s\\'est produite : ', error.message);\n  });\n```\n\n- **Gestion des Codes d'Erreur :** Traitez les différents codes de statut HTTP de manière appropriée pour une expérience utilisateur améliorée.\n\n#### 3. Logging et Reporting des Erreurs\n\nPour le débogage et l'amélioration continue de vos applications, il est essentiel de logger et de rapporter les erreurs côté client :\n\n```javascript\nfunction logError(error) {\n  // Enregistrez les détails de l'erreur dans votre système de logs ou utilisez un service de logging tiers\n  console.error('Erreur : ', error);\n}\n\nfetch('/endpoint')\n  .then(function(response) {\n    if (!response.ok) {\n      throw new Error('La requête a échoué avec un statut HTTP : ' + response.status);\n    }\n    return response.json();\n  })\n  .then(function(data) {\n    console.log('Réponse reçue : ', data);\n  })\n  .catch(function(error) {\n    logError(error);\n    console.error('Une erreur s\\'est produite : ', error.message);\n  });\n```\n\n- **Service de Logging :** Intégrez un service de logging comme Sentry, Loggly, ou utilisez votre propre système pour enregistrer les erreurs client de manière centralisée.\n\n#### 4. Optimisation des Performances et Gestion des Erreurs\n\nPour les applications à haute performance, optimisez la gestion des erreurs pour minimiser l'impact sur les performances :\n\n- **Gestion des Exceptions Légères :** Utilisez des messages d'erreur légers pour éviter les surcharges réseau inutiles.\n- **Optimisation des Requêtes :** Limitez le nombre de requêtes réseau et les données échangées pour réduire les chances d'erreurs.\n\n#### Conclusion\n\nLa gestion avancée des erreurs en communication avec un serveur en JavaScript nécessite une combinaison de bonnes pratiques, de techniques de gestion des exceptions, et de considérations spécifiques à votre application. En suivant ces pratiques, vous pouvez améliorer la fiabilité et la robustesse de vos applications web, tout en offrant une meilleure expérience utilisateur.\n\nCe tutoriel couvre des aspects avancés de la gestion des erreurs en communication avec le serveur en JavaScript. Pour des cas spécifiques ou des scénarios plus complexes, adaptez ces concepts en fonction des besoins de votre projet et des retours d'erreurs rencontrés.\n\n---\n\nJ'espère que ce tutoriel approfondi répond à vos attentes ! N'hésitez pas à me poser d'autres questions si vous avez besoin de plus d'informations."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3865,31 +4086,31 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAA",
+                        "parent_id": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee63dd983dc7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "9c82126c-b9f8-4afe-b299-8545428733d1"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "9cc20f5f-ec46-461e-89bf-bd641762dfcb",
                     "children": []
                   }
                 ],
                 "has_user_editable_context": false,
-                "continue_conversation_url": "https://chatgpt.com/share/ac74b161-88bd-43d9-8c48-d05d4bac5152/continue",
+                "continue_conversation_url": "https://chatgpt.com/share/9c82126c-b9f8-4afe-b299-8545428733d1/continue",
                 "model": {
                   "slug": "text-davinci-002-render-sha",
                   "max_tokens": 8191,
@@ -3923,7 +4144,7 @@
                   "groups": [],
                   "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
                 },
-                "expires": "2024-10-03T19:01:57.668Z",
+                "expires": "2024-10-04T08:59:12.853Z",
                 "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
                 "authProvider": "login-web"
               },
@@ -3944,7 +4165,7 @@
               "userCountry": "SN",
               "userRegion": "Dakar",
               "userRegionCode": "DK",
-              "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+              "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
               "cfIpLatitude": "14.69350",
               "cfIpLongitude": "-17.44800",
               "cfIpCity": "Dakar",
@@ -5217,6 +5438,29 @@
                       "secondary_exposures": [],
                       "is_user_in_experiment": false,
                       "is_experiment_active": false
+                    },
+                    "186644516": {
+                      "name": "186644516",
+                      "value": {
+                        "is_team_enabled": true,
+                        "is_yearly_plus_subscription_enabled": false,
+                        "is_split_between_personal_and_business_enabled": false,
+                        "is_modal_fullscreen": false
+                      },
+                      "group": "prestart",
+                      "rule_id": "prestart",
+                      "is_device_based": false,
+                      "secondary_exposures": [
+                        {
+                          "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                          "gateValue": "false",
+                          "ruleID": "disabled"
+                        }
+                      ],
+                      "explicit_parameters": ["is_team_enabled"],
+                      "is_user_in_experiment": false,
+                      "is_experiment_active": false,
+                      "is_in_layer": true
                     },
                     "340466392": {
                       "name": "340466392",
@@ -6765,16 +7009,6 @@
                       "is_experiment_active": false,
                       "is_in_layer": true
                     },
-                    "3758099832": {
-                      "name": "3758099832",
-                      "value": {},
-                      "group": "prestart",
-                      "rule_id": "prestart",
-                      "is_device_based": false,
-                      "secondary_exposures": [],
-                      "is_user_in_experiment": false,
-                      "is_experiment_active": false
-                    },
                     "3917128856": {
                       "name": "3917128856",
                       "value": {
@@ -7150,7 +7384,7 @@
                     }
                   },
                   "hash_used": "djb2",
-                  "user_hash": "4043779062"
+                  "user_hash": "660792976"
                 },
                 "user": {
                   "country": "SN",
@@ -7165,7 +7399,7 @@
                     "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                     "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                   },
-                  "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                  "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                   "locale": "fr-FR",
                   "privateAttributes": {
                     "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -7187,7 +7421,7 @@
           "__N_SSP": true
         },
         "page": "/share/[[...shareParams]]",
-        "query": { "shareParams": ["ac74b161-88bd-43d9-8c48-d05d4bac5152"] },
+        "query": { "shareParams": ["9c82126c-b9f8-4afe-b299-8545428733d1"] },
         "buildId": "8GX1pu3rmPezMCbuo-Xqp",
         "assetPrefix": "https://cdn.oaistatic.com",
         "isFallback": false,

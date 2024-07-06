@@ -252,7 +252,7 @@
                 "groups": [],
                 "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
               },
-              "expires": "2024-10-03T19:01:57.668Z",
+              "expires": "2024-10-04T09:19:00.396Z",
               "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
               "authProvider": "login-web"
             },
@@ -273,7 +273,7 @@
             "userCountry": "SN",
             "userRegion": "Dakar",
             "userRegionCode": "DK",
-            "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+            "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
             "cfIpLatitude": "14.69350",
             "cfIpLongitude": "-17.44800",
             "cfIpCity": "Dakar",
@@ -1546,6 +1546,29 @@
                     "secondary_exposures": [],
                     "is_user_in_experiment": false,
                     "is_experiment_active": false
+                  },
+                  "186644516": {
+                    "name": "186644516",
+                    "value": {
+                      "is_team_enabled": true,
+                      "is_yearly_plus_subscription_enabled": false,
+                      "is_split_between_personal_and_business_enabled": false,
+                      "is_modal_fullscreen": false
+                    },
+                    "group": "prestart",
+                    "rule_id": "prestart",
+                    "is_device_based": false,
+                    "secondary_exposures": [
+                      {
+                        "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                        "gateValue": "false",
+                        "ruleID": "disabled"
+                      }
+                    ],
+                    "explicit_parameters": ["is_team_enabled"],
+                    "is_user_in_experiment": false,
+                    "is_experiment_active": false,
+                    "is_in_layer": true
                   },
                   "340466392": {
                     "name": "340466392",
@@ -3092,16 +3115,6 @@
                     "is_experiment_active": false,
                     "is_in_layer": true
                   },
-                  "3758099832": {
-                    "name": "3758099832",
-                    "value": {},
-                    "group": "prestart",
-                    "rule_id": "prestart",
-                    "is_device_based": false,
-                    "secondary_exposures": [],
-                    "is_user_in_experiment": false,
-                    "is_experiment_active": false
-                  },
                   "3917128856": {
                     "name": "3917128856",
                     "value": {
@@ -3477,7 +3490,7 @@
                   }
                 },
                 "hash_used": "djb2",
-                "user_hash": "4043779062"
+                "user_hash": "660792976"
               },
               "user": {
                 "country": "SN",
@@ -3492,7 +3505,7 @@
                   "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                   "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                 },
-                "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                 "locale": "fr-FR",
                 "privateAttributes": {
                   "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -3507,24 +3520,24 @@
             "ageVerificationDeadline": null,
             "ageVerificationType": "none",
             "logOutUser": false,
-            "sharedConversationId": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+            "sharedConversationId": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
             "serverResponse": {
               "type": "data",
               "data": {
-                "title": "Événements personnalisés en JS",
-                "create_time": 1720205825.775834,
-                "update_time": 1720205900,
+                "title": "IndexedDB: Tutorial complet JavaScript",
+                "create_time": 1720257507.444533,
+                "update_time": 1720257510,
                 "mapping": {
-                  "afffd1c4-f386-418b-a75f-3515d1394f2d": {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                  "c0a80aac-6934-4d82-89df-0d3d0e1fc765": {
+                    "id": "c0a80aac-6934-4d82-89df-0d3d0e1fc765",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "c0a80aac-6934-4d82-89df-0d3d0e1fc765",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720257435.753406,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "Pour approfondir davantage votre compréhension de IndexedDB et son utilisation avancée, nous allons explorer quelques concepts et techniques supplémentaires :\n\n### Concepts Avancés de IndexedDB\n\n1. **Utilisation des Index**\n\n   Les index permettent d'optimiser les requêtes de recherche dans votre base de données. Voici comment créer et utiliser un index dans IndexedDB :\n\n   ```javascript\n   // Création d'un index sur un champ spécifique\n   let objectStore = db.createObjectStore('MaObjectStore', { keyPath: 'id' });\n   objectStore.createIndex('nomIndex', 'nom', { unique: false });\n\n   // Utilisation de l'index pour une requête\n   let transaction = db.transaction(['MaObjectStore'], 'readonly');\n   let objectStore = transaction.objectStore('MaObjectStore');\n   let index = objectStore.index('nomIndex');\n   let request = index.get('John Doe');\n   ```\n\n2. **Utilisation de Transactions Avancées**\n\n   Les transactions avancées permettent de gérer plusieurs opérations atomiquement, assurant la cohérence des données :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   transaction.oncomplete = function(event) {\n       console.log('Transaction terminée avec succès');\n   };\n   transaction.onerror = function(event) {\n       console.error('Erreur lors de la transaction:', event.target.errorCode);\n   };\n\n   // Ajouter des données\n   let objectStore = transaction.objectStore('MaObjectStore');\n   objectStore.add({ id: 2, nom: 'Jane Doe', email: 'jane@example.com' });\n   ```\n\n3. **Gestion des Versions de Base de Données**\n\n   IndexedDB prend en charge la gestion des versions de base de données. Vous pouvez mettre à jour la structure de votre base de données en modifiant le numéro de version dans `indexedDB.open` et en définissant `onupgradeneeded` :\n\n   ```javascript\n   let request = indexedDB.open('MaBaseDeDonnees', 2);\n\n   request.onupgradeneeded = function(event) {\n       let db = event.target.result;\n\n       // Mettre à jour la structure de la base de données\n       if (event.oldVersion \u003c 2) {\n           let objectStore = db.createObjectStore('MaObjectStore', { keyPath: 'id' });\n           // Ajouter un nouvel index ou d'autres changements de structure\n       }\n   };\n   ```\n\n4. **Utilisation des Cursseurs**\n\n   Les curseurs permettent de parcourir les enregistrements dans un object store de manière itérative, ce qui est utile pour la pagination ou le traitement séquentiel des données :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readonly');\n   let objectStore = transaction.objectStore('MaObjectStore');\n   let request = objectStore.openCursor();\n\n   request.onsuccess = function(event) {\n       let cursor = event.target.result;\n       if (cursor) {\n           console.log('Clé:', cursor.key, 'Valeur:', cursor.value);\n           cursor.continue();\n       } else {\n           console.log('Fin des données');\n       }\n   };\n   ```\n\n5. **Gestion des Transactions et de la Concurrence**\n\n   IndexedDB gère automatiquement les transactions concurrentes en les mettant en file d'attente. Toutefois, il est important de concevoir vos transactions pour éviter les blocages et optimiser les performances.\n\n   ```javascript\n   // Exemple de transaction concurrente\n   let transaction1 = db.transaction(['MaObjectStore'], 'readwrite');\n   let transaction2 = db.transaction(['MaObjectStore'], 'readwrite');\n   ```\n\n### Bonnes Pratiques\n\n- **Gestion des Erreurs et des Exceptions :** Toujours utiliser des gestionnaires d'erreurs pour gérer les échecs d'opérations IndexedDB.\n  \n- **Nettoyage et Maintenance :** Supprimer les données non nécessaires et gérer la mise à jour des structures de base de données lorsque nécessaire.\n\n- **Sécurité :** Bien que IndexedDB soit limité à l'environnement du navigateur, évitez de stocker des données sensibles sans cryptage approprié.\n\n### Conclusion\n\nEn maîtrisant ces concepts avancés, vous serez en mesure d'utiliser IndexedDB de manière efficace et robuste pour des applications web complexes nécessitant un stockage de données côté client sophistiqué. N'oubliez pas de consulter la documentation officielle de IndexedDB pour plus de détails sur chaque concept et pour explorer d'autres fonctionnalités avancées disponibles."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3533,98 +3546,34 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "ea377613-53d1-465b-ba77-75e54b013b9f",
+                        "request_id": "89ee7fde9b0ac7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "ea377613-53d1-465b-ba77-75e54b013b9f",
                     "children": []
                   },
-                  "aaa22ef0-bd30-49c3-b53a-d0352d3476d9": {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                  "ea377613-53d1-465b-ba77-75e54b013b9f": {
+                    "id": "ea377613-53d1-465b-ba77-75e54b013b9f",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                      "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
-                      "content": {
-                        "content_type": "text",
-                        "parts": ["donnez encore plus d'approfondissment."]
-                      },
-                      "status": "finished_successfully",
-                      "weight": 1,
-                      "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
-                        "message_source": null,
-                        "timestamp_": "absolute",
-                        "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
-                  },
-                  "56de34e7-fe55-46c0-b865-b6cf3dc24a48": {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "ea377613-53d1-465b-ba77-75e54b013b9f",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
-                      "content": {
-                        "content_type": "text",
-                        "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
-                        ]
-                      },
-                      "status": "finished_successfully",
-                      "end_turn": true,
-                      "weight": 1,
-                      "metadata": {
-                        "citations": [],
-                        "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
-                        "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
-                  },
-                  "b979367e-e0bb-46ad-86af-93cb1348942a": {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                      "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720257435.753352,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3638,47 +3587,215 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
+                        "request_id": "89ee7fde9b0ac7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
+                    "children": ["c0a80aac-6934-4d82-89df-0d3d0e1fc765"]
                   },
-                  "aaa227f6-5254-4482-a596-63335581d790": {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                  "aaa2ed02-400c-4d74-beb6-61d43be6e74a": {
+                    "id": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720257423.484806,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["donnez encore plus d'approfondissment."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "request_id": "89ee7fde9b0ac7a4-DKR",
+                        "message_source": null,
+                        "timestamp_": "absolute",
+                        "message_type": null,
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "240bb7cf-5492-4231-923d-7f2970865782",
+                    "children": ["ea377613-53d1-465b-ba77-75e54b013b9f"]
+                  },
+                  "240bb7cf-5492-4231-923d-7f2970865782": {
+                    "id": "240bb7cf-5492-4231-923d-7f2970865782",
+                    "message": {
+                      "id": "240bb7cf-5492-4231-923d-7f2970865782",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257378.696243,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "### Tutoriel Complet : IndexedDB en Stockage Client-Side en JavaScript\n\n#### Introduction à IndexedDB\n\nIndexedDB est une API JavaScript puissante et riche en fonctionnalités, conçue pour le stockage de grandes quantités de données structurées côté client dans les navigateurs web. Il offre une alternative robuste aux cookies et au Web Storage (localStorage et sessionStorage), en permettant le stockage de données complexes et structurées.\n\n#### Prérequis\n\nAvant de commencer ce tutoriel, assurez-vous d'avoir une connaissance de base en JavaScript et des concepts de manipulation d'objets et de fonctions asynchrones (promises).\n\n#### Étapes pour Utiliser IndexedDB\n\n1. **Création ou Ouverture d'une Base de Données**\n\n   Pour utiliser IndexedDB, commencez par ouvrir ou créer une base de données. Voici comment :\n\n   ```javascript\n   // Ouvrir ou créer une base de données\n   let request = indexedDB.open('MaBaseDeDonnees', 1);\n\n   // Gestionnaire d'événement de mise à jour de la base de données\n   request.onupgradeneeded = function(event) {\n       let db = event.target.result;\n\n       // Créer un objet de magasin d'objets (object store) pour stocker des données\n       let objectStore = db.createObjectStore('MaObjectStore', { keyPath: 'id' });\n   };\n   ```\n\n2. **Ajout de Données**\n\n   Une fois la base de données ouverte, vous pouvez ajouter des données à l'object store :\n\n   ```javascript\n   // Ouvrir une transaction et obtenir l'object store\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   // Ajouter des données\n   let request = objectStore.add({ id: 1, nom: 'John Doe', email: 'john@example.com' });\n\n   request.onsuccess = function(event) {\n       console.log('Donnée ajoutée avec succès');\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de l\\'ajout de la donnée');\n   };\n   ```\n\n3. **Récupération de Données**\n\n   Pour récupérer des données à partir de l'object store :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readonly');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   let request = objectStore.get(1);\n\n   request.onsuccess = function(event) {\n       let data = event.target.result;\n       console.log('Donnée récupérée:', data);\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de la récupération de la donnée');\n   };\n   ```\n\n4. **Mise à Jour de Données**\n\n   Pour mettre à jour des données dans l'object store :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   let request = objectStore.put({ id: 1, nom: 'Jane Doe', email: 'jane@example.com' });\n\n   request.onsuccess = function(event) {\n       console.log('Donnée mise à jour avec succès');\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de la mise à jour de la donnée');\n   };\n   ```\n\n5. **Suppression de Données**\n\n   Pour supprimer des données de l'object store :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   let request = objectStore.delete(1);\n\n   request.onsuccess = function(event) {\n       console.log('Donnée supprimée avec succès');\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de la suppression de la donnée');\n   };\n   ```\n\n6. **Gestion des Erreurs**\n\n   Il est important de gérer les erreurs lors des opérations sur IndexedDB pour assurer une meilleure robustesse de l'application :\n\n   ```javascript\n   request.onerror = function(event) {\n       console.error('Une erreur s\\'est produite:', event.target.errorCode);\n   };\n   ```\n\n#### Conclusion\n\nIndexedDB offre une solution robuste pour le stockage de données côté client, permettant aux applications web de gérer efficacement des données structurées. En comprenant les concepts de base comme la création de bases de données, l'ajout, la récupération, la mise à jour et la suppression de données, vous pouvez utiliser IndexedDB pour des applications web avancées nécessitant une gestion de données complexe et performante.\n\nCe tutoriel vous donne une introduction complète à IndexedDB. Pour des cas d'utilisation plus avancés ou pour explorer d'autres fonctionnalités comme les index, les transactions avancées, et la gestion des versions de base de données, consultez la documentation officielle de IndexedDB et explorez des exemples pratiques."
+                        ]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": true,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAA",
+                        "parent_id": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                    "children": ["aaa2ed02-400c-4d74-beb6-61d43be6e74a"]
+                  },
+                  "f2b04bd0-deaa-4760-838c-072c64460ea8": {
+                    "id": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                    "message": {
+                      "id": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720257378.696205,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
+                    "children": ["240bb7cf-5492-4231-923d-7f2970865782"]
+                  },
+                  "df4a6b8c-1777-4c50-a764-6a4f6cad92ff": {
+                    "id": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
+                    "message": {
+                      "id": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257378.696166,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAAAA",
+                        "parent_id": "294df9af-80a9-4b78-a550-00026859af2f",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "294df9af-80a9-4b78-a550-00026859af2f",
+                    "children": ["f2b04bd0-deaa-4760-838c-072c64460ea8"]
+                  },
+                  "294df9af-80a9-4b78-a550-00026859af2f": {
+                    "id": "294df9af-80a9-4b78-a550-00026859af2f",
+                    "message": {
+                      "id": "294df9af-80a9-4b78-a550-00026859af2f",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257378.696114,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
+                    "children": ["df4a6b8c-1777-4c50-a764-6a4f6cad92ff"]
+                  },
+                  "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c": {
+                    "id": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
+                    "message": {
+                      "id": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
+                      "author": { "role": "user", "metadata": {} },
+                      "create_time": 1720257364.838924,
+                      "content": {
+                        "content_type": "text",
+                        "parts": [
+                          "rédigez un tuto complet : IndexedDB en Stockage client-side en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "e163b7cf-59e2-4ccb-ab69-519dce2ebd56",
+                    "children": ["294df9af-80a9-4b78-a550-00026859af2f"]
                   },
-                  "ab868a83-7f8c-467e-9846-079b671b5b91": {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                  "e163b7cf-59e2-4ccb-ab69-519dce2ebd56": {
+                    "id": "e163b7cf-59e2-4ccb-ab69-519dce2ebd56",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "e163b7cf-59e2-4ccb-ab69-519dce2ebd56",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3686,33 +3803,33 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa19c86-1f47-469f-b085-eb086667d48f",
+                    "children": ["aaa2f5b5-e523-42c6-8e78-a711c9a8a50c"]
                   },
-                  "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa": {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                  "aaa19c86-1f47-469f-b085-eb086667d48f": {
+                    "id": "aaa19c86-1f47-469f-b085-eb086667d48f",
+                    "children": ["e163b7cf-59e2-4ccb-ab69-519dce2ebd56"]
                   }
                 },
                 "moderation_results": [],
-                "current_node": "afffd1c4-f386-418b-a75f-3515d1394f2d",
-                "conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                "current_node": "c0a80aac-6934-4d82-89df-0d3d0e1fc765",
+                "conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
                 "is_archived": false,
                 "safe_urls": [],
                 "is_public": true,
                 "linear_conversation": [
                   {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                    "id": "aaa19c86-1f47-469f-b085-eb086667d48f",
+                    "children": ["e163b7cf-59e2-4ccb-ab69-519dce2ebd56"]
                   },
                   {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                    "id": "e163b7cf-59e2-4ccb-ab69-519dce2ebd56",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "e163b7cf-59e2-4ccb-ab69-519dce2ebd56",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3720,45 +3837,45 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa19c86-1f47-469f-b085-eb086667d48f",
+                    "children": ["aaa2f5b5-e523-42c6-8e78-a711c9a8a50c"]
                   },
                   {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                    "id": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720257364.838924,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : IndexedDB en Stockage client-side en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "e163b7cf-59e2-4ccb-ab69-519dce2ebd56",
+                    "children": ["294df9af-80a9-4b78-a550-00026859af2f"]
                   },
                   {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                    "id": "294df9af-80a9-4b78-a550-00026859af2f",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "294df9af-80a9-4b78-a550-00026859af2f",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720257378.696114,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3772,27 +3889,101 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa2f5b5-e523-42c6-8e78-a711c9a8a50c",
+                    "children": ["df4a6b8c-1777-4c50-a764-6a4f6cad92ff"]
                   },
                   {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                    "id": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720257378.696166,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AAAAAA",
+                        "parent_id": "294df9af-80a9-4b78-a550-00026859af2f",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100265]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "294df9af-80a9-4b78-a550-00026859af2f",
+                    "children": ["f2b04bd0-deaa-4760-838c-072c64460ea8"]
+                  },
+                  {
+                    "id": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                    "message": {
+                      "id": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720257378.696205,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "pad": "AA",
+                        "parent_id": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "df4a6b8c-1777-4c50-a764-6a4f6cad92ff",
+                    "children": ["240bb7cf-5492-4231-923d-7f2970865782"]
+                  },
+                  {
+                    "id": "240bb7cf-5492-4231-923d-7f2970865782",
+                    "message": {
+                      "id": "240bb7cf-5492-4231-923d-7f2970865782",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257378.696243,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "### Tutoriel Complet : IndexedDB en Stockage Client-Side en JavaScript\n\n#### Introduction à IndexedDB\n\nIndexedDB est une API JavaScript puissante et riche en fonctionnalités, conçue pour le stockage de grandes quantités de données structurées côté client dans les navigateurs web. Il offre une alternative robuste aux cookies et au Web Storage (localStorage et sessionStorage), en permettant le stockage de données complexes et structurées.\n\n#### Prérequis\n\nAvant de commencer ce tutoriel, assurez-vous d'avoir une connaissance de base en JavaScript et des concepts de manipulation d'objets et de fonctions asynchrones (promises).\n\n#### Étapes pour Utiliser IndexedDB\n\n1. **Création ou Ouverture d'une Base de Données**\n\n   Pour utiliser IndexedDB, commencez par ouvrir ou créer une base de données. Voici comment :\n\n   ```javascript\n   // Ouvrir ou créer une base de données\n   let request = indexedDB.open('MaBaseDeDonnees', 1);\n\n   // Gestionnaire d'événement de mise à jour de la base de données\n   request.onupgradeneeded = function(event) {\n       let db = event.target.result;\n\n       // Créer un objet de magasin d'objets (object store) pour stocker des données\n       let objectStore = db.createObjectStore('MaObjectStore', { keyPath: 'id' });\n   };\n   ```\n\n2. **Ajout de Données**\n\n   Une fois la base de données ouverte, vous pouvez ajouter des données à l'object store :\n\n   ```javascript\n   // Ouvrir une transaction et obtenir l'object store\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   // Ajouter des données\n   let request = objectStore.add({ id: 1, nom: 'John Doe', email: 'john@example.com' });\n\n   request.onsuccess = function(event) {\n       console.log('Donnée ajoutée avec succès');\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de l\\'ajout de la donnée');\n   };\n   ```\n\n3. **Récupération de Données**\n\n   Pour récupérer des données à partir de l'object store :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readonly');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   let request = objectStore.get(1);\n\n   request.onsuccess = function(event) {\n       let data = event.target.result;\n       console.log('Donnée récupérée:', data);\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de la récupération de la donnée');\n   };\n   ```\n\n4. **Mise à Jour de Données**\n\n   Pour mettre à jour des données dans l'object store :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   let request = objectStore.put({ id: 1, nom: 'Jane Doe', email: 'jane@example.com' });\n\n   request.onsuccess = function(event) {\n       console.log('Donnée mise à jour avec succès');\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de la mise à jour de la donnée');\n   };\n   ```\n\n5. **Suppression de Données**\n\n   Pour supprimer des données de l'object store :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   let objectStore = transaction.objectStore('MaObjectStore');\n\n   let request = objectStore.delete(1);\n\n   request.onsuccess = function(event) {\n       console.log('Donnée supprimée avec succès');\n   };\n\n   request.onerror = function(event) {\n       console.error('Erreur lors de la suppression de la donnée');\n   };\n   ```\n\n6. **Gestion des Erreurs**\n\n   Il est important de gérer les erreurs lors des opérations sur IndexedDB pour assurer une meilleure robustesse de l'application :\n\n   ```javascript\n   request.onerror = function(event) {\n       console.error('Une erreur s\\'est produite:', event.target.errorCode);\n   };\n   ```\n\n#### Conclusion\n\nIndexedDB offre une solution robuste pour le stockage de données côté client, permettant aux applications web de gérer efficacement des données structurées. En comprenant les concepts de base comme la création de bases de données, l'ajout, la récupération, la mise à jour et la suppression de données, vous pouvez utiliser IndexedDB pour des applications web avancées nécessitant une gestion de données complexe et performante.\n\nCe tutoriel vous donne une introduction complète à IndexedDB. Pour des cas d'utilisation plus avancés ou pour explorer d'autres fonctionnalités comme les index, les transactions avancées, et la gestion des versions de base de données, consultez la documentation officielle de IndexedDB et explorez des exemples pratiques."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3812,23 +4003,23 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "pad": "AAA",
+                        "parent_id": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                        "request_id": "89ee7e6fe84ec7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "f2b04bd0-deaa-4760-838c-072c64460ea8",
+                    "children": ["aaa2ed02-400c-4d74-beb6-61d43be6e74a"]
                   },
                   {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "id": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720257423.484806,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3836,27 +4027,57 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee7fde9b0ac7a4-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "240bb7cf-5492-4231-923d-7f2970865782",
+                    "children": ["ea377613-53d1-465b-ba77-75e54b013b9f"]
                   },
                   {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                    "id": "ea377613-53d1-465b-ba77-75e54b013b9f",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "ea377613-53d1-465b-ba77-75e54b013b9f",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720257435.753352,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "text-davinci-002-render-sha",
+                        "default_model_slug": "auto",
+                        "model_adjustments": [
+                          "auto:smaller_model:reached_message_cap"
+                        ],
+                        "parent_id": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
+                        "request_id": "89ee7fde9b0ac7a4-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa2ed02-400c-4d74-beb6-61d43be6e74a",
+                    "children": ["c0a80aac-6934-4d82-89df-0d3d0e1fc765"]
+                  },
+                  {
+                    "id": "c0a80aac-6934-4d82-89df-0d3d0e1fc765",
+                    "message": {
+                      "id": "c0a80aac-6934-4d82-89df-0d3d0e1fc765",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720257435.753406,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "Pour approfondir davantage votre compréhension de IndexedDB et son utilisation avancée, nous allons explorer quelques concepts et techniques supplémentaires :\n\n### Concepts Avancés de IndexedDB\n\n1. **Utilisation des Index**\n\n   Les index permettent d'optimiser les requêtes de recherche dans votre base de données. Voici comment créer et utiliser un index dans IndexedDB :\n\n   ```javascript\n   // Création d'un index sur un champ spécifique\n   let objectStore = db.createObjectStore('MaObjectStore', { keyPath: 'id' });\n   objectStore.createIndex('nomIndex', 'nom', { unique: false });\n\n   // Utilisation de l'index pour une requête\n   let transaction = db.transaction(['MaObjectStore'], 'readonly');\n   let objectStore = transaction.objectStore('MaObjectStore');\n   let index = objectStore.index('nomIndex');\n   let request = index.get('John Doe');\n   ```\n\n2. **Utilisation de Transactions Avancées**\n\n   Les transactions avancées permettent de gérer plusieurs opérations atomiquement, assurant la cohérence des données :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readwrite');\n   transaction.oncomplete = function(event) {\n       console.log('Transaction terminée avec succès');\n   };\n   transaction.onerror = function(event) {\n       console.error('Erreur lors de la transaction:', event.target.errorCode);\n   };\n\n   // Ajouter des données\n   let objectStore = transaction.objectStore('MaObjectStore');\n   objectStore.add({ id: 2, nom: 'Jane Doe', email: 'jane@example.com' });\n   ```\n\n3. **Gestion des Versions de Base de Données**\n\n   IndexedDB prend en charge la gestion des versions de base de données. Vous pouvez mettre à jour la structure de votre base de données en modifiant le numéro de version dans `indexedDB.open` et en définissant `onupgradeneeded` :\n\n   ```javascript\n   let request = indexedDB.open('MaBaseDeDonnees', 2);\n\n   request.onupgradeneeded = function(event) {\n       let db = event.target.result;\n\n       // Mettre à jour la structure de la base de données\n       if (event.oldVersion \u003c 2) {\n           let objectStore = db.createObjectStore('MaObjectStore', { keyPath: 'id' });\n           // Ajouter un nouvel index ou d'autres changements de structure\n       }\n   };\n   ```\n\n4. **Utilisation des Cursseurs**\n\n   Les curseurs permettent de parcourir les enregistrements dans un object store de manière itérative, ce qui est utile pour la pagination ou le traitement séquentiel des données :\n\n   ```javascript\n   let transaction = db.transaction(['MaObjectStore'], 'readonly');\n   let objectStore = transaction.objectStore('MaObjectStore');\n   let request = objectStore.openCursor();\n\n   request.onsuccess = function(event) {\n       let cursor = event.target.result;\n       if (cursor) {\n           console.log('Clé:', cursor.key, 'Valeur:', cursor.value);\n           cursor.continue();\n       } else {\n           console.log('Fin des données');\n       }\n   };\n   ```\n\n5. **Gestion des Transactions et de la Concurrence**\n\n   IndexedDB gère automatiquement les transactions concurrentes en les mettant en file d'attente. Toutefois, il est important de concevoir vos transactions pour éviter les blocages et optimiser les performances.\n\n   ```javascript\n   // Exemple de transaction concurrente\n   let transaction1 = db.transaction(['MaObjectStore'], 'readwrite');\n   let transaction2 = db.transaction(['MaObjectStore'], 'readwrite');\n   ```\n\n### Bonnes Pratiques\n\n- **Gestion des Erreurs et des Exceptions :** Toujours utiliser des gestionnaires d'erreurs pour gérer les échecs d'opérations IndexedDB.\n  \n- **Nettoyage et Maintenance :** Supprimer les données non nécessaires et gérer la mise à jour des structures de base de données lorsque nécessaire.\n\n- **Sécurité :** Bien que IndexedDB soit limité à l'environnement du navigateur, évitez de stocker des données sensibles sans cryptage approprié.\n\n### Conclusion\n\nEn maîtrisant ces concepts avancés, vous serez en mesure d'utiliser IndexedDB de manière efficace et robuste pour des applications web complexes nécessitant un stockage de données côté client sophistiqué. N'oubliez pas de consulter la documentation officielle de IndexedDB pour plus de détails sur chaque concept et pour explorer d'autres fonctionnalités avancées disponibles."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3865,31 +4086,31 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "ea377613-53d1-465b-ba77-75e54b013b9f",
+                        "request_id": "89ee7fde9b0ac7a4-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "shared_conversation_id": "bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "ea377613-53d1-465b-ba77-75e54b013b9f",
                     "children": []
                   }
                 ],
                 "has_user_editable_context": false,
-                "continue_conversation_url": "https://chatgpt.com/share/ac74b161-88bd-43d9-8c48-d05d4bac5152/continue",
+                "continue_conversation_url": "https://chatgpt.com/share/bd18e48c-8ed8-46e4-bdb2-49ac6161b74a/continue",
                 "model": {
                   "slug": "text-davinci-002-render-sha",
                   "max_tokens": 8191,
@@ -3923,7 +4144,7 @@
                   "groups": [],
                   "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
                 },
-                "expires": "2024-10-03T19:01:57.668Z",
+                "expires": "2024-10-04T09:19:00.396Z",
                 "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
                 "authProvider": "login-web"
               },
@@ -3944,7 +4165,7 @@
               "userCountry": "SN",
               "userRegion": "Dakar",
               "userRegionCode": "DK",
-              "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+              "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
               "cfIpLatitude": "14.69350",
               "cfIpLongitude": "-17.44800",
               "cfIpCity": "Dakar",
@@ -5217,6 +5438,29 @@
                       "secondary_exposures": [],
                       "is_user_in_experiment": false,
                       "is_experiment_active": false
+                    },
+                    "186644516": {
+                      "name": "186644516",
+                      "value": {
+                        "is_team_enabled": true,
+                        "is_yearly_plus_subscription_enabled": false,
+                        "is_split_between_personal_and_business_enabled": false,
+                        "is_modal_fullscreen": false
+                      },
+                      "group": "prestart",
+                      "rule_id": "prestart",
+                      "is_device_based": false,
+                      "secondary_exposures": [
+                        {
+                          "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                          "gateValue": "false",
+                          "ruleID": "disabled"
+                        }
+                      ],
+                      "explicit_parameters": ["is_team_enabled"],
+                      "is_user_in_experiment": false,
+                      "is_experiment_active": false,
+                      "is_in_layer": true
                     },
                     "340466392": {
                       "name": "340466392",
@@ -6765,16 +7009,6 @@
                       "is_experiment_active": false,
                       "is_in_layer": true
                     },
-                    "3758099832": {
-                      "name": "3758099832",
-                      "value": {},
-                      "group": "prestart",
-                      "rule_id": "prestart",
-                      "is_device_based": false,
-                      "secondary_exposures": [],
-                      "is_user_in_experiment": false,
-                      "is_experiment_active": false
-                    },
                     "3917128856": {
                       "name": "3917128856",
                       "value": {
@@ -7150,7 +7384,7 @@
                     }
                   },
                   "hash_used": "djb2",
-                  "user_hash": "4043779062"
+                  "user_hash": "660792976"
                 },
                 "user": {
                   "country": "SN",
@@ -7165,7 +7399,7 @@
                     "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                     "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                   },
-                  "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                  "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                   "locale": "fr-FR",
                   "privateAttributes": {
                     "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -7187,7 +7421,7 @@
           "__N_SSP": true
         },
         "page": "/share/[[...shareParams]]",
-        "query": { "shareParams": ["ac74b161-88bd-43d9-8c48-d05d4bac5152"] },
+        "query": { "shareParams": ["bd18e48c-8ed8-46e4-bdb2-49ac6161b74a"] },
         "buildId": "8GX1pu3rmPezMCbuo-Xqp",
         "assetPrefix": "https://cdn.oaistatic.com",
         "isFallback": false,

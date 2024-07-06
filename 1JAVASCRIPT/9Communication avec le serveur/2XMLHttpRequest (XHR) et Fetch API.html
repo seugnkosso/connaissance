@@ -252,7 +252,7 @@
                 "groups": [],
                 "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
               },
-              "expires": "2024-10-03T19:01:57.668Z",
+              "expires": "2024-10-04T08:51:41.010Z",
               "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
               "authProvider": "login-web"
             },
@@ -273,7 +273,7 @@
             "userCountry": "SN",
             "userRegion": "Dakar",
             "userRegionCode": "DK",
-            "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+            "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
             "cfIpLatitude": "14.69350",
             "cfIpLongitude": "-17.44800",
             "cfIpCity": "Dakar",
@@ -1546,6 +1546,29 @@
                     "secondary_exposures": [],
                     "is_user_in_experiment": false,
                     "is_experiment_active": false
+                  },
+                  "186644516": {
+                    "name": "186644516",
+                    "value": {
+                      "is_team_enabled": true,
+                      "is_yearly_plus_subscription_enabled": false,
+                      "is_split_between_personal_and_business_enabled": false,
+                      "is_modal_fullscreen": false
+                    },
+                    "group": "prestart",
+                    "rule_id": "prestart",
+                    "is_device_based": false,
+                    "secondary_exposures": [
+                      {
+                        "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                        "gateValue": "false",
+                        "ruleID": "disabled"
+                      }
+                    ],
+                    "explicit_parameters": ["is_team_enabled"],
+                    "is_user_in_experiment": false,
+                    "is_experiment_active": false,
+                    "is_in_layer": true
                   },
                   "340466392": {
                     "name": "340466392",
@@ -3092,16 +3115,6 @@
                     "is_experiment_active": false,
                     "is_in_layer": true
                   },
-                  "3758099832": {
-                    "name": "3758099832",
-                    "value": {},
-                    "group": "prestart",
-                    "rule_id": "prestart",
-                    "is_device_based": false,
-                    "secondary_exposures": [],
-                    "is_user_in_experiment": false,
-                    "is_experiment_active": false
-                  },
                   "3917128856": {
                     "name": "3917128856",
                     "value": {
@@ -3477,7 +3490,7 @@
                   }
                 },
                 "hash_used": "djb2",
-                "user_hash": "4043779062"
+                "user_hash": "660792976"
               },
               "user": {
                 "country": "SN",
@@ -3492,7 +3505,7 @@
                   "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                   "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                 },
-                "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                 "locale": "fr-FR",
                 "privateAttributes": {
                   "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -3507,24 +3520,24 @@
             "ageVerificationDeadline": null,
             "ageVerificationType": "none",
             "logOutUser": false,
-            "sharedConversationId": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+            "sharedConversationId": "30acc014-a764-48c4-9480-739af7dde7db",
             "serverResponse": {
               "type": "data",
               "data": {
-                "title": "Événements personnalisés en JS",
-                "create_time": 1720205825.775834,
-                "update_time": 1720205900,
+                "title": "XHR vs Fetch API",
+                "create_time": 1720255806.078721,
+                "update_time": 1720255890,
                 "mapping": {
-                  "afffd1c4-f386-418b-a75f-3515d1394f2d": {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                  "3896d432-5642-4c68-9250-3858730bc503": {
+                    "id": "3896d432-5642-4c68-9250-3858730bc503",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "3896d432-5642-4c68-9250-3858730bc503",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720255883.88476,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "### Tutoriel Complet et Approfondi : XMLHttpRequest (XHR) et Fetch API en Communication avec le Serveur en JavaScript\n\nDans cette section, nous allons approfondir les fonctionnalités avancées de `XMLHttpRequest` (XHR) et de `Fetch API`, en explorant des scénarios pratiques et des astuces pour optimiser l'utilisation de ces outils.\n\n#### Table des matières\n1. XMLHttpRequest (XHR) Avancé\n    - Suivi de la progression des requêtes\n    - Annulation des requêtes\n    - Gestion des cookies et authentification\n2. Fetch API Avancé\n    - Requêtes avec options avancées\n    - Manipulation des streams de réponse\n    - Requêtes parallèles et séquentielles\n3. Comparaison détaillée entre XHR et Fetch API\n4. Meilleures pratiques avancées\n\n### 1. XMLHttpRequest (XHR) Avancé\n\n#### Suivi de la progression des requêtes\n\nPour suivre la progression des téléchargements ou des téléchargements de données, vous pouvez utiliser les événements `progress`, `loadstart`, et `loadend`.\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\n\nxhr.onprogress = function(event) {\n    if (event.lengthComputable) {\n        var percentComplete = (event.loaded / event.total) * 100;\n        console.log('Progression : ' + percentComplete + '%');\n    }\n};\n\nxhr.onloadstart = function() {\n    console.log('Début du téléchargement...');\n};\n\nxhr.onloadend = function() {\n    console.log('Téléchargement terminé.');\n};\n\nxhr.send();\n```\n\n#### Annulation des requêtes\n\nVous pouvez annuler une requête en appelant la méthode `abort`.\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\n\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\n\nxhr.send();\n\n// Annulation de la requête après 2 secondes\nsetTimeout(function() {\n    xhr.abort();\n    console.log('Requête annulée');\n}, 2000);\n```\n\n#### Gestion des cookies et authentification\n\nPour gérer les cookies et l'authentification, vous pouvez utiliser les en-têtes HTTP.\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.withCredentials = true;\n\nxhr.setRequestHeader('Authorization', 'Bearer your_token_here');\n\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\n\nxhr.send();\n```\n\n### 2. Fetch API Avancé\n\n#### Requêtes avec options avancées\n\nFetch API permet de configurer des options avancées comme les méthodes HTTP, les en-têtes, les corps de requêtes, etc.\n\n```javascript\nfetch('https://api.example.com/data', {\n    method: 'POST',\n    headers: {\n        'Content-Type': 'application/json',\n        'Authorization': 'Bearer your_token_here'\n    },\n    body: JSON.stringify({ key: 'value' }),\n    credentials: 'include'\n})\n.then(response =\u003e {\n    if (!response.ok) {\n        throw new Error('Erreur réseau');\n    }\n    return response.json();\n})\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Manipulation des streams de réponse\n\nAvec Fetch API, vous pouvez manipuler les streams de réponse pour traiter de grandes quantités de données de manière efficace.\n\n```javascript\nfetch('https://api.example.com/large-data')\n    .then(response =\u003e {\n        const reader = response.body.getReader();\n        const stream = new ReadableStream({\n            start(controller) {\n                function push() {\n                    reader.read().then(({ done, value }) =\u003e {\n                        if (done) {\n                            controller.close();\n                            return;\n                        }\n                        controller.enqueue(value);\n                        push();\n                    });\n                }\n                push();\n            }\n        });\n        return new Response(stream, { headers: { 'Content-Type': 'application/json' } }).json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Requêtes parallèles et séquentielles\n\nVous pouvez exécuter plusieurs requêtes en parallèle ou de manière séquentielle avec Fetch API.\n\n**Requêtes parallèles :**\n\n```javascript\nPromise.all([\n    fetch('https://api.example.com/data1').then(response =\u003e response.json()),\n    fetch('https://api.example.com/data2').then(response =\u003e response.json())\n])\n.then(results =\u003e {\n    console.log('Données 1 :', results[0]);\n    console.log('Données 2 :', results[1]);\n})\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n**Requêtes séquentielles :**\n\n```javascript\nfetch('https://api.example.com/data1')\n    .then(response =\u003e response.json())\n    .then(data1 =\u003e {\n        console.log('Données 1 :', data1);\n        return fetch('https://api.example.com/data2');\n    })\n    .then(response =\u003e response.json())\n    .then(data2 =\u003e {\n        console.log('Données 2 :', data2);\n    })\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n### 3. Comparaison détaillée entre XHR et Fetch API\n\n| Fonctionnalité           | XMLHttpRequest                            | Fetch API                               |\n|--------------------------|-------------------------------------------|-----------------------------------------|\n| Simplicité               | Plus verbeux                              | Plus concis et moderne                  |\n| Gestion des Promises     | Nécessite un wrapper pour les Promises    | Basé sur les Promises nativement        |\n| Suivi de la progression  | Géré avec des événements                  | Nécessite des streams de réponse        |\n| Annulation               | Supporte avec `abort`                     | Utilise `AbortController`               |\n| Gestion des erreurs      | Plus complexe à implémenter               | Plus intuitif avec `catch`              |\n| Configuration avancée    | Plus verbeux                              | Plus simple avec des options            |\n| Support des cookies      | Nécessite des configurations supplémentaires | Simple avec `credentials`               |\n\n### 4. Meilleures pratiques avancées\n\n- **Utilisation d'AbortController** : Pour annuler les requêtes Fetch de manière propre.\n\n```javascript\nconst controller = new AbortController();\nconst signal = controller.signal;\n\nfetch('https://api.example.com/data', { signal })\n    .then(response =\u003e response.json())\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e {\n        if (error.name === 'AbortError') {\n            console.log('Requête annulée');\n        } else {\n            console.error('Erreur :', error);\n        }\n    });\n\n// Annulation de la requête après 2 secondes\nsetTimeout(() =\u003e controller.abort(), 2000);\n```\n\n- **Réutilisation des configurations** : Utilisez des fonctions pour réutiliser les configurations de requêtes.\n\n```javascript\nfunction fetchData(url, options = {}) {\n    return fetch(url, {\n        ...options,\n        headers: {\n            'Content-Type': 'application/json',\n            ...options.headers\n        },\n        credentials: 'include'\n    })\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    });\n}\n\n// Utilisation de la fonction réutilisable\nfetchData('https://api.example.com/data1')\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n- **Gestion centralisée des erreurs** : Créez une fonction pour gérer les erreurs de manière centralisée.\n\n```javascript\nfunction handleErrors(response) {\n    if (!response.ok) {\n        throw new Error(`Erreur réseau : ${response.statusText}`);\n    }\n    return response;\n}\n\nfetch('https://api.example.com/data')\n    .then(handleErrors)\n    .then(response =\u003e response.json())\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n### Conclusion\n\nL'utilisation de `XMLHttpRequest` et de `Fetch API` pour la communication avec le serveur en JavaScript offre une grande flexibilité et des fonctionnalités avancées pour créer des applications web interactives et performantes. En maîtrisant les concepts de base et les techniques avancées présentées dans ce tutoriel, vous serez en mesure d'optimiser vos requêtes HTTP et de gérer efficacement les données de votre application.\n\nProfitez de ces outils pour développer des applications robustes et réactives, et n'hésitez pas à explorer davantage les possibilités offertes par les APIs modernes comme `Fetch API`."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3533,98 +3546,31 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAAA",
+                        "parent_id": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                         "finish_details": {
                           "type": "stop",
-                          "stop_tokens": [100260]
+                          "stop_tokens": [200002]
                         },
                         "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee58c39d33c79d-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                     "children": []
                   },
-                  "aaa22ef0-bd30-49c3-b53a-d0352d3476d9": {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                  "0011e4d8-4156-4f9c-9ed1-cf3b94031af9": {
+                    "id": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                      "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
-                      "content": {
-                        "content_type": "text",
-                        "parts": ["donnez encore plus d'approfondissment."]
-                      },
-                      "status": "finished_successfully",
-                      "weight": 1,
-                      "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
-                        "message_source": null,
-                        "timestamp_": "absolute",
-                        "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
-                  },
-                  "56de34e7-fe55-46c0-b865-b6cf3dc24a48": {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
-                      "content": {
-                        "content_type": "text",
-                        "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
-                        ]
-                      },
-                      "status": "finished_successfully",
-                      "end_turn": true,
-                      "weight": 1,
-                      "metadata": {
-                        "citations": [],
-                        "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
-                        "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
-                      },
-                      "recipient": "all"
-                    },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
-                  },
-                  "b979367e-e0bb-46ad-86af-93cb1348942a": {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                      "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720255883.884711,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3633,52 +3579,205 @@
                       "weight": 1,
                       "metadata": {
                         "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
+                        "model_slug": "gpt-4o",
                         "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
+                        "request_id": "89ee58c39d33c79d-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
+                    "children": ["3896d432-5642-4c68-9250-3858730bc503"]
                   },
-                  "aaa227f6-5254-4482-a596-63335581d790": {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                  "aaa248ed-a0e5-442d-b1d8-ddeffc261adf": {
+                    "id": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720255821.655296,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["donnez encore plus d'approfondissment."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "request_id": "89ee58c39d33c79d-DKR",
+                        "message_source": null,
+                        "timestamp_": "absolute",
+                        "message_type": null,
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "a505c88f-caf4-4001-a007-5bd8c912cf8b",
+                    "children": ["0011e4d8-4156-4f9c-9ed1-cf3b94031af9"]
+                  },
+                  "a505c88f-caf4-4001-a007-5bd8c912cf8b": {
+                    "id": "a505c88f-caf4-4001-a007-5bd8c912cf8b",
+                    "message": {
+                      "id": "a505c88f-caf4-4001-a007-5bd8c912cf8b",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720255797.274594,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "### Tutoriel Complet : XMLHttpRequest (XHR) et Fetch API en Communication avec le Serveur en JavaScript\n\nLa communication avec un serveur est une fonctionnalité essentielle dans les applications web modernes. Elle permet de charger des données de manière asynchrone sans recharger la page. En JavaScript, les deux principales méthodes pour effectuer des requêtes HTTP sont `XMLHttpRequest` (XHR) et `Fetch API`. \n\nCe tutoriel vous guidera à travers les concepts, les utilisations et les meilleures pratiques de ces deux méthodes.\n\n#### Table des matières\n1. Introduction à XMLHttpRequest (XHR)\n    - Création d'un objet XHR\n    - Envoi d'une requête GET\n    - Envoi d'une requête POST\n    - Gestion des réponses\n    - Gestion des erreurs\n2. Introduction à Fetch API\n    - Envoi d'une requête GET\n    - Envoi d'une requête POST\n    - Gestion des réponses\n    - Gestion des erreurs\n3. Comparaison entre XHR et Fetch API\n4. Meilleures pratiques\n\n### 1. Introduction à XMLHttpRequest (XHR)\n\n`XMLHttpRequest` est une ancienne méthode mais toujours utilisée pour effectuer des requêtes HTTP. Voici comment vous pouvez utiliser XHR :\n\n#### Création d'un objet XHR\n\n```javascript\nvar xhr = new XMLHttpRequest();\n```\n\n#### Envoi d'une requête GET\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\nxhr.send();\n```\n\n#### Envoi d'une requête POST\n\n```javascript\nxhr.open('POST', 'https://api.example.com/data', true);\nxhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\nvar data = JSON.stringify({key: 'value'});\nxhr.send(data);\n```\n\n#### Gestion des réponses\n\nLe gestionnaire d'événements `onreadystatechange` permet de traiter la réponse une fois qu'elle est reçue :\n\n```javascript\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4) {\n        if (xhr.status === 200) {\n            var response = JSON.parse(xhr.responseText);\n            console.log(response);\n        } else {\n            console.error('Erreur : ' + xhr.status);\n        }\n    }\n};\n```\n\n#### Gestion des erreurs\n\nPour gérer les erreurs de manière plus efficace, vous pouvez utiliser `onerror` :\n\n```javascript\nxhr.onerror = function() {\n    console.error('Erreur de requête');\n};\n```\n\n### 2. Introduction à Fetch API\n\n`Fetch API` est une méthode moderne et plus puissante pour effectuer des requêtes HTTP. Elle utilise les Promises, ce qui rend le code plus propre et plus lisible.\n\n#### Envoi d'une requête GET\n\n```javascript\nfetch('https://api.example.com/data')\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Envoi d'une requête POST\n\n```javascript\nfetch('https://api.example.com/data', {\n    method: 'POST',\n    headers: {\n        'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({key: 'value'})\n})\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Gestion des réponses\n\nAvec Fetch API, les réponses sont gérées avec des Promises. Vous pouvez vérifier le statut de la réponse avant de la traiter :\n\n```javascript\nfetch('https://api.example.com/data')\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Gestion des erreurs\n\nLes erreurs sont gérées avec le bloc `catch` :\n\n```javascript\nfetch('https://api.example.com/data')\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n### 3. Comparaison entre XHR et Fetch API\n\n| Critère                  | XMLHttpRequest                        | Fetch API                         |\n|--------------------------|---------------------------------------|-----------------------------------|\n| Simplicité               | Plus complexe                         | Plus simple et moderne            |\n| Support des Promises     | Non                                   | Oui                               |\n| Gestion des erreurs      | Moins intuitive                       | Plus intuitive avec `catch`       |\n| Lecture de la réponse    | Utilise `responseText`                | Utilise des méthodes comme `json` |\n| Méthodes HTTP            | Supporte toutes les méthodes          | Supporte toutes les méthodes      |\n| Headers                  | Utilise `setRequestHeader`            | Utilise `headers` dans les options|\n\n### 4. Meilleures pratiques\n\n- **Utiliser Fetch API** : Pour les nouveaux projets, préférez Fetch API en raison de sa simplicité et de sa compatibilité avec les Promises.\n- **Gérer les erreurs de manière adéquate** : Vérifiez toujours le statut de la réponse et gérez les erreurs de manière appropriée.\n- **Protéger les données sensibles** : N'envoyez jamais de données sensibles sans les protéger (par exemple, en utilisant HTTPS).\n- **Optimiser les performances** : Minimisez les requêtes HTTP en combinant les données si possible et en utilisant le cache efficacement.\n\n### Conclusion\n\n`XMLHttpRequest` et `Fetch API` sont deux outils puissants pour la communication avec le serveur en JavaScript. Bien que `XMLHttpRequest` soit plus ancien, `Fetch API` offre une approche plus moderne et intuitive grâce à l'utilisation des Promises. Choisissez l'outil qui convient le mieux à vos besoins tout en respectant les meilleures pratiques pour assurer des communications serveur efficaces et sécurisées."
+                        ]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": true,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "983b5881-c288-4302-a6fd-b1d8eb251159",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [200002]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee571a7f07c79d-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "983b5881-c288-4302-a6fd-b1d8eb251159",
+                    "children": ["aaa248ed-a0e5-442d-b1d8-ddeffc261adf"]
+                  },
+                  "983b5881-c288-4302-a6fd-b1d8eb251159": {
+                    "id": "983b5881-c288-4302-a6fd-b1d8eb251159",
+                    "message": {
+                      "id": "983b5881-c288-4302-a6fd-b1d8eb251159",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720255797.274556,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AA",
+                        "parent_id": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
+                        "request_id": "89ee571a7f07c79d-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
+                    "children": ["a505c88f-caf4-4001-a007-5bd8c912cf8b"]
+                  },
+                  "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34": {
+                    "id": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
+                    "message": {
+                      "id": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720255797.274517,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [200007]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAAAAAAAAAA",
+                        "parent_id": "146abd1b-0f71-478b-b7e5-23142f756a6e",
+                        "request_id": "89ee571a7f07c79d-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "146abd1b-0f71-478b-b7e5-23142f756a6e",
+                    "children": ["983b5881-c288-4302-a6fd-b1d8eb251159"]
+                  },
+                  "146abd1b-0f71-478b-b7e5-23142f756a6e": {
+                    "id": "146abd1b-0f71-478b-b7e5-23142f756a6e",
+                    "message": {
+                      "id": "146abd1b-0f71-478b-b7e5-23142f756a6e",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720255797.274464,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "parent_id": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
+                        "request_id": "89ee571a7f07c79d-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
+                    "children": ["8db7508c-4bf7-403d-b08c-2a4c7f8a5e34"]
+                  },
+                  "aaa25235-0070-44bf-b03e-f09bee94d9fb": {
+                    "id": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
+                    "message": {
+                      "id": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
+                      "author": { "role": "user", "metadata": {} },
+                      "create_time": 1720255753.760295,
+                      "content": {
+                        "content_type": "text",
+                        "parts": [
+                          "rédigez un tuto complet : XMLHttpRequest (XHR) et Fetch API en Communication avec le serveur en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee571a7f07c79d-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "97d63d7f-dc69-4d98-85fe-6244cd678077",
+                    "children": ["146abd1b-0f71-478b-b7e5-23142f756a6e"]
                   },
-                  "ab868a83-7f8c-467e-9846-079b671b5b91": {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                  "97d63d7f-dc69-4d98-85fe-6244cd678077": {
+                    "id": "97d63d7f-dc69-4d98-85fe-6244cd678077",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "97d63d7f-dc69-4d98-85fe-6244cd678077",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3686,33 +3785,33 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1acf7-35a4-4f1f-ad3d-136cd255d0dc",
+                    "children": ["aaa25235-0070-44bf-b03e-f09bee94d9fb"]
                   },
-                  "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa": {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                  "aaa1acf7-35a4-4f1f-ad3d-136cd255d0dc": {
+                    "id": "aaa1acf7-35a4-4f1f-ad3d-136cd255d0dc",
+                    "children": ["97d63d7f-dc69-4d98-85fe-6244cd678077"]
                   }
                 },
                 "moderation_results": [],
-                "current_node": "afffd1c4-f386-418b-a75f-3515d1394f2d",
-                "conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                "current_node": "3896d432-5642-4c68-9250-3858730bc503",
+                "conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
                 "is_archived": false,
                 "safe_urls": [],
                 "is_public": true,
                 "linear_conversation": [
                   {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                    "id": "aaa1acf7-35a4-4f1f-ad3d-136cd255d0dc",
+                    "children": ["97d63d7f-dc69-4d98-85fe-6244cd678077"]
                   },
                   {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                    "id": "97d63d7f-dc69-4d98-85fe-6244cd678077",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "97d63d7f-dc69-4d98-85fe-6244cd678077",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3720,45 +3819,45 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa1acf7-35a4-4f1f-ad3d-136cd255d0dc",
+                    "children": ["aaa25235-0070-44bf-b03e-f09bee94d9fb"]
                   },
                   {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                    "id": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720255753.760295,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : XMLHttpRequest (XHR) et Fetch API en Communication avec le serveur en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee571a7f07c79d-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "97d63d7f-dc69-4d98-85fe-6244cd678077",
+                    "children": ["146abd1b-0f71-478b-b7e5-23142f756a6e"]
                   },
                   {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                    "id": "146abd1b-0f71-478b-b7e5-23142f756a6e",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "146abd1b-0f71-478b-b7e5-23142f756a6e",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720255797.274464,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3767,32 +3866,97 @@
                       "weight": 1,
                       "metadata": {
                         "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
+                        "model_slug": "gpt-4o",
                         "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
+                        "request_id": "89ee571a7f07c79d-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa25235-0070-44bf-b03e-f09bee94d9fb",
+                    "children": ["8db7508c-4bf7-403d-b08c-2a4c7f8a5e34"]
                   },
                   {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                    "id": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720255797.274517,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["This code was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "end_turn": false,
+                      "weight": 1,
+                      "metadata": {
+                        "citations": [],
+                        "gizmo_id": null,
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [200007]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAAAAAAAAAA",
+                        "parent_id": "146abd1b-0f71-478b-b7e5-23142f756a6e",
+                        "request_id": "89ee571a7f07c79d-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
+                        "is_redacted": true
+                      },
+                      "recipient": "bio"
+                    },
+                    "parent": "146abd1b-0f71-478b-b7e5-23142f756a6e",
+                    "children": ["983b5881-c288-4302-a6fd-b1d8eb251159"]
+                  },
+                  {
+                    "id": "983b5881-c288-4302-a6fd-b1d8eb251159",
+                    "message": {
+                      "id": "983b5881-c288-4302-a6fd-b1d8eb251159",
+                      "author": {
+                        "role": "tool",
+                        "name": "bio",
+                        "metadata": {}
+                      },
+                      "create_time": 1720255797.274556,
+                      "content": {
+                        "content_type": "text",
+                        "parts": ["The output of this plugin was redacted."]
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AA",
+                        "parent_id": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
+                        "request_id": "89ee571a7f07c79d-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
+                        "is_redacted": true
+                      },
+                      "recipient": "assistant"
+                    },
+                    "parent": "8db7508c-4bf7-403d-b08c-2a4c7f8a5e34",
+                    "children": ["a505c88f-caf4-4001-a007-5bd8c912cf8b"]
+                  },
+                  {
+                    "id": "a505c88f-caf4-4001-a007-5bd8c912cf8b",
+                    "message": {
+                      "id": "a505c88f-caf4-4001-a007-5bd8c912cf8b",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720255797.274594,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "### Tutoriel Complet : XMLHttpRequest (XHR) et Fetch API en Communication avec le Serveur en JavaScript\n\nLa communication avec un serveur est une fonctionnalité essentielle dans les applications web modernes. Elle permet de charger des données de manière asynchrone sans recharger la page. En JavaScript, les deux principales méthodes pour effectuer des requêtes HTTP sont `XMLHttpRequest` (XHR) et `Fetch API`. \n\nCe tutoriel vous guidera à travers les concepts, les utilisations et les meilleures pratiques de ces deux méthodes.\n\n#### Table des matières\n1. Introduction à XMLHttpRequest (XHR)\n    - Création d'un objet XHR\n    - Envoi d'une requête GET\n    - Envoi d'une requête POST\n    - Gestion des réponses\n    - Gestion des erreurs\n2. Introduction à Fetch API\n    - Envoi d'une requête GET\n    - Envoi d'une requête POST\n    - Gestion des réponses\n    - Gestion des erreurs\n3. Comparaison entre XHR et Fetch API\n4. Meilleures pratiques\n\n### 1. Introduction à XMLHttpRequest (XHR)\n\n`XMLHttpRequest` est une ancienne méthode mais toujours utilisée pour effectuer des requêtes HTTP. Voici comment vous pouvez utiliser XHR :\n\n#### Création d'un objet XHR\n\n```javascript\nvar xhr = new XMLHttpRequest();\n```\n\n#### Envoi d'une requête GET\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\nxhr.send();\n```\n\n#### Envoi d'une requête POST\n\n```javascript\nxhr.open('POST', 'https://api.example.com/data', true);\nxhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\nvar data = JSON.stringify({key: 'value'});\nxhr.send(data);\n```\n\n#### Gestion des réponses\n\nLe gestionnaire d'événements `onreadystatechange` permet de traiter la réponse une fois qu'elle est reçue :\n\n```javascript\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4) {\n        if (xhr.status === 200) {\n            var response = JSON.parse(xhr.responseText);\n            console.log(response);\n        } else {\n            console.error('Erreur : ' + xhr.status);\n        }\n    }\n};\n```\n\n#### Gestion des erreurs\n\nPour gérer les erreurs de manière plus efficace, vous pouvez utiliser `onerror` :\n\n```javascript\nxhr.onerror = function() {\n    console.error('Erreur de requête');\n};\n```\n\n### 2. Introduction à Fetch API\n\n`Fetch API` est une méthode moderne et plus puissante pour effectuer des requêtes HTTP. Elle utilise les Promises, ce qui rend le code plus propre et plus lisible.\n\n#### Envoi d'une requête GET\n\n```javascript\nfetch('https://api.example.com/data')\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Envoi d'une requête POST\n\n```javascript\nfetch('https://api.example.com/data', {\n    method: 'POST',\n    headers: {\n        'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({key: 'value'})\n})\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Gestion des réponses\n\nAvec Fetch API, les réponses sont gérées avec des Promises. Vous pouvez vérifier le statut de la réponse avant de la traiter :\n\n```javascript\nfetch('https://api.example.com/data')\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Gestion des erreurs\n\nLes erreurs sont gérées avec le bloc `catch` :\n\n```javascript\nfetch('https://api.example.com/data')\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n### 3. Comparaison entre XHR et Fetch API\n\n| Critère                  | XMLHttpRequest                        | Fetch API                         |\n|--------------------------|---------------------------------------|-----------------------------------|\n| Simplicité               | Plus complexe                         | Plus simple et moderne            |\n| Support des Promises     | Non                                   | Oui                               |\n| Gestion des erreurs      | Moins intuitive                       | Plus intuitive avec `catch`       |\n| Lecture de la réponse    | Utilise `responseText`                | Utilise des méthodes comme `json` |\n| Méthodes HTTP            | Supporte toutes les méthodes          | Supporte toutes les méthodes      |\n| Headers                  | Utilise `setRequestHeader`            | Utilise `headers` dans les options|\n\n### 4. Meilleures pratiques\n\n- **Utiliser Fetch API** : Pour les nouveaux projets, préférez Fetch API en raison de sa simplicité et de sa compatibilité avec les Promises.\n- **Gérer les erreurs de manière adéquate** : Vérifiez toujours le statut de la réponse et gérez les erreurs de manière appropriée.\n- **Protéger les données sensibles** : N'envoyez jamais de données sensibles sans les protéger (par exemple, en utilisant HTTPS).\n- **Optimiser les performances** : Minimisez les requêtes HTTP en combinant les données si possible et en utilisant le cache efficacement.\n\n### Conclusion\n\n`XMLHttpRequest` et `Fetch API` sont deux outils puissants pour la communication avec le serveur en JavaScript. Bien que `XMLHttpRequest` soit plus ancien, `Fetch API` offre une approche plus moderne et intuitive grâce à l'utilisation des Promises. Choisissez l'outil qui convient le mieux à vos besoins tout en respectant les meilleures pratiques pour assurer des communications serveur efficaces et sécurisées."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3801,34 +3965,31 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "parent_id": "983b5881-c288-4302-a6fd-b1d8eb251159",
                         "finish_details": {
                           "type": "stop",
-                          "stop_tokens": [100260]
+                          "stop_tokens": [200002]
                         },
                         "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee571a7f07c79d-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "983b5881-c288-4302-a6fd-b1d8eb251159",
+                    "children": ["aaa248ed-a0e5-442d-b1d8-ddeffc261adf"]
                   },
                   {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "id": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720255821.655296,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3836,27 +3997,54 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee58c39d33c79d-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "a505c88f-caf4-4001-a007-5bd8c912cf8b",
+                    "children": ["0011e4d8-4156-4f9c-9ed1-cf3b94031af9"]
                   },
                   {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                    "id": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720255883.884711,
+                      "content": {
+                        "content_type": "model_editable_context",
+                        "model_set_context": ""
+                      },
+                      "status": "finished_successfully",
+                      "weight": 1,
+                      "metadata": {
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "parent_id": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
+                        "request_id": "89ee58c39d33c79d-DKR",
+                        "timestamp_": "absolute",
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db",
+                        "is_redacted": true
+                      },
+                      "recipient": "all"
+                    },
+                    "parent": "aaa248ed-a0e5-442d-b1d8-ddeffc261adf",
+                    "children": ["3896d432-5642-4c68-9250-3858730bc503"]
+                  },
+                  {
+                    "id": "3896d432-5642-4c68-9250-3858730bc503",
+                    "message": {
+                      "id": "3896d432-5642-4c68-9250-3858730bc503",
+                      "author": { "role": "assistant", "metadata": {} },
+                      "create_time": 1720255883.88476,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "### Tutoriel Complet et Approfondi : XMLHttpRequest (XHR) et Fetch API en Communication avec le Serveur en JavaScript\n\nDans cette section, nous allons approfondir les fonctionnalités avancées de `XMLHttpRequest` (XHR) et de `Fetch API`, en explorant des scénarios pratiques et des astuces pour optimiser l'utilisation de ces outils.\n\n#### Table des matières\n1. XMLHttpRequest (XHR) Avancé\n    - Suivi de la progression des requêtes\n    - Annulation des requêtes\n    - Gestion des cookies et authentification\n2. Fetch API Avancé\n    - Requêtes avec options avancées\n    - Manipulation des streams de réponse\n    - Requêtes parallèles et séquentielles\n3. Comparaison détaillée entre XHR et Fetch API\n4. Meilleures pratiques avancées\n\n### 1. XMLHttpRequest (XHR) Avancé\n\n#### Suivi de la progression des requêtes\n\nPour suivre la progression des téléchargements ou des téléchargements de données, vous pouvez utiliser les événements `progress`, `loadstart`, et `loadend`.\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\n\nxhr.onprogress = function(event) {\n    if (event.lengthComputable) {\n        var percentComplete = (event.loaded / event.total) * 100;\n        console.log('Progression : ' + percentComplete + '%');\n    }\n};\n\nxhr.onloadstart = function() {\n    console.log('Début du téléchargement...');\n};\n\nxhr.onloadend = function() {\n    console.log('Téléchargement terminé.');\n};\n\nxhr.send();\n```\n\n#### Annulation des requêtes\n\nVous pouvez annuler une requête en appelant la méthode `abort`.\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\n\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\n\nxhr.send();\n\n// Annulation de la requête après 2 secondes\nsetTimeout(function() {\n    xhr.abort();\n    console.log('Requête annulée');\n}, 2000);\n```\n\n#### Gestion des cookies et authentification\n\nPour gérer les cookies et l'authentification, vous pouvez utiliser les en-têtes HTTP.\n\n```javascript\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.withCredentials = true;\n\nxhr.setRequestHeader('Authorization', 'Bearer your_token_here');\n\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 \u0026\u0026 xhr.status === 200) {\n        var response = JSON.parse(xhr.responseText);\n        console.log(response);\n    }\n};\n\nxhr.send();\n```\n\n### 2. Fetch API Avancé\n\n#### Requêtes avec options avancées\n\nFetch API permet de configurer des options avancées comme les méthodes HTTP, les en-têtes, les corps de requêtes, etc.\n\n```javascript\nfetch('https://api.example.com/data', {\n    method: 'POST',\n    headers: {\n        'Content-Type': 'application/json',\n        'Authorization': 'Bearer your_token_here'\n    },\n    body: JSON.stringify({ key: 'value' }),\n    credentials: 'include'\n})\n.then(response =\u003e {\n    if (!response.ok) {\n        throw new Error('Erreur réseau');\n    }\n    return response.json();\n})\n.then(data =\u003e console.log(data))\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Manipulation des streams de réponse\n\nAvec Fetch API, vous pouvez manipuler les streams de réponse pour traiter de grandes quantités de données de manière efficace.\n\n```javascript\nfetch('https://api.example.com/large-data')\n    .then(response =\u003e {\n        const reader = response.body.getReader();\n        const stream = new ReadableStream({\n            start(controller) {\n                function push() {\n                    reader.read().then(({ done, value }) =\u003e {\n                        if (done) {\n                            controller.close();\n                            return;\n                        }\n                        controller.enqueue(value);\n                        push();\n                    });\n                }\n                push();\n            }\n        });\n        return new Response(stream, { headers: { 'Content-Type': 'application/json' } }).json();\n    })\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n#### Requêtes parallèles et séquentielles\n\nVous pouvez exécuter plusieurs requêtes en parallèle ou de manière séquentielle avec Fetch API.\n\n**Requêtes parallèles :**\n\n```javascript\nPromise.all([\n    fetch('https://api.example.com/data1').then(response =\u003e response.json()),\n    fetch('https://api.example.com/data2').then(response =\u003e response.json())\n])\n.then(results =\u003e {\n    console.log('Données 1 :', results[0]);\n    console.log('Données 2 :', results[1]);\n})\n.catch(error =\u003e console.error('Erreur :', error));\n```\n\n**Requêtes séquentielles :**\n\n```javascript\nfetch('https://api.example.com/data1')\n    .then(response =\u003e response.json())\n    .then(data1 =\u003e {\n        console.log('Données 1 :', data1);\n        return fetch('https://api.example.com/data2');\n    })\n    .then(response =\u003e response.json())\n    .then(data2 =\u003e {\n        console.log('Données 2 :', data2);\n    })\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n### 3. Comparaison détaillée entre XHR et Fetch API\n\n| Fonctionnalité           | XMLHttpRequest                            | Fetch API                               |\n|--------------------------|-------------------------------------------|-----------------------------------------|\n| Simplicité               | Plus verbeux                              | Plus concis et moderne                  |\n| Gestion des Promises     | Nécessite un wrapper pour les Promises    | Basé sur les Promises nativement        |\n| Suivi de la progression  | Géré avec des événements                  | Nécessite des streams de réponse        |\n| Annulation               | Supporte avec `abort`                     | Utilise `AbortController`               |\n| Gestion des erreurs      | Plus complexe à implémenter               | Plus intuitif avec `catch`              |\n| Configuration avancée    | Plus verbeux                              | Plus simple avec des options            |\n| Support des cookies      | Nécessite des configurations supplémentaires | Simple avec `credentials`               |\n\n### 4. Meilleures pratiques avancées\n\n- **Utilisation d'AbortController** : Pour annuler les requêtes Fetch de manière propre.\n\n```javascript\nconst controller = new AbortController();\nconst signal = controller.signal;\n\nfetch('https://api.example.com/data', { signal })\n    .then(response =\u003e response.json())\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e {\n        if (error.name === 'AbortError') {\n            console.log('Requête annulée');\n        } else {\n            console.error('Erreur :', error);\n        }\n    });\n\n// Annulation de la requête après 2 secondes\nsetTimeout(() =\u003e controller.abort(), 2000);\n```\n\n- **Réutilisation des configurations** : Utilisez des fonctions pour réutiliser les configurations de requêtes.\n\n```javascript\nfunction fetchData(url, options = {}) {\n    return fetch(url, {\n        ...options,\n        headers: {\n            'Content-Type': 'application/json',\n            ...options.headers\n        },\n        credentials: 'include'\n    })\n    .then(response =\u003e {\n        if (!response.ok) {\n            throw new Error('Erreur réseau');\n        }\n        return response.json();\n    });\n}\n\n// Utilisation de la fonction réutilisable\nfetchData('https://api.example.com/data1')\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n- **Gestion centralisée des erreurs** : Créez une fonction pour gérer les erreurs de manière centralisée.\n\n```javascript\nfunction handleErrors(response) {\n    if (!response.ok) {\n        throw new Error(`Erreur réseau : ${response.statusText}`);\n    }\n    return response;\n}\n\nfetch('https://api.example.com/data')\n    .then(handleErrors)\n    .then(response =\u003e response.json())\n    .then(data =\u003e console.log(data))\n    .catch(error =\u003e console.error('Erreur :', error));\n```\n\n### Conclusion\n\nL'utilisation de `XMLHttpRequest` et de `Fetch API` pour la communication avec le serveur en JavaScript offre une grande flexibilité et des fonctionnalités avancées pour créer des applications web interactives et performantes. En maîtrisant les concepts de base et les techniques avancées présentées dans ce tutoriel, vous serez en mesure d'optimiser vos requêtes HTTP et de gérer efficacement les données de votre application.\n\nProfitez de ces outils pour développer des applications robustes et réactives, et n'hésitez pas à explorer davantage les possibilités offertes par les APIs modernes comme `Fetch API`."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3865,37 +4053,34 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "gpt-4o",
+                        "default_model_slug": "auto",
+                        "pad": "AAAAAAAA",
+                        "parent_id": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                         "finish_details": {
                           "type": "stop",
-                          "stop_tokens": [100260]
+                          "stop_tokens": [200002]
                         },
                         "is_complete": true,
-                        "message_type": null,
-                        "model_slug": "text-davinci-002-render-sha",
-                        "default_model_slug": "auto",
-                        "model_adjustments": [
-                          "auto:smaller_model:reached_message_cap"
-                        ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee58c39d33c79d-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "30acc014-a764-48c4-9480-739af7dde7db"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "0011e4d8-4156-4f9c-9ed1-cf3b94031af9",
                     "children": []
                   }
                 ],
                 "has_user_editable_context": false,
-                "continue_conversation_url": "https://chatgpt.com/share/ac74b161-88bd-43d9-8c48-d05d4bac5152/continue",
+                "continue_conversation_url": "https://chatgpt.com/share/30acc014-a764-48c4-9480-739af7dde7db/continue",
                 "model": {
-                  "slug": "text-davinci-002-render-sha",
-                  "max_tokens": 8191,
-                  "title": "Default (GPT-3.5)",
-                  "description": "Our fastest model, great for most everyday tasks.",
-                  "tags": ["gpt3.5"]
+                  "slug": "gpt-4o",
+                  "max_tokens": 32767,
+                  "title": "GPT-4o",
+                  "description": "Newest and most advanced model",
+                  "tags": ["gpt4o", "gpt4"]
                 },
                 "moderation_state": {
                   "has_been_moderated": false,
@@ -3923,7 +4108,7 @@
                   "groups": [],
                   "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
                 },
-                "expires": "2024-10-03T19:01:57.668Z",
+                "expires": "2024-10-04T08:51:41.010Z",
                 "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
                 "authProvider": "login-web"
               },
@@ -3944,7 +4129,7 @@
               "userCountry": "SN",
               "userRegion": "Dakar",
               "userRegionCode": "DK",
-              "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+              "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
               "cfIpLatitude": "14.69350",
               "cfIpLongitude": "-17.44800",
               "cfIpCity": "Dakar",
@@ -5217,6 +5402,29 @@
                       "secondary_exposures": [],
                       "is_user_in_experiment": false,
                       "is_experiment_active": false
+                    },
+                    "186644516": {
+                      "name": "186644516",
+                      "value": {
+                        "is_team_enabled": true,
+                        "is_yearly_plus_subscription_enabled": false,
+                        "is_split_between_personal_and_business_enabled": false,
+                        "is_modal_fullscreen": false
+                      },
+                      "group": "prestart",
+                      "rule_id": "prestart",
+                      "is_device_based": false,
+                      "secondary_exposures": [
+                        {
+                          "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                          "gateValue": "false",
+                          "ruleID": "disabled"
+                        }
+                      ],
+                      "explicit_parameters": ["is_team_enabled"],
+                      "is_user_in_experiment": false,
+                      "is_experiment_active": false,
+                      "is_in_layer": true
                     },
                     "340466392": {
                       "name": "340466392",
@@ -6765,16 +6973,6 @@
                       "is_experiment_active": false,
                       "is_in_layer": true
                     },
-                    "3758099832": {
-                      "name": "3758099832",
-                      "value": {},
-                      "group": "prestart",
-                      "rule_id": "prestart",
-                      "is_device_based": false,
-                      "secondary_exposures": [],
-                      "is_user_in_experiment": false,
-                      "is_experiment_active": false
-                    },
                     "3917128856": {
                       "name": "3917128856",
                       "value": {
@@ -7150,7 +7348,7 @@
                     }
                   },
                   "hash_used": "djb2",
-                  "user_hash": "4043779062"
+                  "user_hash": "660792976"
                 },
                 "user": {
                   "country": "SN",
@@ -7165,7 +7363,7 @@
                     "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                     "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                   },
-                  "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                  "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                   "locale": "fr-FR",
                   "privateAttributes": {
                     "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -7187,7 +7385,7 @@
           "__N_SSP": true
         },
         "page": "/share/[[...shareParams]]",
-        "query": { "shareParams": ["ac74b161-88bd-43d9-8c48-d05d4bac5152"] },
+        "query": { "shareParams": ["30acc014-a764-48c4-9480-739af7dde7db"] },
         "buildId": "8GX1pu3rmPezMCbuo-Xqp",
         "assetPrefix": "https://cdn.oaistatic.com",
         "isFallback": false,

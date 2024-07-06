@@ -252,7 +252,7 @@
                 "groups": [],
                 "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
               },
-              "expires": "2024-10-03T19:01:57.668Z",
+              "expires": "2024-10-04T09:10:35.887Z",
               "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
               "authProvider": "login-web"
             },
@@ -273,7 +273,7 @@
             "userCountry": "SN",
             "userRegion": "Dakar",
             "userRegionCode": "DK",
-            "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+            "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
             "cfIpLatitude": "14.69350",
             "cfIpLongitude": "-17.44800",
             "cfIpCity": "Dakar",
@@ -1546,6 +1546,29 @@
                     "secondary_exposures": [],
                     "is_user_in_experiment": false,
                     "is_experiment_active": false
+                  },
+                  "186644516": {
+                    "name": "186644516",
+                    "value": {
+                      "is_team_enabled": true,
+                      "is_yearly_plus_subscription_enabled": false,
+                      "is_split_between_personal_and_business_enabled": false,
+                      "is_modal_fullscreen": false
+                    },
+                    "group": "prestart",
+                    "rule_id": "prestart",
+                    "is_device_based": false,
+                    "secondary_exposures": [
+                      {
+                        "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                        "gateValue": "false",
+                        "ruleID": "disabled"
+                      }
+                    ],
+                    "explicit_parameters": ["is_team_enabled"],
+                    "is_user_in_experiment": false,
+                    "is_experiment_active": false,
+                    "is_in_layer": true
                   },
                   "340466392": {
                     "name": "340466392",
@@ -3092,16 +3115,6 @@
                     "is_experiment_active": false,
                     "is_in_layer": true
                   },
-                  "3758099832": {
-                    "name": "3758099832",
-                    "value": {},
-                    "group": "prestart",
-                    "rule_id": "prestart",
-                    "is_device_based": false,
-                    "secondary_exposures": [],
-                    "is_user_in_experiment": false,
-                    "is_experiment_active": false
-                  },
                   "3917128856": {
                     "name": "3917128856",
                     "value": {
@@ -3477,7 +3490,7 @@
                   }
                 },
                 "hash_used": "djb2",
-                "user_hash": "4043779062"
+                "user_hash": "660792976"
               },
               "user": {
                 "country": "SN",
@@ -3492,7 +3505,7 @@
                   "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                   "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                 },
-                "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                 "locale": "fr-FR",
                 "privateAttributes": {
                   "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -3507,24 +3520,24 @@
             "ageVerificationDeadline": null,
             "ageVerificationType": "none",
             "logOutUser": false,
-            "sharedConversationId": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+            "sharedConversationId": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17",
             "serverResponse": {
               "type": "data",
               "data": {
-                "title": "Événements personnalisés en JS",
-                "create_time": 1720205825.775834,
-                "update_time": 1720205900,
+                "title": "Cookies JS Tuto Complet",
+                "create_time": 1720257019.024069,
+                "update_time": 1720257021,
                 "mapping": {
-                  "afffd1c4-f386-418b-a75f-3515d1394f2d": {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                  "60f0875e-4d5c-440c-8f56-a0126dbe028b": {
+                    "id": "60f0875e-4d5c-440c-8f56-a0126dbe028b",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "60f0875e-4d5c-440c-8f56-a0126dbe028b",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720257011.586565,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "Pour approfondir davantage sur l'utilisation des cookies en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### Utilisation Avancée des Cookies en JavaScript\n\n#### Gestion des Dates d'Expiration\n\nLorsque vous définissez la date d'expiration d'un cookie avec `expires`, assurez-vous d'utiliser une date au format UTC. Cela garantit que le cookie expire correctement quelle que soit la localisation de l'utilisateur. Par exemple, pour définir un cookie qui expire dans un an :\n\n```javascript\nlet expirationDate = new Date();\nexpirationDate.setFullYear(expirationDate.getFullYear() + 1);\ndocument.cookie = `username=John Doe; expires=${expirationDate.toUTCString()}; path=/`;\n```\n\n#### Domaines et Chemins\n\nPar défaut, les cookies sont associés au domaine et au chemin du document qui les a créés. Vous pouvez spécifier un chemin pour limiter où le cookie est valide. Par exemple, pour rendre un cookie valide uniquement pour une partie spécifique du site :\n\n```javascript\ndocument.cookie = \"username=John Doe; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/account\";\n```\n\nCela rend le cookie accessible uniquement sous `https://example.com/account` et les sous-chemins de `account`.\n\n#### Sécurité et HttpOnly\n\nPour améliorer la sécurité, vous pouvez définir le flag `HttpOnly` sur un cookie. Cela empêche le cookie d'être accessible via JavaScript, limitant ainsi les risques d'exploitation par des attaques XSS (Cross-Site Scripting). Vous pouvez l'ajouter comme ceci :\n\n```javascript\ndocument.cookie = \"sessionId=123456; HttpOnly; secure; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/\";\n```\n\nLe flag `secure` garantit que le cookie est envoyé uniquement sur des connexions HTTPS sécurisées.\n\n#### Limitations et Taille des Cookies\n\nChaque navigateur impose une limite de taille totale pour tous les cookies associés à un domaine. Cela varie généralement entre 4KB et 20KB. Pour éviter les problèmes de taille, ne stockez que des informations nécessaires et compréhensibles dans les cookies.\n\n#### Stockage et JSON\n\nBien que les cookies soient généralement des paires clé-valeur de chaînes, vous pouvez stocker des objets JavaScript complexes en les sérialisant en JSON. Par exemple :\n\n```javascript\nlet user = {\n    id: 123,\n    name: \"John Doe\",\n    email: \"john.doe@example.com\"\n};\n\ndocument.cookie = `user=${JSON.stringify(user)}; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/`;\n```\n\nPour récupérer et décoder ce cookie :\n\n```javascript\nlet userCookie = getCookie('user');\nif (userCookie) {\n    let userObj = JSON.parse(userCookie);\n    console.log(userObj.name); // Affiche \"John Doe\"\n}\n```\n\n### Bonnes Pratiques\n\n- **Légalité et Respect de la Vie Privée**: Assurez-vous de respecter les réglementations locales et internationales sur la vie privée et l'utilisation des cookies, comme le RGPD en Europe.\n- **Expiration Gérée**: Utilisez des dates d'expiration appropriées pour les cookies de session et persistants.\n- **Sécurité**: Utilisez `HttpOnly` et `secure` lorsque cela est possible pour améliorer la sécurité.\n- **Nettoyage**: Supprimez les cookies obsolètes ou non nécessaires pour éviter l'encombrement et les problèmes de sécurité potentiels.\n\nEn suivant ces bonnes pratiques et en comprenant les capacités avancées des cookies en JavaScript, vous pouvez utiliser efficacement cette méthode pour gérer l'état client de manière sécurisée et conforme."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3544,23 +3557,23 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAA",
+                        "parent_id": "aaa29379-9e32-4c3b-8931-18c9d554e324",
+                        "request_id": "89ee758b7adec7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "aaa29379-9e32-4c3b-8931-18c9d554e324",
                     "children": []
                   },
-                  "aaa22ef0-bd30-49c3-b53a-d0352d3476d9": {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                  "aaa29379-9e32-4c3b-8931-18c9d554e324": {
+                    "id": "aaa29379-9e32-4c3b-8931-18c9d554e324",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa29379-9e32-4c3b-8931-18c9d554e324",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720257000.59338,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3568,27 +3581,27 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee758b7adec7a3-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "e6af2fc4-78b1-4a7a-a84e-35086b9d0be4",
+                    "children": ["60f0875e-4d5c-440c-8f56-a0126dbe028b"]
                   },
-                  "56de34e7-fe55-46c0-b865-b6cf3dc24a48": {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                  "e6af2fc4-78b1-4a7a-a84e-35086b9d0be4": {
+                    "id": "e6af2fc4-78b1-4a7a-a84e-35086b9d0be4",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "e6af2fc4-78b1-4a7a-a84e-35086b9d0be4",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720256973.811648,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "Bien sûr ! Voici un tutoriel complet sur l'utilisation des cookies en JavaScript pour le stockage côté client :\n\n### Introduction aux Cookies\n\nLes cookies sont de petits fichiers de données stockés sur le navigateur d'un utilisateur. Ils sont largement utilisés pour stocker des informations spécifiques au site web, telles que les préférences de l'utilisateur ou les informations de session. En JavaScript, vous pouvez créer, lire et supprimer des cookies pour gérer les données côté client.\n\n### Création de Cookies\n\nPour créer un cookie en JavaScript, utilisez `document.cookie`. Voici comment définir un cookie :\n\n```javascript\ndocument.cookie = \"nomDuCookie=valeurDuCookie; expires=date; path=chemin\";\n```\n\n- **nomDuCookie**: Nom du cookie que vous souhaitez définir.\n- **valeurDuCookie**: Valeur associée au cookie.\n- **expires**: Date d'expiration du cookie au format UTC (`expires=Thu, 01 Jan 1970 00:00:00 UTC`). Si non spécifié, le cookie est supprimé lorsque l'utilisateur ferme le navigateur (cookie de session).\n- **path**: Chemin relatif pour lequel le cookie est valide. Par défaut, le cookie est valide pour le chemin du document qui a créé le cookie.\n\nExemple :\n\n```javascript\ndocument.cookie = \"username=John Doe; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/\";\n```\n\n### Lecture des Cookies\n\nPour lire tous les cookies disponibles, utilisez `document.cookie`. Cela retourne une chaîne de caractères contenant tous les cookies du site.\n\n```javascript\nlet allCookies = document.cookie;\nconsole.log(allCookies);\n```\n\nPour récupérer une valeur spécifique à partir d'un cookie :\n\n```javascript\nfunction getCookie(name) {\n    let cookies = document.cookie.split(';');\n    for (let cookie of cookies) {\n        let [cookieName, cookieValue] = cookie.split('=');\n        if (cookieName.trim() === name) {\n            return decodeURIComponent(cookieValue);\n        }\n    }\n    return null;\n}\n\nlet username = getCookie('username');\nconsole.log(username);\n```\n\n### Modification et Suppression de Cookies\n\nPour modifier un cookie existant, écrivez simplement un nouveau cookie avec le même nom et un chemin différent ou une nouvelle valeur. Pour supprimer un cookie, définissez `expires` dans le passé :\n\n```javascript\ndocument.cookie = \"username=John Smith; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/\";\n```\n\n### Sécurité des Cookies\n\n- **Sécurité**: Évitez de stocker des informations sensibles comme des mots de passe dans les cookies, car ils sont facilement accessibles et modifiables par l'utilisateur.\n- **Taille**: Limitez la taille des cookies car chaque domaine a une limite de taille totale pour tous les cookies stockés.\n\n### Conclusion\n\nLes cookies sont une méthode simple mais efficace pour stocker des petites quantités de données côté client. Assurez-vous de les utiliser de manière appropriée et sécurisée pour améliorer l'expérience utilisateur de votre application web.\n\nCe tutoriel couvre les bases essentielles de l'utilisation des cookies en JavaScript pour le stockage côté client."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3597,34 +3610,34 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "pad": "AAA",
+                        "parent_id": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee74aa2da6c7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
+                    "children": ["aaa29379-9e32-4c3b-8931-18c9d554e324"]
                   },
-                  "b979367e-e0bb-46ad-86af-93cb1348942a": {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                  "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e": {
+                    "id": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720256973.811592,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3638,47 +3651,47 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
+                        "request_id": "89ee74aa2da6c7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
+                    "children": ["e6af2fc4-78b1-4a7a-a84e-35086b9d0be4"]
                   },
-                  "aaa227f6-5254-4482-a596-63335581d790": {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                  "aaa27f13-c12e-470b-8c9c-f0626dfbd928": {
+                    "id": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720256964.44892,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : Cookies en Stockage client-side en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee74aa2da6c7a3-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "f56418d9-fcd2-484e-9bcf-7ac132bfff71",
+                    "children": ["9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e"]
                   },
-                  "ab868a83-7f8c-467e-9846-079b671b5b91": {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                  "f56418d9-fcd2-484e-9bcf-7ac132bfff71": {
+                    "id": "f56418d9-fcd2-484e-9bcf-7ac132bfff71",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "f56418d9-fcd2-484e-9bcf-7ac132bfff71",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3686,33 +3699,33 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa14567-96b3-432a-896b-1850bfdfe089",
+                    "children": ["aaa27f13-c12e-470b-8c9c-f0626dfbd928"]
                   },
-                  "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa": {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                  "aaa14567-96b3-432a-896b-1850bfdfe089": {
+                    "id": "aaa14567-96b3-432a-896b-1850bfdfe089",
+                    "children": ["f56418d9-fcd2-484e-9bcf-7ac132bfff71"]
                   }
                 },
                 "moderation_results": [],
-                "current_node": "afffd1c4-f386-418b-a75f-3515d1394f2d",
-                "conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                "current_node": "60f0875e-4d5c-440c-8f56-a0126dbe028b",
+                "conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17",
                 "is_archived": false,
                 "safe_urls": [],
                 "is_public": true,
                 "linear_conversation": [
                   {
-                    "id": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["ab868a83-7f8c-467e-9846-079b671b5b91"]
+                    "id": "aaa14567-96b3-432a-896b-1850bfdfe089",
+                    "children": ["f56418d9-fcd2-484e-9bcf-7ac132bfff71"]
                   },
                   {
-                    "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                    "id": "f56418d9-fcd2-484e-9bcf-7ac132bfff71",
                     "message": {
-                      "id": "ab868a83-7f8c-467e-9846-079b671b5b91",
+                      "id": "f56418d9-fcd2-484e-9bcf-7ac132bfff71",
                       "author": { "role": "system", "metadata": {} },
                       "content": { "content_type": "text", "parts": [""] },
                       "status": "finished_successfully",
@@ -3720,45 +3733,45 @@
                       "weight": 0,
                       "metadata": {
                         "is_visually_hidden_from_conversation": true,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa10de8-cf35-4a54-a9e5-a30052e0b4aa",
-                    "children": ["aaa227f6-5254-4482-a596-63335581d790"]
+                    "parent": "aaa14567-96b3-432a-896b-1850bfdfe089",
+                    "children": ["aaa27f13-c12e-470b-8c9c-f0626dfbd928"]
                   },
                   {
-                    "id": "aaa227f6-5254-4482-a596-63335581d790",
+                    "id": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
                     "message": {
-                      "id": "aaa227f6-5254-4482-a596-63335581d790",
+                      "id": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205756.25336,
+                      "create_time": 1720256964.44892,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "rédigez un tuto complet : Événements personnalisés en JS"
+                          "rédigez un tuto complet : Cookies en Stockage client-side en JS"
                         ]
                       },
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "request_id": "89ee74aa2da6c7a3-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "ab868a83-7f8c-467e-9846-079b671b5b91",
-                    "children": ["b979367e-e0bb-46ad-86af-93cb1348942a"]
+                    "parent": "f56418d9-fcd2-484e-9bcf-7ac132bfff71",
+                    "children": ["9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e"]
                   },
                   {
-                    "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                    "id": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
                     "message": {
-                      "id": "b979367e-e0bb-46ad-86af-93cb1348942a",
+                      "id": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.8281,
+                      "create_time": 1720256973.811592,
                       "content": {
                         "content_type": "model_editable_context",
                         "model_set_context": ""
@@ -3772,27 +3785,27 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "parent_id": "aaa227f6-5254-4482-a596-63335581d790",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "parent_id": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
+                        "request_id": "89ee74aa2da6c7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152",
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17",
                         "is_redacted": true
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa227f6-5254-4482-a596-63335581d790",
-                    "children": ["56de34e7-fe55-46c0-b865-b6cf3dc24a48"]
+                    "parent": "aaa27f13-c12e-470b-8c9c-f0626dfbd928",
+                    "children": ["e6af2fc4-78b1-4a7a-a84e-35086b9d0be4"]
                   },
                   {
-                    "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                    "id": "e6af2fc4-78b1-4a7a-a84e-35086b9d0be4",
                     "message": {
-                      "id": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
+                      "id": "e6af2fc4-78b1-4a7a-a84e-35086b9d0be4",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205767.828163,
+                      "create_time": 1720256973.811648,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Les événements personnalisés en JavaScript sont une fonctionnalité puissante qui permet aux développeurs de créer et de gérer des événements sur mesure pour répondre aux besoins spécifiques de leurs applications. Voici un tutoriel complet pour vous guider à travers la création et l'utilisation d'événements personnalisés en JavaScript :\n\n### Étape 1 : Définition de l'événement personnalisé\n\nPour créer un événement personnalisé, nous utiliserons l'objet `CustomEvent` de JavaScript. Voici comment définir un nouvel événement personnalisé :\n\n```javascript\n// Définition de l'événement personnalisé\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: { /* Données supplémentaires associées à l'événement */ },\n  bubbles: true, // L'événement se propage-t-il à travers la hiérarchie des éléments ?\n  cancelable: true // L'événement peut-il être annulé ?\n});\n```\n\n### Étape 2 : Émission de l'événement personnalisé\n\nUne fois défini, nous pouvons déclencher l'événement sur un élément spécifique ou globalement sur `document` :\n\n```javascript\n// Émission de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').dispatchEvent(monEvenementPersonnalise);\n```\n\n### Étape 3 : Écoute de l'événement personnalisé\n\nPour capturer et réagir à l'événement personnalisé, nous devons ajouter un écouteur d'événement :\n\n```javascript\n// Écoute de l'événement personnalisé sur un élément\ndocument.getElementById('monElement').addEventListener('monEvenement', function(e) {\n  // Actions à effectuer lorsque l'événement personnalisé est déclenché\n  console.log('Événement personnalisé déclenché !', e.detail);\n});\n```\n\n### Exemple complet\n\nVoici un exemple complet d'utilisation des événements personnalisés :\n\n```html\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"fr\"\u003e\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003ctitle\u003eÉvénements personnalisés en JavaScript\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n  \u003cbutton id=\"monBouton\"\u003eDéclencher un événement personnalisé\u003c/button\u003e\n\n  \u003cscript\u003e\n    // Définition de l'événement personnalisé\n    const monEvenementPersonnalise = new CustomEvent('monEvenement', {\n      detail: {\n        message: 'Ceci est un événement personnalisé avec des données supplémentaires.'\n      },\n      bubbles: true,\n      cancelable: true\n    });\n\n    // Émission de l'événement personnalisé lorsque le bouton est cliqué\n    document.getElementById('monBouton').addEventListener('click', function() {\n      document.dispatchEvent(monEvenementPersonnalise);\n    });\n\n    // Écoute de l'événement personnalisé au niveau du document\n    document.addEventListener('monEvenement', function(e) {\n      console.log('Événement personnalisé capturé :', e.detail.message);\n    });\n  \u003c/script\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n```\n\n### Explication de l'exemple\n\nDans cet exemple :\n\n- Lorsque le bouton est cliqué, l'événement personnalisé `monEvenement` est déclenché avec des données supplémentaires.\n- Un écouteur d'événement est attaché au document pour capturer `monEvenement` et afficher le message dans la console.\n\nEn utilisant des événements personnalisés, vous pouvez créer des architectures plus modulaires et réutilisables dans vos applications JavaScript, permettant une gestion plus fine des interactions et des notifications entre les composants."
+                          "Bien sûr ! Voici un tutoriel complet sur l'utilisation des cookies en JavaScript pour le stockage côté client :\n\n### Introduction aux Cookies\n\nLes cookies sont de petits fichiers de données stockés sur le navigateur d'un utilisateur. Ils sont largement utilisés pour stocker des informations spécifiques au site web, telles que les préférences de l'utilisateur ou les informations de session. En JavaScript, vous pouvez créer, lire et supprimer des cookies pour gérer les données côté client.\n\n### Création de Cookies\n\nPour créer un cookie en JavaScript, utilisez `document.cookie`. Voici comment définir un cookie :\n\n```javascript\ndocument.cookie = \"nomDuCookie=valeurDuCookie; expires=date; path=chemin\";\n```\n\n- **nomDuCookie**: Nom du cookie que vous souhaitez définir.\n- **valeurDuCookie**: Valeur associée au cookie.\n- **expires**: Date d'expiration du cookie au format UTC (`expires=Thu, 01 Jan 1970 00:00:00 UTC`). Si non spécifié, le cookie est supprimé lorsque l'utilisateur ferme le navigateur (cookie de session).\n- **path**: Chemin relatif pour lequel le cookie est valide. Par défaut, le cookie est valide pour le chemin du document qui a créé le cookie.\n\nExemple :\n\n```javascript\ndocument.cookie = \"username=John Doe; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/\";\n```\n\n### Lecture des Cookies\n\nPour lire tous les cookies disponibles, utilisez `document.cookie`. Cela retourne une chaîne de caractères contenant tous les cookies du site.\n\n```javascript\nlet allCookies = document.cookie;\nconsole.log(allCookies);\n```\n\nPour récupérer une valeur spécifique à partir d'un cookie :\n\n```javascript\nfunction getCookie(name) {\n    let cookies = document.cookie.split(';');\n    for (let cookie of cookies) {\n        let [cookieName, cookieValue] = cookie.split('=');\n        if (cookieName.trim() === name) {\n            return decodeURIComponent(cookieValue);\n        }\n    }\n    return null;\n}\n\nlet username = getCookie('username');\nconsole.log(username);\n```\n\n### Modification et Suppression de Cookies\n\nPour modifier un cookie existant, écrivez simplement un nouveau cookie avec le même nom et un chemin différent ou une nouvelle valeur. Pour supprimer un cookie, définissez `expires` dans le passé :\n\n```javascript\ndocument.cookie = \"username=John Smith; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/\";\n```\n\n### Sécurité des Cookies\n\n- **Sécurité**: Évitez de stocker des informations sensibles comme des mots de passe dans les cookies, car ils sont facilement accessibles et modifiables par l'utilisateur.\n- **Taille**: Limitez la taille des cookies car chaque domaine a une limite de taille totale pour tous les cookies stockés.\n\n### Conclusion\n\nLes cookies sont une méthode simple mais efficace pour stocker des petites quantités de données côté client. Assurez-vous de les utiliser de manière appropriée et sécurisée pour améliorer l'expérience utilisateur de votre application web.\n\nCe tutoriel couvre les bases essentielles de l'utilisation des cookies en JavaScript pour le stockage côté client."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3801,34 +3814,34 @@
                       "metadata": {
                         "citations": [],
                         "gizmo_id": null,
-                        "finish_details": {
-                          "type": "stop",
-                          "stop_tokens": [100260]
-                        },
-                        "is_complete": true,
                         "message_type": null,
                         "model_slug": "text-davinci-002-render-sha",
                         "default_model_slug": "auto",
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAAAAAAAAAAAAAA",
-                        "parent_id": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                        "request_id": "89e992767cdac7a3-DKR",
+                        "pad": "AAA",
+                        "parent_id": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
+                        "finish_details": {
+                          "type": "stop",
+                          "stop_tokens": [100260]
+                        },
+                        "is_complete": true,
+                        "request_id": "89ee74aa2da6c7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "b979367e-e0bb-46ad-86af-93cb1348942a",
-                    "children": ["aaa22ef0-bd30-49c3-b53a-d0352d3476d9"]
+                    "parent": "9f185b05-26ca-4ce4-9e3e-b97c7ed55f6e",
+                    "children": ["aaa29379-9e32-4c3b-8931-18c9d554e324"]
                   },
                   {
-                    "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "id": "aaa29379-9e32-4c3b-8931-18c9d554e324",
                     "message": {
-                      "id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                      "id": "aaa29379-9e32-4c3b-8931-18c9d554e324",
                       "author": { "role": "user", "metadata": {} },
-                      "create_time": 1720205794.95228,
+                      "create_time": 1720257000.59338,
                       "content": {
                         "content_type": "text",
                         "parts": ["donnez encore plus d'approfondissment."]
@@ -3836,27 +3849,27 @@
                       "status": "finished_successfully",
                       "weight": 1,
                       "metadata": {
-                        "request_id": "89e993683defc7a3-DKR",
+                        "request_id": "89ee758b7adec7a3-DKR",
                         "message_source": null,
                         "timestamp_": "absolute",
                         "message_type": null,
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "56de34e7-fe55-46c0-b865-b6cf3dc24a48",
-                    "children": ["afffd1c4-f386-418b-a75f-3515d1394f2d"]
+                    "parent": "e6af2fc4-78b1-4a7a-a84e-35086b9d0be4",
+                    "children": ["60f0875e-4d5c-440c-8f56-a0126dbe028b"]
                   },
                   {
-                    "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                    "id": "60f0875e-4d5c-440c-8f56-a0126dbe028b",
                     "message": {
-                      "id": "afffd1c4-f386-418b-a75f-3515d1394f2d",
+                      "id": "60f0875e-4d5c-440c-8f56-a0126dbe028b",
                       "author": { "role": "assistant", "metadata": {} },
-                      "create_time": 1720205805.346372,
+                      "create_time": 1720257011.586565,
                       "content": {
                         "content_type": "text",
                         "parts": [
-                          "Pour approfondir davantage la compréhension et l'utilisation des événements personnalisés en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### 1. Utilisation avancée des données supplémentaires\n\nLes événements personnalisés peuvent transporter des données supplémentaires via l'objet `detail`. Ces données peuvent être très utiles pour transmettre des informations spécifiques sur l'événement déclenché. Par exemple :\n\n```javascript\nconst monEvenementPersonnalise = new CustomEvent('monEvenement', {\n  detail: {\n    userID: 123,\n    action: 'delete',\n    timestamp: Date.now()\n  },\n  bubbles: true,\n  cancelable: true\n});\n```\n\n### 2. Propagation des événements (bubbling)\n\nLorsque `bubbles` est défini à `true`, l'événement personnalisé se propage à travers la hiérarchie des éléments parents. Cela permet à plusieurs éléments de réagir à un même événement. Vous pouvez contrôler où l'événement est intercepté en ajoutant des écouteurs à différents niveaux de la hiérarchie DOM.\n\n### 3. Annulation d'événements (cancelable)\n\nEn définissant `cancelable` à `true`, vous permettez à l'événement d'être annulé via `e.preventDefault()` dans un écouteur d'événement. Cela peut être utile pour empêcher une action par défaut basée sur l'événement personnalisé.\n\n```javascript\ndocument.addEventListener('monEvenement', function(e) {\n  e.preventDefault(); // Annuler l'action par défaut de monEvenement\n});\n```\n\n### 4. Création d'une classe pour gérer les événements personnalisés\n\nPour une gestion plus organisée des événements personnalisés, vous pouvez encapsuler leur création et leur émission dans une classe dédiée. Cela facilite la réutilisation et la maintenance du code.\n\n```javascript\nclass CustomEventEmitter {\n  constructor() {\n    this.events = {};\n  }\n\n  emit(eventName, eventData) {\n    const event = new CustomEvent(eventName, { detail: eventData });\n    document.dispatchEvent(event);\n  }\n\n  on(eventName, callback) {\n    document.addEventListener(eventName, callback);\n  }\n\n  off(eventName, callback) {\n    document.removeEventListener(eventName, callback);\n  }\n}\n\n// Exemple d'utilisation\nconst eventEmitter = new CustomEventEmitter();\n\neventEmitter.on('monEvenement', function(e) {\n  console.log('Événement personnalisé capturé :', e.detail);\n});\n\neventEmitter.emit('monEvenement', { message: 'Hello, world!' });\n```\n\n### 5. Utilisation de l'événement personnalisé dans des composants\n\nPour des applications plus complexes, vous pouvez utiliser des événements personnalisés pour faciliter la communication entre les différents composants de votre application. Chaque composant peut émettre et écouter des événements personnalisés pour interagir de manière asynchrone et déclencher des actions en réponse à des événements spécifiques.\n\n### 6. Tests et débogage des événements personnalisés\n\nLorsque vous utilisez des événements personnalisés, il est crucial de tester leur comportement dans différents scénarios et de vérifier leur propagation, leurs données et leurs interactions avec d'autres parties de votre application. Utilisez les outils de développement de navigateur pour suivre et déboguer les événements personnalisés, en vérifiant leur déclenchement et les données associées.\n\nEn combinant ces techniques avancées avec une compréhension approfondie des événements personnalisés en JavaScript, vous pourrez créer des applications plus modulaires, réactives et faciles à maintenir."
+                          "Pour approfondir davantage sur l'utilisation des cookies en JavaScript, nous allons explorer quelques concepts avancés et bonnes pratiques :\n\n### Utilisation Avancée des Cookies en JavaScript\n\n#### Gestion des Dates d'Expiration\n\nLorsque vous définissez la date d'expiration d'un cookie avec `expires`, assurez-vous d'utiliser une date au format UTC. Cela garantit que le cookie expire correctement quelle que soit la localisation de l'utilisateur. Par exemple, pour définir un cookie qui expire dans un an :\n\n```javascript\nlet expirationDate = new Date();\nexpirationDate.setFullYear(expirationDate.getFullYear() + 1);\ndocument.cookie = `username=John Doe; expires=${expirationDate.toUTCString()}; path=/`;\n```\n\n#### Domaines et Chemins\n\nPar défaut, les cookies sont associés au domaine et au chemin du document qui les a créés. Vous pouvez spécifier un chemin pour limiter où le cookie est valide. Par exemple, pour rendre un cookie valide uniquement pour une partie spécifique du site :\n\n```javascript\ndocument.cookie = \"username=John Doe; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/account\";\n```\n\nCela rend le cookie accessible uniquement sous `https://example.com/account` et les sous-chemins de `account`.\n\n#### Sécurité et HttpOnly\n\nPour améliorer la sécurité, vous pouvez définir le flag `HttpOnly` sur un cookie. Cela empêche le cookie d'être accessible via JavaScript, limitant ainsi les risques d'exploitation par des attaques XSS (Cross-Site Scripting). Vous pouvez l'ajouter comme ceci :\n\n```javascript\ndocument.cookie = \"sessionId=123456; HttpOnly; secure; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/\";\n```\n\nLe flag `secure` garantit que le cookie est envoyé uniquement sur des connexions HTTPS sécurisées.\n\n#### Limitations et Taille des Cookies\n\nChaque navigateur impose une limite de taille totale pour tous les cookies associés à un domaine. Cela varie généralement entre 4KB et 20KB. Pour éviter les problèmes de taille, ne stockez que des informations nécessaires et compréhensibles dans les cookies.\n\n#### Stockage et JSON\n\nBien que les cookies soient généralement des paires clé-valeur de chaînes, vous pouvez stocker des objets JavaScript complexes en les sérialisant en JSON. Par exemple :\n\n```javascript\nlet user = {\n    id: 123,\n    name: \"John Doe\",\n    email: \"john.doe@example.com\"\n};\n\ndocument.cookie = `user=${JSON.stringify(user)}; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/`;\n```\n\nPour récupérer et décoder ce cookie :\n\n```javascript\nlet userCookie = getCookie('user');\nif (userCookie) {\n    let userObj = JSON.parse(userCookie);\n    console.log(userObj.name); // Affiche \"John Doe\"\n}\n```\n\n### Bonnes Pratiques\n\n- **Légalité et Respect de la Vie Privée**: Assurez-vous de respecter les réglementations locales et internationales sur la vie privée et l'utilisation des cookies, comme le RGPD en Europe.\n- **Expiration Gérée**: Utilisez des dates d'expiration appropriées pour les cookies de session et persistants.\n- **Sécurité**: Utilisez `HttpOnly` et `secure` lorsque cela est possible pour améliorer la sécurité.\n- **Nettoyage**: Supprimez les cookies obsolètes ou non nécessaires pour éviter l'encombrement et les problèmes de sécurité potentiels.\n\nEn suivant ces bonnes pratiques et en comprenant les capacités avancées des cookies en JavaScript, vous pouvez utiliser efficacement cette méthode pour gérer l'état client de manière sécurisée et conforme."
                         ]
                       },
                       "status": "finished_successfully",
@@ -3876,20 +3889,20 @@
                         "model_adjustments": [
                           "auto:smaller_model:reached_message_cap"
                         ],
-                        "pad": "AAAAA",
-                        "parent_id": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
-                        "request_id": "89e993683defc7a3-DKR",
+                        "pad": "AAA",
+                        "parent_id": "aaa29379-9e32-4c3b-8931-18c9d554e324",
+                        "request_id": "89ee758b7adec7a3-DKR",
                         "timestamp_": "absolute",
-                        "shared_conversation_id": "ac74b161-88bd-43d9-8c48-d05d4bac5152"
+                        "shared_conversation_id": "1fa05fd7-e363-4f1f-b8de-bb04d9749c17"
                       },
                       "recipient": "all"
                     },
-                    "parent": "aaa22ef0-bd30-49c3-b53a-d0352d3476d9",
+                    "parent": "aaa29379-9e32-4c3b-8931-18c9d554e324",
                     "children": []
                   }
                 ],
                 "has_user_editable_context": false,
-                "continue_conversation_url": "https://chatgpt.com/share/ac74b161-88bd-43d9-8c48-d05d4bac5152/continue",
+                "continue_conversation_url": "https://chatgpt.com/share/1fa05fd7-e363-4f1f-b8de-bb04d9749c17/continue",
                 "model": {
                   "slug": "text-davinci-002-render-sha",
                   "max_tokens": 8191,
@@ -3923,7 +3936,7 @@
                   "groups": [],
                   "intercom_hash": "5b0a6458af2bdbbcdc2e2373ed9ad05c54d9e598236b5b6e73a4f4a41987eb3c"
                 },
-                "expires": "2024-10-03T19:01:57.668Z",
+                "expires": "2024-10-04T09:10:35.887Z",
                 "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJwd2RfYXV0aF90aW1lIjoxNzE5NjY1NDM3Nzk0LCJzZXNzaW9uX2lkIjoiOWVPSWxWYXFOSVFuVHQ5TVY0a1diZ0NEODVRQVZ0WGUiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJzZXJpZ25lLWtvc3NvLmRpZW5nQGlzbS5lZHUuc24iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLWg0R1E4bElzellqYmt3SDNHUmxJRlNCcyIsInVzZXJfaWQiOiJ1c2VyLTVZRzBlNEdkdThhaFVXalRRdVNFNEs1VCJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDcyODM1Njk3NjA4NzU1MTc2NjciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE5NjY1NDM4LCJleHAiOjE3MjA1Mjk0MzgsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyIsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIn0.0e30OC-W5o7l-4eieTchg0r89eUsww9uob3DIXJc4unndyPOmnvobmdzxdXZU6GK1xKzY34HzZ_IXqYyOv5OcNuZYqRiXpcNhV9a875eIYgjSqZiwaYGXZRnsk-8qBvRcDyp1ZFgrC47ET7nyMqQzm_Uy__JX3cqslmt8EWaA0KRr8flwR0TsWqepdVX6dBAf3MIYMeqAx0ZZqUOqmMGSRkjIyyNp_xwVC-bRcM5Oi_dVauYiaqyxnI8vX8tVf6iEzqZk9W7aYvAmVzm-x-3djoqtB4EztxytB1ROT-zLv9T6iqkUjwnaa6bWClRPCoTxDPg5vsZu6jYOQxFZ3SZIg",
                 "authProvider": "login-web"
               },
@@ -3944,7 +3957,7 @@
               "userCountry": "SN",
               "userRegion": "Dakar",
               "userRegionCode": "DK",
-              "cfConnectingIp": "2001:4278:90:370e:498c:3751:402d:ad33",
+              "cfConnectingIp": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
               "cfIpLatitude": "14.69350",
               "cfIpLongitude": "-17.44800",
               "cfIpCity": "Dakar",
@@ -5217,6 +5230,29 @@
                       "secondary_exposures": [],
                       "is_user_in_experiment": false,
                       "is_experiment_active": false
+                    },
+                    "186644516": {
+                      "name": "186644516",
+                      "value": {
+                        "is_team_enabled": true,
+                        "is_yearly_plus_subscription_enabled": false,
+                        "is_split_between_personal_and_business_enabled": false,
+                        "is_modal_fullscreen": false
+                      },
+                      "group": "prestart",
+                      "rule_id": "prestart",
+                      "is_device_based": false,
+                      "secondary_exposures": [
+                        {
+                          "gate": "chatgpt_yearly_plus_subscription_holdout_240117",
+                          "gateValue": "false",
+                          "ruleID": "disabled"
+                        }
+                      ],
+                      "explicit_parameters": ["is_team_enabled"],
+                      "is_user_in_experiment": false,
+                      "is_experiment_active": false,
+                      "is_in_layer": true
                     },
                     "340466392": {
                       "name": "340466392",
@@ -6765,16 +6801,6 @@
                       "is_experiment_active": false,
                       "is_in_layer": true
                     },
-                    "3758099832": {
-                      "name": "3758099832",
-                      "value": {},
-                      "group": "prestart",
-                      "rule_id": "prestart",
-                      "is_device_based": false,
-                      "secondary_exposures": [],
-                      "is_user_in_experiment": false,
-                      "is_experiment_active": false
-                    },
                     "3917128856": {
                       "name": "3917128856",
                       "value": {
@@ -7150,7 +7176,7 @@
                     }
                   },
                   "hash_used": "djb2",
-                  "user_hash": "4043779062"
+                  "user_hash": "660792976"
                 },
                 "user": {
                   "country": "SN",
@@ -7165,7 +7191,7 @@
                     "DeviceId": "9871f016-db62-4e21-bbe6-f527f8ddc194",
                     "stableID": "9871f016-db62-4e21-bbe6-f527f8ddc194"
                   },
-                  "ip": "2001:4278:90:370e:498c:3751:402d:ad33",
+                  "ip": "2001:4278:90:370e:a89a:2c5c:bffb:ed00",
                   "locale": "fr-FR",
                   "privateAttributes": {
                     "email": "serigne-kosso.dieng@ism.edu.sn"
@@ -7187,7 +7213,7 @@
           "__N_SSP": true
         },
         "page": "/share/[[...shareParams]]",
-        "query": { "shareParams": ["ac74b161-88bd-43d9-8c48-d05d4bac5152"] },
+        "query": { "shareParams": ["1fa05fd7-e363-4f1f-b8de-bb04d9749c17"] },
         "buildId": "8GX1pu3rmPezMCbuo-Xqp",
         "assetPrefix": "https://cdn.oaistatic.com",
         "isFallback": false,
